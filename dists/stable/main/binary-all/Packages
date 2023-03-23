@@ -27,3 +27,18 @@ SHA1: 5fb8de3fb2d085b313dfa22e9a830f86833fb658
 SHA256: 1d987492a8a6bd45a245bbb0ca074ea7829d1a4b28db0777add9548f4d27b2d3
 SHA512: 965e3ca5723b8b0e5a221fdd77b744c8ca84455c8f0a4bcc941cfea6ec37b1c6a07efbacdbb10dd511fadbb052cac4ebdd8f8177612ff99eb027a92ca8cf88b7
 
+Package: termux-keyring
+Architecture: all
+Installed-Size: 188
+Maintainer: @termux
+Version: 3.11
+Homepage: https://github.com/termux
+Essential: yes
+Description: GPG public keys for the official Termux repositories
+Filename: dists/stable/main/binary-all/termux-keyring_3.11_all.deb
+Size: 38856
+MD5Sum: 95c8f52aca72e5f6a731101b1a14d3e5
+SHA1: 9ddb213e859be7a4546c2f0c11b1661ea926c19b
+SHA256: 3fed4f3f0b4379feed03b13cf4e6ccb02e5285c29580b21d8d95e76b2124385a
+SHA512: 839f7709cf1fc248a05238c8015b10e4b4662da7e4d4ea887b37b3a1f15faf9ce95bacf9f6badd9194bcf8278ca2b8a6adf1faffb141293cc0bb1f830830e09c
+
