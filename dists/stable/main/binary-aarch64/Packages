@@ -1,0 +1,191 @@
+Package: c-ares
+Architecture: aarch64
+Installed-Size: 492
+Maintainer: @termux
+Version: 1.19.0
+Homepage: https://c-ares.haxx.se
+Breaks: c-ares-dev
+Depends: resolv-conf
+Replaces: c-ares-dev
+Description: Library for asynchronous DNS requests (including name resolves)
+Filename: dists/stable/main/binary-aarch64/c-ares_1.19.0_aarch64.deb
+Size: 118880
+MD5Sum: 6b5c1fe62b6d725cc073b33792f3df01
+SHA1: 58e9d639a36cf212a888bc243e3f2ae434e6d647
+SHA256: d7e0e8fc3d339fc2b5c8c888f2a9d26c9fabb5deac94e747bd45fa42c309006c
+SHA512: 9e7436fd48af3423b7b34eaaa9532b826220e4b1831d0cf2c5ee4b13e324e0752475a67a9d440bc2adb2996f3d045c1414da8fa7735660f6e8d3df745553f9e5
+
+Package: icu-devtools
+Architecture: aarch64
+Installed-Size: 992
+Maintainer: @termux
+Version: 72.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 72.1)
+Description: Development utilities for International Components for Unicode
+Filename: dists/stable/main/binary-aarch64/icu-devtools_72.1_aarch64.deb
+Size: 211288
+MD5Sum: 4251ed63db0dff3b43c211217f8037e2
+SHA1: 1e18b97c7a32d49ccccf51ccc061d2fa15b5506a
+SHA256: 7c740b540a2e3404be8dd33cfa18a6a08a20283fee6a7b2f3d2fe8e0f4d5f794
+SHA512: 25067d8650d7eda10828577e2b9b46009f2ac4d05e89236628f1a352e74f0015af89f17a6f595e1bc877ed227ce47db279b9451fc12fc19a0b5ea7463abb8455
+
+Package: libc++
+Architecture: aarch64
+Installed-Size: 1044
+Maintainer: @termux
+Version: 25c
+Homepage: https://libcxx.llvm.org/
+Essential: yes
+Description: C++ Standard Library
+Filename: dists/stable/main/binary-aarch64/libc++_25c_aarch64.deb
+Size: 221812
+MD5Sum: 1b6d849721d55652cd94843acc9fffbe
+SHA1: b9415c6d472573faba11473b63960a4c4ac651e0
+SHA256: 6d0d5734a9daa8fe1d724752a928e3e47339be1a81373d7298c5e973e39278ad
+SHA512: 45adbcad251717b349e0a29dfab8f2a8554934c068a2aef21d0955920fb63e891d61f50c0c9236a9c2b0e057dfccf3a49dc0ffec61c46cb367a168a4d00fc2dc
+
+Package: libicu-static
+Architecture: aarch64
+Installed-Size: 43084
+Maintainer: @termux
+Version: 72.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 72.1)
+Description: Static libraries for libicu
+Filename: dists/stable/main/binary-aarch64/libicu-static_72.1_aarch64.deb
+Size: 9485920
+MD5Sum: 88f91da909b483c8068222a5aaa4b092
+SHA1: ecb7eb05b038b2506c9b5b052bcb084b3d853518
+SHA256: a191e2482b2975505a26666446079e15de300e1d2f6f09b0e417525e3ae97b03
+SHA512: 7256f467864cc774ae1e998a248a05500c75a4813164d3509bedb4adb3928d6ea3fa4e891532a9de70150c2c5e3fb8b6b2ce29136153c96836191ba064feece6
+
+Package: libicu
+Architecture: aarch64
+Installed-Size: 40916
+Maintainer: @termux
+Version: 72.1
+Homepage: http://site.icu-project.org/home
+Breaks: libicu-dev
+Depends: libc++
+Replaces: libicu-dev
+Description: International Components for Unicode library
+Filename: dists/stable/main/binary-aarch64/libicu_72.1_aarch64.deb
+Size: 9628636
+MD5Sum: a56068f8048c73c9cc2d0eb877e2e5fb
+SHA1: 8e0baa16219bbd6318f6f17957706451cfd1b7e6
+SHA256: 3918a57c666c0a0405471bd00557e851215592c63314cdf2dd6f1ee61fbb360d
+SHA512: 02d18b4508f6a75634ae6366a75e13c6d89f054ae03c3a74b9ae61d9f6e5e74b77b1779392419b6a6d99ad80e44506e70cf336f9b2fc8273b8f5e4c8bb00e29f
+
+Package: nodejs
+Architecture: aarch64
+Installed-Size: 53308
+Maintainer: Yaksh Bariya <yakshbari4@gmail.com>
+Version: 19.6.1
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, zlib
+Conflicts: nodejs-lts, nodejs-current
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: dists/stable/main/binary-aarch64/nodejs_19.6.1_aarch64.deb
+Size: 9028784
+MD5Sum: 6bf6a9e6a36cf9dd3e9d493bd7b4a2db
+SHA1: 28955990917b337ad4a40b6d057cde7a680e15d4
+SHA256: bbcb85003b808593d0af0f0d907c09e6fbdedeb3b3288e9e4e30313ad2952bb6
+SHA512: e5a6aa8f27db123616cb7ea198d44d62033466deb19bbeedc7b15d64b1e05b2e61976e8000c1e53551eca0273b40ae028a8b5d93b74b3e6e691ae70251d460a0
+
+Package: openssl-static
+Architecture: aarch64
+Installed-Size: 8920
+Maintainer: @termux
+Version: 1:3.1.0
+Homepage: https://www.openssl.org/
+Depends: openssl (= 1:3.1.0)
+Description: Static libraries for openssl
+Filename: dists/stable/main/binary-aarch64/openssl-static_1:3.1.0_aarch64.deb
+Size: 1679424
+MD5Sum: b2e9b1aae58cad6dea3436120dba5f18
+SHA1: 113dabc8c3a524cd135cafc1cb937938a037a2e1
+SHA256: 1bbbfba73937401f747ba014dbc595a3e081035d3fcdbba386264f243f06bf9a
+SHA512: ee1f227503460acabc505edb3279c405636936352d8bb4e4abad263701f09b102f54d91d642c17eaea10e3a2c20da6984f278a7d7c21037d52e8ea5081ed251c
+
+Package: openssl-tool
+Architecture: aarch64
+Installed-Size: 840
+Maintainer: @termux
+Version: 1:3.1.0
+Homepage: https://www.openssl.org/
+Depends: openssl (= 1:3.1.0)
+Description: The openssl command line cryptographic tool
+Filename: dists/stable/main/binary-aarch64/openssl-tool_1:3.1.0_aarch64.deb
+Size: 242096
+MD5Sum: 6b8d9bdcdc3f93ce31eb1951de7dfe59
+SHA1: aa5941fbd924ff96bdd301ce2b61f84873da6f8f
+SHA256: 5d20370d3869cb50cbcf3d67c09c080c8dd8e2d61fae2aff6f63611e5f89ee1f
+SHA512: 2fdd9ad23cd222b390c3e12b9ebe6110d905bfe6b7c6800156cc74ecd3d300e11e14922a9ed7a2f9d7799155368eea2a34e67c825a83d33d95615c50237e0176
+
+Package: openssl
+Architecture: aarch64
+Installed-Size: 6544
+Maintainer: @termux
+Version: 1:3.1.0
+Homepage: https://www.openssl.org/
+Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Filename: dists/stable/main/binary-aarch64/openssl_1:3.1.0_aarch64.deb
+Size: 1599196
+MD5Sum: b8c8adbcc391698fdbe5d699e43de697
+SHA1: e54be7c38c133e634e725820faeb299e6b46869c
+SHA256: ae8a2b0182a8121ef355f9a37d21f6ca4ec5fcbf7d191fa72110e79604e5cf30
+SHA512: a0799570f542b90bd41d7260d0f0c1467a71bb07a56c5d36c3ff80ddd276f433d6b045143806e7ed1273f36ccad83f62d95b96f31d0a1929282cb8510a9922b3
+
+Package: resolv-conf
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 1.3
+Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
+Description: Resolver configuration file
+Filename: dists/stable/main/binary-aarch64/resolv-conf_1.3_aarch64.deb
+Size: 1028
+MD5Sum: 4696076fa6f9fff997deb0517e8c2a6f
+SHA1: 68109c235578c94720196fe95ea2d5b9029e4f4f
+SHA256: 7f5279d4615c8ace59c7d8189586f27f152866a879d50f7897b3be90b0c13d26
+SHA512: 6a6c5e4aadb4bf427b491f3d603b4618e52c988e1bab158e65993ab81cb8b00487b790605e2e717d511c9ed68633d4602dd51ee06e005655f68d386f8cd033c8
+
+Package: zlib-static
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 1.2.13
+Homepage: https://www.zlib.net/
+Depends: zlib (= 1.2.13)
+Description: Static libraries for zlib
+Filename: dists/stable/main/binary-aarch64/zlib-static_1.2.13_aarch64.deb
+Size: 34316
+MD5Sum: 1e38a2c51dfe7f161cafce68c0a5ca48
+SHA1: 1f17bbbc530ff8d6af8d5aa7285e247c33b2539c
+SHA256: 00219783d6b762008875fca813593aaf6f47c02d352f140c4df1c877d8ca2eca
+SHA512: b9f797ba6a1b19f5df83bbef030e5d42a0ef58206f8cea63b94607a4919775979d732c7a9019a9f87af4742ae5fd294d2e6a76d64fe26ae340a2f317160b5078
+
+Package: zlib
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: @termux
+Version: 1.2.13
+Homepage: https://www.zlib.net/
+Breaks: ndk-sysroot (<< 19b-3), zlib-dev
+Replaces: ndk-sysroot (<< 19b-3), zlib-dev
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+Filename: dists/stable/main/binary-aarch64/zlib_1.2.13_aarch64.deb
+Size: 60016
+MD5Sum: 6657eceaad023656cac2a6a03d2df209
+SHA1: 8c02112aa1f5236b989b571772c780257ddda851
+SHA256: 64e32f48aea3b104545e65386476773f43f8f47b9717a7087e561236bb9fa6f2
+SHA512: d460003059498081ebad997c3230a14eb2a51590bc7e7d12d414b2bdb22044290e3cc9c49d586eadcca9cd6db6976c273231c35726e87ef1c8a0d5ec0b515983
+
