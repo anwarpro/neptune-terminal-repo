@@ -27,6 +27,36 @@ SHA1: 5fb8de3fb2d085b313dfa22e9a830f86833fb658
 SHA256: 1d987492a8a6bd45a245bbb0ca074ea7829d1a4b28db0777add9548f4d27b2d3
 SHA512: 965e3ca5723b8b0e5a221fdd77b744c8ca84455c8f0a4bcc941cfea6ec37b1c6a07efbacdbb10dd511fadbb052cac4ebdd8f8177612ff99eb027a92ca8cf88b7
 
+Package: dpkg-perl
+Architecture: all
+Installed-Size: 904
+Maintainer: @termux
+Version: 1.21.21
+Homepage: https://packages.debian.org/dpkg
+Depends: perl, clang, make, dpkg (= 1.21.21)
+Description: Perl modules for dpkg
+Filename: dists/stable/main/binary-all/dpkg-perl_1.21.21_all.deb
+Size: 123200
+MD5Sum: 5ab31a3bebfe2bad1aec2ad3e69c9005
+SHA1: b832d6aa7b9875fd6b96c986b4f02cd1b5aa79b2
+SHA256: f6394e701ffa5cd1391774b775f0f341b685082862a967d4a94d84e0e82450c0
+SHA512: fb16c2e53c379ca2197dccad046a038fea049f07ea02dd94027477c030c5237134b189ead6d351ea2ad2b61c61cb5fd98028f54835ae069b9b19b25e051078b3
+
+Package: dpkg-scanpackages
+Architecture: all
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.21.21
+Homepage: https://packages.debian.org/dpkg
+Depends: dpkg-perl, dpkg (= 1.21.21)
+Description: Creates Packages index files
+Filename: dists/stable/main/binary-all/dpkg-scanpackages_1.21.21_all.deb
+Size: 6788
+MD5Sum: a1445296777c29e96af15d4576c784f2
+SHA1: aefd55b2567f803cb2d7e01590d4f331f77236ac
+SHA256: 4191a45285b399d1ac183b8d26b9e22587965e0d82a0080d6e5f931afc59b31c
+SHA512: 2cc274b5264d4b4a8a5b2e972b793cbb013c1866866fc87d391c589760c85cf0b1e4d39e2c80065a6baa8cf9b39fe85e8a8b37de78ac69c3d9f19907300b87ac
+
 Package: termux-am
 Architecture: all
 Installed-Size: 72

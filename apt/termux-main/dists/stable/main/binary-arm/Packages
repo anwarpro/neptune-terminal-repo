@@ -191,6 +191,24 @@ SHA1: 6ef64f591222602c83e646e27550d22c82b46ead
 SHA256: 08ca737a6ce3a2177cc9f69ec7786a1f500fc19ee3b834957cb00cfdb64dd836
 SHA512: 82fca8d2ec86e46a04f5caaee87248c4e54b145abcf5d9ffcbca5109c9db6515c48b3db572b56bfe823398aa059300446922b8d7c69ce711f67b30e0df058288
 
+Package: dpkg
+Architecture: arm
+Installed-Size: 964
+Maintainer: @termux
+Version: 1.21.21
+Homepage: https://packages.debian.org/dpkg
+Breaks: dpkg-dev
+Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, xz-utils, zlib, zstd
+Essential: yes
+Replaces: dpkg-dev
+Description: Debian package management system
+Filename: dists/stable/main/binary-arm/dpkg_1.21.21_arm.deb
+Size: 265212
+MD5Sum: 2ef339fea9695efc9b700545e3626805
+SHA1: 19148fc2b01f473eee21262465b94932f179ed86
+SHA256: 5db8e4bfbe89d95fee898dabec873dbbad31f2848340aab46cc157c32229db0e
+SHA512: d095d3a020d86d60f7432995ac7e46449f618f575734f380bbd468b3ee16c3c12f61aedd1be2bbf13c7c0cb431716325eb46a68294204ae2e6e572f95348aac6
+
 Package: ed
 Architecture: arm
 Installed-Size: 156
@@ -676,6 +694,35 @@ SHA1: 8e4a0e163655c8322ebd1e17ae063247f59e6783
 SHA256: 6b9f2002d8081b2ef6c343fa546e795ee9a656d4c0eda6a4cc193505a41ecd81
 SHA512: 4c8a2dcfd46ae16d1cddc1fbe47e83c0b65a5a43eecadce4a752c716c12f56691789a1f1cc3772e9688315e54360a6c3219117de7c0528424649de42cc112f08
 
+Package: libmd-static
+Architecture: arm
+Installed-Size: 80
+Maintainer: @termux
+Version: 1.0.4
+Homepage: https://www.hadrons.org/software/libmd/
+Depends: libmd (= 1.0.4)
+Description: Static libraries for libmd
+Filename: dists/stable/main/binary-arm/libmd-static_1.0.4_arm.deb
+Size: 15908
+MD5Sum: a4adbcd8a706940d837301fa3a44643e
+SHA1: 5d8a4d0d3c40ca4d7b46988fe21fecde5f4032f8
+SHA256: 82027ddcbaea6bc6f490ede0942bf6c45d38985a7ec3e58894c997ed24162086
+SHA512: 08eb0740e94742d5739e0d7202877ea4d621fe50e32b72ab0c92d8c3120c2fba932389aad31e317084cd2f8e7a747ed0084f4ac7d1e8ce39525bd96bc1d28f93
+
+Package: libmd
+Architecture: arm
+Installed-Size: 164
+Maintainer: @termux
+Version: 1.0.4
+Homepage: https://www.hadrons.org/software/libmd/
+Description: Message Digest functions from BSD systems
+Filename: dists/stable/main/binary-arm/libmd_1.0.4_arm.deb
+Size: 36188
+MD5Sum: 0c640ee95ae8f7f206197758a5e84a6c
+SHA1: cd5fa40780b31fd867843084a02a486e792d4873
+SHA256: b91ca898a42385f55c4c2d8721662efcbf3997fbf19198ac7f030d4fc34596d2
+SHA512: 364739c7ca5963613f81847615ec0efec99db02cefdfa5b6feb56da484501e0ae93a7d7ed632c4ca36196d6827d17f5dc73a53b63bb42dbec74712340065f4de
+
 Package: libmount
 Architecture: arm
 Installed-Size: 312
@@ -892,6 +939,23 @@ MD5Sum: bc85c0cfd25a98239cc9b43969f7e728
 SHA1: 7f17cfbb8ff2fd98904cd78887b294e2964c7a7d
 SHA256: eaeee64cc6525a023b1d6168a060a30b236b1e46d29a02348418c8de025440a4
 SHA512: 3dbd64fdf15076f6c3135fc41d485d4038d9e582757704cdb1e3864b9db939a648b3abd8e408394f80ae8f530fb8b2257bf503e830b4b7e1efc0670ff82df8bb
+
+Package: make
+Architecture: arm
+Installed-Size: 872
+Maintainer: @termux
+Version: 4.4.1
+Homepage: https://www.gnu.org/software/make/
+Breaks: make-dev
+Conflicts: make-guile
+Replaces: make-dev
+Description: Tool to control the generation of non-source files from source files
+Filename: dists/stable/main/binary-arm/make_4.4.1_arm.deb
+Size: 235596
+MD5Sum: f574b67e0b38b93508a581c433f68a83
+SHA1: f4997d14fb9c161e7f6bdb1efea59a602f76322f
+SHA256: c5ca6a37913dbbb3f9ba937c7abf2103569a78d187e64c283711ae2af46674dc
+SHA512: 92d36e9be5911afff5d082fcb733afc4981bbd9dcb53ec49f146db45f7171b75475be2ef131a82169c77d124222f4ffad4057338630889f28be32b841cd3d2ad
 
 Package: mount-utils
 Architecture: arm
@@ -1128,6 +1192,20 @@ SHA1: 2552be1ba8bdaa99a15b866c3f4843438f9a4aec
 SHA256: e008fbf96029279f10fdeea60f33443909fdfcf40576ee5de06f9fb082f86a36
 SHA512: d77ad9ad8919fce91593710667be6c6405bd5b50262cd29f0b50cf875322481c49a9d19f03fa158a0cff9c410254d73278a98fa4f3fb23eca8eeb5fc60ad7742
 
+Package: perl
+Architecture: arm
+Installed-Size: 61408
+Maintainer: @termux
+Version: 5.36.0-1
+Homepage: https://www.perl.org/
+Description: Capable, feature-rich programming language
+Filename: dists/stable/main/binary-arm/perl_5.36.0-1_arm.deb
+Size: 14342808
+MD5Sum: 9f662dec5b8762f9f10edbd5969f2078
+SHA1: 4ddd2bd11b2457ed9b3b35db8b5c524c86d550a8
+SHA256: e0427380ac2690c760c39260804331ebada2e88d6f78ebe67a11fdd80b5980ab
+SHA512: 955bae1ae4e936486165a3d71b3dbf433eb72fe887e6016f3c6a9499e089744ed1b8ee149aef517e75ab3f45087337e0e8e56ab2b1ff4aca1e6cbc8e1d459a32
+
 Package: procps-static
 Architecture: arm
 Installed-Size: 108
@@ -1191,6 +1269,21 @@ MD5Sum: 72bd4baa8c3320fc0667c242ce7daa65
 SHA1: de994c59763b67ee99e5760b3520702fa0a00a77
 SHA256: 1ca6458bffcebdb2651d757dcd9942202bacf85c71e667a4995af34be94e5735
 SHA512: 0123077cae561ee6cff2f97100c9ee1e3449555b850b5d7e45358750d22b6f143b790389e7608086274e502efdb725fdbb40f1777bb19a234b85d07c8d71f122
+
+Package: pzstd
+Architecture: arm
+Installed-Size: 380
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Depends: libc++, zstd (= 1.5.4)
+Description: A Pigz-like tool for Zstandard
+Filename: dists/stable/main/binary-arm/pzstd_1.5.4_arm.deb
+Size: 161256
+MD5Sum: 475bc66067e9853c5491a3160cc0eb0b
+SHA1: 0c6c984362f0c7bc9caefabade4c31aa2856da08
+SHA256: ae4c7036211cf6a9efbc9a3800f80d208502792d340cc9d3701899d97517ebc3
+SHA512: 3b97148bd6b19549846e388b51cdbd305be3a1c769f696247cb98453cbaabc2aa7755b19817cdf41afaf401283d68cf45c2aca701913fc30ea7561d63f2f7cb6
 
 Package: readline-static
 Architecture: arm
@@ -1408,4 +1501,36 @@ MD5Sum: 02a233c05d76b6650b6c1efd3925d18d
 SHA1: bf931e2562de6b0ab6822e278c3b4c95ac5095d9
 SHA256: 868193688bb24af3521a8ffc7a1c0fe519f8a6d323475941f073873b0ae079c0
 SHA512: 490214c24c7f2c31618719dd5614cf9dc07c3f1e6734310b51b02092cda6bcde4f70c67e3f6ecd25c4d2b039df782468acacbabc5875d63ffae1eb8160aba2dc
+
+Package: zstd-static
+Architecture: arm
+Installed-Size: 516
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Depends: zstd (= 1.5.4)
+Description: Static libraries for zstd
+Filename: dists/stable/main/binary-arm/zstd-static_1.5.4_arm.deb
+Size: 190048
+MD5Sum: 1078065ba956a355693b5d8e2ae4ee08
+SHA1: 25efeaa2b07f290a9e8563b83caaabe390bb950b
+SHA256: 846aee795d8a51233ab793469a9d71d1ed08ed2bc6691416ffed2196e050a7dc
+SHA512: 531cc4b5deb1c5e11f0660a5f1ccf5a2d8b82ab03160a292c62c481c8dda34db0695ba8a79570b9321d910f614dd8348fc1a3ce8e26708370c02e0174c12b701
+
+Package: zstd
+Architecture: arm
+Installed-Size: 1084
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Breaks: zstd-dev
+Depends: liblzma, zlib
+Replaces: zstd-dev
+Description: Zstandard compression
+Filename: dists/stable/main/binary-arm/zstd_1.5.4_arm.deb
+Size: 283380
+MD5Sum: d2297e5524ef18e7e7d43d20bf951077
+SHA1: 2b794c3a35e08158461bdaeba46d0435e2759cc5
+SHA256: 84c46b962cf2a5c3bce2561fe792bf6caecbe1aad1e28b033d93fe37efa2c2e5
+SHA512: 49c76bae7eb5f93b5ef7b0b6ec9efbe71bdb7a4d571893c77405a29998185caf69cfcfd63cac7569f3b5209dc8df7862507a5127f36904348dcb1583527f147e
 

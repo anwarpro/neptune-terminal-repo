@@ -191,6 +191,24 @@ SHA1: 3706cfb253005f8502de2c2ecb60602ec33fa3ce
 SHA256: 77b09fe3747df82b6beb38f59e668f4a504a0be954f83818a61c77eda4a926a7
 SHA512: e15a52b77953620fb9cbcc48f859d52fcabd7ae6278db5c13a4eb1b8b7e725a197b2bf7835b104a3e43cf424c415203d6c2ccbf3a06813b6bd9932dc4c07bb2f
 
+Package: dpkg
+Architecture: aarch64
+Installed-Size: 1276
+Maintainer: @termux
+Version: 1.21.21
+Homepage: https://packages.debian.org/dpkg
+Breaks: dpkg-dev
+Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, xz-utils, zlib, zstd
+Essential: yes
+Replaces: dpkg-dev
+Description: Debian package management system
+Filename: dists/stable/main/binary-aarch64/dpkg_1.21.21_aarch64.deb
+Size: 293516
+MD5Sum: dee2f1a66196c9ca1baec7df468cb269
+SHA1: aec50d5db718e14c483885c9c348a8ad8c3f31b1
+SHA256: 74851e260eb8aa11e3c3d0db3fc555ad1c22b1fcf153c052041ca3c7cc01a595
+SHA512: 764e51625882b54d924daa988de0ec03c1bd13bd80187748b46664b8b410008db0ff49fe11324fe8af0df616a56be194d06c8d5f91a95b86139b508db82e36b6
+
 Package: ed
 Architecture: aarch64
 Installed-Size: 172
@@ -676,6 +694,35 @@ SHA1: b1bdd24badda9ccf67afc6d150137b379ae692ab
 SHA256: d45fb4d0852bd08010146b6445be86590d571ba0ced1aa5bc4b67e4ecfd6c91f
 SHA512: b395a9eed3f6111f308e2f3c04d7f8790c48b9ff9f0d996b5d202c3fc2bf23151d0d8ca4bc8544d4eadb850b774f4c4aaa37ab1e64fa448c7b5ae278dd6b585f
 
+Package: libmd-static
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.0.4
+Homepage: https://www.hadrons.org/software/libmd/
+Depends: libmd (= 1.0.4)
+Description: Static libraries for libmd
+Filename: dists/stable/main/binary-aarch64/libmd-static_1.0.4_aarch64.deb
+Size: 16816
+MD5Sum: 1fbaaf771228309db6946d460675bcf6
+SHA1: f4459f55425f0bc36f3f5aea8da3acc543266ea6
+SHA256: 02bb2dbadcfaa12f1dce01edb54f1cd201e49e84f8a03b765a3fe79d64a4a4c6
+SHA512: de05e219e37010184548aa2742993751903ebc8ff91e5c8bad8506aaddc1a9ceb2b0d8dc452aee50d672cd3e567df101c09662400d38aa80138a354733d37752
+
+Package: libmd
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 1.0.4
+Homepage: https://www.hadrons.org/software/libmd/
+Description: Message Digest functions from BSD systems
+Filename: dists/stable/main/binary-aarch64/libmd_1.0.4_aarch64.deb
+Size: 37220
+MD5Sum: a4a2e4d05929d3f78d936e2c53e30598
+SHA1: ba9058a6f1f8b7386d2fb88719b1694835472e74
+SHA256: bd830cf37eb122b284cf1b097d7bb1d5f4c8b1f469c606e2ef70f2ea036b6767
+SHA512: 7a98cfe3caf78f04c58de50c23b61f4ac16a548d4631a64f9d7a99e1375d73a74eb6eb98b101d4a540ed24174844a8bde0a2ee7fde0e58d704f92f6b57b8eeaf
+
 Package: libmount
 Architecture: aarch64
 Installed-Size: 400
@@ -892,6 +939,23 @@ MD5Sum: 523a45dbdd222b8767a2bf838f2259da
 SHA1: 62d33195f42a5e6f3768a35bcfd9db4dbf3c366b
 SHA256: b0f11e309d50434a02cd0676d493f8927814987d668cd70429395334206546de
 SHA512: a575f04468e18e088f7ae900e822cbb21869d793abf942e0066cabf6efc7fedc30594517ff31717414dee34a76f03f0f7b0127cca062dc019c3178f2a53ae290
+
+Package: make
+Architecture: aarch64
+Installed-Size: 936
+Maintainer: @termux
+Version: 4.4.1
+Homepage: https://www.gnu.org/software/make/
+Breaks: make-dev
+Conflicts: make-guile
+Replaces: make-dev
+Description: Tool to control the generation of non-source files from source files
+Filename: dists/stable/main/binary-aarch64/make_4.4.1_aarch64.deb
+Size: 239676
+MD5Sum: 1f4d4a64798de428a76ebbba19e63f79
+SHA1: c101a881c93f76782c83e400dc817e1947152df3
+SHA256: bab1635cbf86d39419fbb9263f77de1bee1aa34828107ef5627e04dc3fd6604b
+SHA512: dbb3fc87fc4760e64694d821a4aae1dbbcd9187774c4a91b50e3dfa77c5f40dda85f2ac752a61d369965ffd22933a2dccdc00ace4f236f687026641449698c4d
 
 Package: mount-utils
 Architecture: aarch64
@@ -1128,6 +1192,20 @@ SHA1: 4003d827b943f6fd4f8eae7c1971dfec78e3a8bb
 SHA256: d6a89eba5bdbf0f335758f1ecae17000f6727068159c56dccfc112a6d1701465
 SHA512: 504b034b3794483dcf491d9067ece7cd8131cb440711a1059d750f6147fadf875f62f24072acbc47ecdf5fc490726a5f3390e602d76355edf85c5275a3770845
 
+Package: perl
+Architecture: aarch64
+Installed-Size: 68484
+Maintainer: @termux
+Version: 5.36.0-1
+Homepage: https://www.perl.org/
+Description: Capable, feature-rich programming language
+Filename: dists/stable/main/binary-aarch64/perl_5.36.0-1_aarch64.deb
+Size: 14501496
+MD5Sum: fd67bfacb37454abfe74200717fc52ac
+SHA1: f45fed19c31b406772afa9f58a197c981d9a97f5
+SHA256: e307426a8ac3c564f3c512dce12cfe811e81919296e8f437626e571d54464d22
+SHA512: 6e48ecc237b4cb7972072c65d13992b2bd8692b5e40c587648394060bcbabb1af4f3fb6f39f821119e72b2fe09deb2291caed12efeed5ce147fc5994760d3529
+
 Package: procps-static
 Architecture: aarch64
 Installed-Size: 152
@@ -1191,6 +1269,21 @@ MD5Sum: e29291e6edfc1e0dde562ab4a545bd18
 SHA1: bf84f7026aa4bbb681ba81e0d1b16ee82645f04e
 SHA256: c9c384ad60cb67b493726dc598414bddd13b6963dbead263b569a122f5dca5d9
 SHA512: 3b4c5ce37bb7f768be94e583a096dced07dfedb2634b477ba0c511138e55684e33a801f27eec357f1db94097e9125719cbcb92d266839478e98ed5ae57db5073
+
+Package: pzstd
+Architecture: aarch64
+Installed-Size: 512
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Depends: libc++, zstd (= 1.5.4)
+Description: A Pigz-like tool for Zstandard
+Filename: dists/stable/main/binary-aarch64/pzstd_1.5.4_aarch64.deb
+Size: 167108
+MD5Sum: 773d9ff1aa5eb09504fa12b3c82bb6a6
+SHA1: e34d24b6412fc1e79b8bbb8a9e02a5979247b30c
+SHA256: 4d9fce29f893d057ff25a8be9629ab2c4221ae0385e2c584cc00e97eee074496
+SHA512: 00181754e08c90cfa5aae12d9b46d5229ade581b95a2f7ea3e3cc4eae46948165254602a0a849bc1a8665ccd0e5f9a5e683ca3c4567064e342ff9c43e62cb177
 
 Package: readline-static
 Architecture: aarch64
@@ -1408,4 +1501,36 @@ MD5Sum: 6657eceaad023656cac2a6a03d2df209
 SHA1: 8c02112aa1f5236b989b571772c780257ddda851
 SHA256: 64e32f48aea3b104545e65386476773f43f8f47b9717a7087e561236bb9fa6f2
 SHA512: d460003059498081ebad997c3230a14eb2a51590bc7e7d12d414b2bdb22044290e3cc9c49d586eadcca9cd6db6976c273231c35726e87ef1c8a0d5ec0b515983
+
+Package: zstd-static
+Architecture: aarch64
+Installed-Size: 688
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Depends: zstd (= 1.5.4)
+Description: Static libraries for zstd
+Filename: dists/stable/main/binary-aarch64/zstd-static_1.5.4_aarch64.deb
+Size: 188256
+MD5Sum: 13bfd85af7fadd08a5e0fbbe9604f553
+SHA1: 4123115f29295cbfc70e6fef971923d277ca02d8
+SHA256: caf91ec8de65febce8690695891407f2f0b9e4b3be0686677a2c3c8f2345e344
+SHA512: 419b596e22207cdcdce7c8ef8019836c125fd57c518c99d631818af33f2fffd0dd2d4ddaf70e5c90c0a7e2290deec9169a37a0128c0bfda3568affa9e49bc7f6
+
+Package: zstd
+Architecture: aarch64
+Installed-Size: 1288
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Breaks: zstd-dev
+Depends: liblzma, zlib
+Replaces: zstd-dev
+Description: Zstandard compression
+Filename: dists/stable/main/binary-aarch64/zstd_1.5.4_aarch64.deb
+Size: 281456
+MD5Sum: 4de55d25f574142f77be47f10811ccfa
+SHA1: 5d065686a3eb564deddef0ba12464eaa239d31f2
+SHA256: 5a9f10d4fb960d6f570313e613a8cae0ff003d75304fb91e45f7a62eacc65321
+SHA512: 0199dbd9aa97ffc9fecc993edb3d681290e3f6fdfb9a2fab38cbb26d63121c028d9ae8d4cb93d461260b2e0dd0748527401f5c99487841d4efe6b894351e0780
 

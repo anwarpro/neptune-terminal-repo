@@ -191,6 +191,24 @@ SHA1: a7567e8183fece5f14cb0fb87629bab7e73f2d79
 SHA256: c5daf943719f28392e9f58c74525d03639888b4a917887409b2e81eadcf00da9
 SHA512: 2704103b8a4aae136872f2a5c77e906fb9525c73caabf4f2891fdb8ca42c01079bd5b442f4e64a22171dad1ede2bd190a674ecb1e72315774cda0ec80453728f
 
+Package: dpkg
+Architecture: i686
+Installed-Size: 1236
+Maintainer: @termux
+Version: 1.21.21
+Homepage: https://packages.debian.org/dpkg
+Breaks: dpkg-dev
+Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, xz-utils, zlib, zstd
+Essential: yes
+Replaces: dpkg-dev
+Description: Debian package management system
+Filename: dists/stable/main/binary-i686/dpkg_1.21.21_i686.deb
+Size: 306948
+MD5Sum: a208ebac8f4d3d5a12f24182e4923aac
+SHA1: b8c758790ace46440663e3acf2fb1e85f601af69
+SHA256: c7c1e1ad8afcaa16e1162b80f6d47da937eddda5c5c97368dea9b6026d61fd9c
+SHA512: afa5ee73bc3cd94894a1d6e588a188517d66d43b2f7437376ff5ed3fbb428f59b0eb1ae4708e7542bbde917657439c3f367eafc308546249e144802d40d25588
+
 Package: ed
 Architecture: i686
 Installed-Size: 172
@@ -676,6 +694,35 @@ SHA1: 0b540658449c9c778d5978ea887510922b2dd87b
 SHA256: de630c3f00ad051f4c3d77260171704fa0edc0933641729bf56c4b40a4a99247
 SHA512: b9512cc07d1a2099c80077bf26a5420cb3216d9d6d9f88061415e6a1b435e18f93d354a42edb77f93b90286885c3fb893ce6fa4093bbfc7a96fa5bad90a0c210
 
+Package: libmd-static
+Architecture: i686
+Installed-Size: 84
+Maintainer: @termux
+Version: 1.0.4
+Homepage: https://www.hadrons.org/software/libmd/
+Depends: libmd (= 1.0.4)
+Description: Static libraries for libmd
+Filename: dists/stable/main/binary-i686/libmd-static_1.0.4_i686.deb
+Size: 14220
+MD5Sum: 53a7f9215dfd66305ac971e8199a7f6f
+SHA1: b6e4f41d2dc6a2b1e98255771111542f53cf6150
+SHA256: f9e2e2371b0a622f3410a4ef85e4e5c15e59d644ebb0343e750cfb2fb90095df
+SHA512: 484d315e0be0101ddb940f7748733b6e46b9c595cf7bc11f53a3374d94177c831cd0ec43e2375f8c3aee1443a08fd57217f18b29cac168f3723732e5ee31539e
+
+Package: libmd
+Architecture: i686
+Installed-Size: 172
+Maintainer: @termux
+Version: 1.0.4
+Homepage: https://www.hadrons.org/software/libmd/
+Description: Message Digest functions from BSD systems
+Filename: dists/stable/main/binary-i686/libmd_1.0.4_i686.deb
+Size: 35540
+MD5Sum: ff30db04197c01abf4647021789fe0ae
+SHA1: 52fa15f06bee79b628d9c4a134e015cd5a1e45da
+SHA256: d149e5d7074f5e44879686e311c7f17a6372cb2b78fa15fe3390678662b64241
+SHA512: 8e2a2c56235d436a23ee04f87857c616a5a21cc6e27c3552102db4a30c2b4cbd0354b2c9856a16034b950ee22e246ba39355af59e9ce14f5d329c7a50c91dd64
+
 Package: libmount
 Architecture: i686
 Installed-Size: 412
@@ -892,6 +939,23 @@ MD5Sum: d22228dd5174346c98d83381886f8125
 SHA1: 2907526af0b650abcd4ea2c8374edb5ed9ad2a3d
 SHA256: f3125bc3aa8ece07962b20fe97d3ce3bc756390354a1198a2f3a44960e243c54
 SHA512: 5d2c5c896a4ccedae286b3be1483a88092d8bc7d4947f5f74b41960302a486f8b40be68e7cc4007f80d7b7a7b8fbd92ab5f5da6ec6afe78d6540a4234bcd3efa
+
+Package: make
+Architecture: i686
+Installed-Size: 932
+Maintainer: @termux
+Version: 4.4.1
+Homepage: https://www.gnu.org/software/make/
+Breaks: make-dev
+Conflicts: make-guile
+Replaces: make-dev
+Description: Tool to control the generation of non-source files from source files
+Filename: dists/stable/main/binary-i686/make_4.4.1_i686.deb
+Size: 249744
+MD5Sum: 6da1a96193ff5d051a37554e3593cea0
+SHA1: 5ddef141e4e3f36bbb9afacba3eaf10c9b2c1708
+SHA256: d141a9b1553c85f5abb8c309c39e60b889b07140ea57318e2903d9da007a9f36
+SHA512: 0a43da16557c527b2a9443ef56f56f7ab16c56e3382b350b5d2bbdb7f64cf4f346384f30ff88d4df9f33707b242830ae374b4b2822f8046e1953cf5915b99b75
 
 Package: mount-utils
 Architecture: i686
@@ -1128,6 +1192,20 @@ SHA1: 702f36fb8c6e214077b196859d85244070709bd5
 SHA256: f536bfe4e3972042872fbe9b3725014b278a38b4040b1af7af14e0598e544056
 SHA512: 51efa3c9f1625c0bf85d913bb2ba776643d99f6de5acb2251fb3c7596f7916fe8c28c757873487222281bb23665db843f0f519b3eec2a5e3d9cf8737cf0ab9d3
 
+Package: perl
+Architecture: i686
+Installed-Size: 61664
+Maintainer: @termux
+Version: 5.36.0-1
+Homepage: https://www.perl.org/
+Description: Capable, feature-rich programming language
+Filename: dists/stable/main/binary-i686/perl_5.36.0-1_i686.deb
+Size: 14485608
+MD5Sum: ad523e6ef43bfccb32c2f9ad9381cdf3
+SHA1: 29fad6e59513cfe45521603bfcb38a9f7bf9537e
+SHA256: 4b73d23dce0b2b65aa6ffbc6979f0da9c3cc300c9cc0d3ebb29c362878fca02e
+SHA512: 411a270ede204ad07bda11dbfc82be187a8218281ec79460f308b8452ec68387b6988d8e1d0991222b51749c42727f44dd0b08056f00e41f1d5929d84216a95a
+
 Package: procps-static
 Architecture: i686
 Installed-Size: 120
@@ -1191,6 +1269,21 @@ MD5Sum: df6b6f1374dc386e257723e3df355130
 SHA1: 1f68f0aaa121fced14bb1996d2adf0a9f8292400
 SHA256: c4e3fbe71546592b622fe3347c2baf96729ae95e73327979c181ed9e3ba75383
 SHA512: 081530b8f2358aa5343235b8a977b79dd56f137b209484d38ff64e2e75cb4b2e0514a8d444dd0b5e617cc300597b8f2be7682e089dbe2cea8c010611d08884b0
+
+Package: pzstd
+Architecture: i686
+Installed-Size: 600
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Depends: libc++, zstd (= 1.5.4)
+Description: A Pigz-like tool for Zstandard
+Filename: dists/stable/main/binary-i686/pzstd_1.5.4_i686.deb
+Size: 192416
+MD5Sum: 2a601ff96864f9bb8fa4496d27925617
+SHA1: 5afd9a6f7b9b4fb42a174996abe0665da8d34984
+SHA256: 1fe761a145d87e096e706f55de7228de75a36019a3367a2696c8d0f114956446
+SHA512: 0efd4af49a83254cd0c3c0aea5e84dbdf8175ebb2e61b05167f45674ad020ee7b6613b5849a994c663502ee7693d13822fe2953e504c159a6eefda578e86bf1b
 
 Package: readline-static
 Architecture: i686
@@ -1408,4 +1501,36 @@ MD5Sum: 99e49f00c014c2b2c3aa8c7f0fedb5d7
 SHA1: d30378976ff3891eca8729d9f80afb79f00f2009
 SHA256: 22a6b5f28143e9fb6ac745f3dbdf768487be5c24b41cbdf2677d9280400f5f9d
 SHA512: ef0b21447c91d60e638d0efe0101c12d133ec7c3dd5ac0111d8e814befd62b1188aab70aafa1f901355ad5b57497ef619ea26a9b6e026d70cdfe48ddf3057575
+
+Package: zstd-static
+Architecture: i686
+Installed-Size: 660
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Depends: zstd (= 1.5.4)
+Description: Static libraries for zstd
+Filename: dists/stable/main/binary-i686/zstd-static_1.5.4_i686.deb
+Size: 200332
+MD5Sum: da237ef831aeb1950d37a87d8765dd71
+SHA1: 5ac3a5361e0e34f177052504cc479d02824ed7f2
+SHA256: dd23dd7d8365565cc4ccd472d6383830e2424614454c23ee5d0ccd2f772fc23f
+SHA512: 4c9de0624c92118200729efb43e49059bb6700fad8562899930670d210a5bba4e07506175c69c888695526b3bd2fdb6d2b956d17579cb751f82726d4de6f533e
+
+Package: zstd
+Architecture: i686
+Installed-Size: 1484
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://github.com/facebook/zstd
+Breaks: zstd-dev
+Depends: liblzma, zlib
+Replaces: zstd-dev
+Description: Zstandard compression
+Filename: dists/stable/main/binary-i686/zstd_1.5.4_i686.deb
+Size: 317392
+MD5Sum: 4f5db23c49ba0440bd0aa8903372e2eb
+SHA1: e94c8f4d41616b7160d6849a552dad7b8b2f8909
+SHA256: aa836c186bd4560f76c590e3cf061cc992db89af2b0a15f77925d935c0435384
+SHA512: 066fdb81c58aa93f547667fb583d28a8215ff1d9fc569550f689d1dd317da519dc705a3b772d43f63ad32f8840403af68c4680dc81600d12d244b67e2e05acb7
 
