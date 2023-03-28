@@ -27,6 +27,21 @@ SHA1: 5fb8de3fb2d085b313dfa22e9a830f86833fb658
 SHA256: 1d987492a8a6bd45a245bbb0ca074ea7829d1a4b28db0777add9548f4d27b2d3
 SHA512: 965e3ca5723b8b0e5a221fdd77b744c8ca84455c8f0a4bcc941cfea6ec37b1c6a07efbacdbb10dd511fadbb052cac4ebdd8f8177612ff99eb027a92ca8cf88b7
 
+Package: termux-am
+Architecture: all
+Installed-Size: 72
+Maintainer: Michal Bednarski @michalbednarski
+Version: 0.4
+Homepage: https://github.com/termux/TermuxAm
+Conflicts: termux-tools (<< 0.51)
+Description: Android Oreo-compatible am command reimplementation
+Filename: dists/stable/main/binary-all/termux-am_0.4_all.deb
+Size: 17200
+MD5Sum: ef252cc85c1b0f667504b9d09a8a6336
+SHA1: b8b6b8a72846b094fdc94adf6e6c3f4aa0fb56f0
+SHA256: b88bd4415f47b6ffd7545bfc6f8b78e9e9f5730ec1f2beab7b71cb33d584bfe3
+SHA512: 6b0c13d0e22c21a595b9db3c0a975efda8de4a0bb63bbfd1a97b32df725e1158c684f295e9d73e80c2515d1e4b0de0b52c487a4cfed14e3717e46a8cb12683ac
+
 Package: termux-keyring
 Architecture: all
 Installed-Size: 188
@@ -41,4 +56,24 @@ MD5Sum: 95c8f52aca72e5f6a731101b1a14d3e5
 SHA1: 9ddb213e859be7a4546c2f0c11b1661ea926c19b
 SHA256: 3fed4f3f0b4379feed03b13cf4e6ccb02e5285c29580b21d8d95e76b2124385a
 SHA512: 839f7709cf1fc248a05238c8015b10e4b4662da7e4d4ea887b37b3a1f15faf9ce95bacf9f6badd9194bcf8278ca2b8a6adf1faffb141293cc0bb1f830830e09c
+
+Package: termux-tools
+Architecture: all
+Installed-Size: 440
+Maintainer: @termux
+Version: 1.37.0
+Homepage: https://termux.dev/
+Breaks: termux-keyring (<< 1.9)
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-am-socket (>= 1.5.0), termux-exec, util-linux, xz-utils, dialog
+Essential: yes
+Conflicts: procps (<< 3.3.15-2)
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Description: Basic system tools for Termux
+Filename: dists/stable/main/binary-all/termux-tools_1.37.0_all.deb
+Size: 28440
+MD5Sum: 5fb21281eb9fe4604ef07ad140368197
+SHA1: 56cd5ea1f96a398027aaa74e40cbf33b6143e522
+SHA256: dc58b33f88a46c0fab095d5c5b84da1bb0390b171d5f866c715e964b6193a376
+SHA512: d7a20ae425c9baee2bec3d18a5ad440d7a61348ec0b22bb0b4a25d8818ea8d406887405b6ca0340d7968d55639255f0d0ac6e73958e856e0f4df9c1a258ed7aa
 
