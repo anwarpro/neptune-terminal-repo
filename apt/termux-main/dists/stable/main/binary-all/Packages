@@ -7,11 +7,11 @@ Homepage: https://packages.debian.org/apt
 Depends: tor, apt (= 2.6.0)
 Description: APT transport for anonymous package downloads via Tor
 Filename: dists/stable/main/binary-all/apt-transport-tor_2.6.0_all.deb
-Size: 880
-MD5Sum: 54d89eab8ff3a32a130096a4486b4ddd
-SHA1: 1db1b42f278836e0d338898a023e7113b3551832
-SHA256: eaf090aa7e312ca1a5438350bc18916a4524028b5e3e500dd53d61d26ad94773
-SHA512: 3d3db22783c0e0b7e2548bb1b48d814c9153b9d482f19cc26759f06327bd81389479b6bd68ef5b31daa710ac31c3417acf3889311d5c57ea06d7cfeece9e9fbe
+Size: 888
+MD5Sum: 3ea490fab8bedebfaa6e8e0bf01e95a6
+SHA1: f015da61b0ebf85956467acc0e973c9e59d888fc
+SHA256: abed81979bda3a16190133b56d1393e5f5173cb2229a8271b0d4aed847095848
+SHA512: 0d1084b743c916a759cc92e018443ed3497d1f722f9b1dfe4a245991c96426e610977fa612576f31bc6d513964334aee2f063e4844da448f6ee314447b882293
 
 Package: ca-certificates-java
 Architecture: all
@@ -154,18 +154,18 @@ SHA512: 94bd34089b60649117bde9e83c514bf69c101819a4a01118fb7360f49e2f227ee5280d34
 
 Package: termux-keyring
 Architecture: all
-Installed-Size: 176
+Installed-Size: 188
 Maintainer: @termux
 Version: 3.11
 Homepage: https://github.com/termux
 Essential: yes
 Description: GPG public keys for the official Termux repositories
 Filename: dists/stable/main/binary-all/termux-keyring_3.11_all.deb
-Size: 37168
-MD5Sum: e4269d6c10ebb8f7cbd99280c927c89b
-SHA1: dc9653d9eb75a037e6e7d0ede2844cc29f5a0f01
-SHA256: f3f2e517998af004fdb0b8fa7fea57ced971c63dbf99116611bd27c92afd4205
-SHA512: 80def5d7b0716a3854c5c6ef05d6302885fbb434ebf9662dedbe079139013456ba584254dec796c32049dac1c016b6e419e9d3e6b5cf22a37332e4a5402af622
+Size: 38860
+MD5Sum: b9e0c3bf3c3b573dd9003c87969dc163
+SHA1: 7802aafabb30e3b7c0717d1b7690d25cb0a3e452
+SHA256: f630dd50ba4b57746d8c14bd58da51ef20c5abad3fa434f1fe72fe25cdf821ab
+SHA512: 43cf792d1b229aeeebda1322a6d7389fe50fb74856a40100331fc85d2a8ba7a9f1ef9bc38219c35a0ac63a87ebc0d8fa61693b41a570a3af6d2f854effbd53d6
 
 Package: termux-licenses
 Architecture: all
@@ -196,11 +196,11 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Description: Basic system tools for Termux
 Filename: dists/stable/main/binary-all/termux-tools_1.37.0_all.deb
-Size: 28452
-MD5Sum: e210cd5f391adc2de8f0de3f25ec91b5
-SHA1: bd4b0a4e50e1c3696464f4294bc6124b27acff2f
-SHA256: 43caed2647f59b25083c2536c00c2de683270e59b2c2233222bf0dcca0ec6297
-SHA512: 897ff4a3101d541508313be7c42f5097786ccbf4c52ddb957422068c2f14b21e021162d7a365cf93616471232efa92a374445d2681b5f03e1b635265f6f40e60
+Size: 28456
+MD5Sum: bcec22b17415aaf949a4f4fcbe455fe3
+SHA1: 3e0b3ac7da94d28cbd3bae055545b3c0c0cfaba0
+SHA256: 7f51b386087037c87d7eeade617d1393d658cdcc14b0c4848c6c4412b39493b9
+SHA512: 9d339e965f5b53f2e39c784680229efa7b9c9571fb47258c8ff2148621d68a91734e315c586286ccf0687e5ab9c88447489c1f3b784eff5112fcb3643aef9803
 
 Package: ttf-dejavu
 Architecture: all

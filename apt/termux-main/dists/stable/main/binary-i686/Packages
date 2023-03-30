@@ -7,15 +7,15 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.6.0)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-i686/apt-ftparchive_2.6.0_i686.deb
-Size: 108888
-MD5Sum: 6b96737ca459df792c43ba937ba2864c
-SHA1: c70badb8fdfb5bfe2d6519a5df3b8d0129583f55
-SHA256: 542e1e030aab4bafea164f44d83866072a604a5b4d703f112b198feef7ac850c
-SHA512: 3034e92e860b4117133f90be57d67dcf145375267fe3e95f4506ab7d21dd1f9485a5ed37cdcdc9b7917a9c82a40d766995cdfb575b5486cfe0d2d635f4e36ea4
+Size: 108992
+MD5Sum: ce53809041370586298a0d14eff7b453
+SHA1: d51b8ab8687a5f0252f2c5d021b2e5e3423f0525
+SHA256: 22b6d2700373569226f853ad512cd06dc8259f884998a59bc483119fcf88ef3f
+SHA512: 1f51dd499ae42fd432fca30e5c840fd6fabdbba06d9965eb57eecd65486c513741ef7a7d386bbfdf784dad2fa8e8dc58950464ab6e54d7fbde1afc5894700060
 
 Package: apt
 Architecture: i686
-Installed-Size: 4088
+Installed-Size: 4092
 Maintainer: @termux
 Version: 2.6.0
 Homepage: https://packages.debian.org/apt
@@ -27,11 +27,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-i686/apt_2.6.0_i686.deb
-Size: 1134216
-MD5Sum: 62cdbc61029f28ffee08a3eef200e6de
-SHA1: 096c35816277c8e2b6b87e35440c2274dedf9c93
-SHA256: 5a8cff9f61ede3de7a8e19b2d56a7b867ef8c06e7b456d5c98fb660049cc0747
-SHA512: 280f7170d33459dc9e35fd9ee4f1d798f990053744333b4793018e6073cd0221f5d516bb1f15c62ed61b59df5ff85081f30c419ffdf955c70dc6f8c2ea5a0fe9
+Size: 1133208
+MD5Sum: bb5af065941d8202cb37cf92deb7cd25
+SHA1: 3789ff9d735eb6514b2ea86e8edf11e75a0a72ed
+SHA256: 72e58633e45069ea60ef359d03598b17d1609f0834b7f961ed9fe5bbb005b9b9
+SHA512: 89c83bae1e104c969d0cbc25b807f63228931c225731942c0f426aabb31f4afba68043e99ff2e7ff501e788680528eefaa7b6c3a914576664b04091339cda281
 
 Package: bash
 Architecture: i686

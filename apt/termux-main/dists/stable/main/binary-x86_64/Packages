@@ -7,11 +7,11 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.6.0)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-x86_64/apt-ftparchive_2.6.0_x86_64.deb
-Size: 105432
-MD5Sum: 1de804ca52f1ffcd9ac2454b3c3b189f
-SHA1: 1da5cc9ca3101540bf17ccfcbb7ac4c8d6c3e57a
-SHA256: 5addfa5b878b75cfe41e1fed5aea7126633cea730f2b2642a750fde90879aa0d
-SHA512: 005aefc5a8668907b7d46e506ce91a9cc2f7009c134599c1d87843e3655b78e5b633143d619750654c2c7cd05d3ad2eab117ecee6ce64b41e14dc7a60639877c
+Size: 105324
+MD5Sum: 2549dbffd09bdd8304720e56f5dd9fce
+SHA1: 4246d13237b6d486107a87d45e2aaf06857e626e
+SHA256: 1abdd11361e6d9de83f3cc3efa9ed1e47483285cdbaa7d58d6e200319058e362
+SHA512: 32a92218d80611dab8f561a98b59711792480580d8b85952ac0eb637d7162c8d3f995e734687f2d49a07392e69c2987498ffedddba69707d081f81ad6573f258
 
 Package: apt
 Architecture: x86_64
@@ -27,11 +27,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-x86_64/apt_2.6.0_x86_64.deb
-Size: 1120116
-MD5Sum: e0bffa96008cd92c39d2e68ec48668c8
-SHA1: d8bd20f1031d9bc60dc69ffef32395adcee28cbc
-SHA256: 8392852405f37e2338626b1e406f468827f0d7491f3d813974ee2f45340aa3f0
-SHA512: 669f2033d15ddc0ed6eb3c74697d3a687039b11c6cce0078f4c7f412725bd464414991f2e12f2e12ff7d7fdba961e4bf83212d8f19cca991702008c328c8dc2d
+Size: 1120928
+MD5Sum: ddf60bc333a57a697f7bcbc0ca68a7b7
+SHA1: 635ae54d199701a21bdc25761c546e2fe197747e
+SHA256: 19fb33f9215751cf65059aefbb1fa226eb9aff69ff9844927e9cc3347ce45ee0
+SHA512: 9ca36471f826cb89f166ba85d394aa390273eabb46790e9636f82c91f8282b8c125ce4b622c1ea34b95cc38d3fecd5ffd14ed07ecdfb6cd4bf195af44646771f
 
 Package: bash
 Architecture: x86_64

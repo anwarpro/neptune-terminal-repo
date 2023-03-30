@@ -7,11 +7,11 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.6.0)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-aarch64/apt-ftparchive_2.6.0_aarch64.deb
-Size: 91652
-MD5Sum: abec2b0d1a74ef1dcad37bc1b9d6c7e4
-SHA1: 5f90ce4762f38b15d108095c9f98f65a8d999f87
-SHA256: 6e870be06bff8c2ac078bcfb81c524b285b9a144ba8e28a8d3c35c86af5c6bb5
-SHA512: b8420a11431ea13dfc8b852daafd22d0baaaa27e8cb8d8267b37880677304fb257f70af271f2d0829991c56e379d840bef7983d341f276043781e17fe4790ffb
+Size: 91552
+MD5Sum: d0f714862e5415e79f3eeaba94dd184f
+SHA1: b492636b1a147601f8560b93c4e5a0a82c887b03
+SHA256: f4e55693b368c283b774fdf72aedf536d9e15ff669c70f32f0b25f6526affc96
+SHA512: b39a7f6d700c8868950ade682a443e015006379fb59caa56493d662922b64da4db79f45c7aeee6eece108adfce8e6f76c776cfe56330747e3983005be8aaa2ee
 
 Package: apt
 Architecture: aarch64
@@ -27,11 +27,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-aarch64/apt_2.6.0_aarch64.deb
-Size: 971444
-MD5Sum: 15ba9acf8b20872c6af9834a9321175e
-SHA1: 4e4a13fc373900182418d86152d86103912b5a19
-SHA256: eb14c99a08f4ffb24334ace148af10b1ebd83d456909746a0e2e1a859b1c1e64
-SHA512: 796c347142667cbe93b769aa1b86fb3963ba7e04dd86431886fa0bccd471e81adaa2dcc998c1d8ba7d5ab5499e50a89eeecba48d16e11ee2c95a3b95ee05307c
+Size: 971488
+MD5Sum: 243127c66f0fface928245be722b2de3
+SHA1: a18fc87f40330fa88b4a0c17becdb34c71274fc7
+SHA256: 3299ee332d3e0a30fccd0d9dc05265633fe7b106b5c7b1e4c86367f464b54dea
+SHA512: 7ad35ce0b3383400249b774884bc62246f5d52a51274b439672788c518ecabd0b082ded0b03dcccf678f033a047c3df9e5a5d20a4a12617f4965504ae567c6f3
 
 Package: bash
 Architecture: aarch64
