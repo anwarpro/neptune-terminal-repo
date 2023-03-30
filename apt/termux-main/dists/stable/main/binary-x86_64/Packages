@@ -195,6 +195,23 @@ SHA1: dff8340913fe55e1c751dd0356bd1961afb2d303
 SHA256: 1367952792f175a2f61a5745c1f678a46207b4bdffd105bb6f172e34100c3552
 SHA512: 73146dea54d4763949cbd893c69a2dda549e2db1b3ca0c0d5bcc13a4c04ebc039bfe06e7bb8cf3e219f1424ea2c16dca088453726eb70dc80b7520451542c167
 
+Package: c-ares
+Architecture: x86_64
+Installed-Size: 496
+Maintainer: @termux
+Version: 1.19.0
+Homepage: https://c-ares.haxx.se
+Breaks: c-ares-dev
+Depends: resolv-conf
+Replaces: c-ares-dev
+Description: Library for asynchronous DNS requests (including name resolves)
+Filename: dists/stable/main/binary-x86_64/c-ares_1.19.0_x86_64.deb
+Size: 124132
+MD5Sum: 064c3facac03d1e7f9d28053635eab72
+SHA1: 0b09830d14dfb5aa8cd645e5cf4bf2ce85b8e4ab
+SHA256: f0a8f99307d58c1d59cc9e20bec5b9cf04239b5b02519ec508e809893e59620d
+SHA512: d050e55de91c19ecdb40bc3cb8df5dd61ec0138c5d6fd16c765dde055501c7e83cd514763aaf09cc97fb2437328d3925fd9f3802fabe6567ddc36076845ac0ba
+
 Package: coreutils
 Architecture: x86_64
 Installed-Size: 2608
@@ -634,6 +651,21 @@ MD5Sum: ebbf5915a9371e5b6bf00a50807f56c5
 SHA1: a0e86b9d629a1f345f2a22ca8d57ac64a6f95078
 SHA256: 0525724070b15a4340dc370f28be26df563e1ab7383f772e4f3311c61a3a0de2
 SHA512: ac6ee4ce6ef5e453088b2bf02f388941bd873fdfd25af44da7ddbb5e148a6179ca3c895bc6c40cdd5683edb1eff56fc53eaaea03910a8d72eb18ba372c495fed
+
+Package: icu-devtools
+Architecture: x86_64
+Installed-Size: 1000
+Maintainer: @termux
+Version: 72.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 72.1)
+Description: Development utilities for International Components for Unicode
+Filename: dists/stable/main/binary-x86_64/icu-devtools_72.1_x86_64.deb
+Size: 229524
+MD5Sum: 537bfb697ce41cd1009fc020911bc87e
+SHA1: fead0c28f7061d770fda4d59ab29db3b38db2a97
+SHA256: ee5652f18adb829868a99e10ce60b2abb2dfaf668fbb1422a2bb283534264377
+SHA512: a2f292b2e427c9d588c17e370da4be0a479fce6f925e36035dc5cf142ca493ba8afc701e5a7e45e0ee82ad32df50cbd81c3828146f7c2c07202dabdc31ff4069
 
 Package: inetutils
 Architecture: x86_64
@@ -1199,6 +1231,38 @@ MD5Sum: aaa06183cb44212c1e16bfacaa8ca118
 SHA1: 68fd7e78be7a9ebf142c9c2165f9f8e32bbea3a8
 SHA256: 3c70b35c8d49178bca8992804c33877c6af3da7df6efd13c453a0041c9987abd
 SHA512: 55e44022da8228b4e3cdcbff9d4b134014b3581c68093d5508d6c2c940d8f75619a17ba38d26372b23170d5ee2a5f5237c05a29a7909657c97989e4fcd28ad61
+
+Package: libicu-static
+Architecture: x86_64
+Installed-Size: 42372
+Maintainer: @termux
+Version: 72.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 72.1)
+Description: Static libraries for libicu
+Filename: dists/stable/main/binary-x86_64/libicu-static_72.1_x86_64.deb
+Size: 9447472
+MD5Sum: 64144185ed8a435f633b3d70a8da7107
+SHA1: 13203ba72efe72575eff35d8acedd1bdc5804a13
+SHA256: 77b0bdd6ad893bd5496c076d37d55ba89fc215b60cb54e1a4e14ed3a2b2ea2c2
+SHA512: b34f7eea91a4a9c3861a6fb1474b80aace26569e95a2df37c40d977a59cf6b77c6129c59a16727d2d5cd41992926a41312b836b87c68ce5e98b44324f9179280
+
+Package: libicu
+Architecture: x86_64
+Installed-Size: 40804
+Maintainer: @termux
+Version: 72.1
+Homepage: http://site.icu-project.org/home
+Breaks: libicu-dev
+Depends: libc++
+Replaces: libicu-dev
+Description: International Components for Unicode library
+Filename: dists/stable/main/binary-x86_64/libicu_72.1_x86_64.deb
+Size: 9749056
+MD5Sum: 638db9fd74bdca8ce5b5620375d0bb55
+SHA1: a524177d0c36b32d53057f061ba1a6c8233013e8
+SHA256: 459b2612453153fbd69c85842e897ce834bf4b38dc8d430fc4e936d7ae382be3
+SHA512: 76809c2209c3096e118b0a3ff36a968c6724867fec862a6370e3519e81f4334a4aa839dbfcf56743a5f350e950507674ef24623ff0b188dac3030107a4f16421
 
 Package: libidn2-static
 Architecture: x86_64
@@ -2251,6 +2315,25 @@ MD5Sum: 36fd4217158ef1bb7919f7c38a34659f
 SHA1: 6bb3576e43ef4596fa72e35dd7ad38b2a3e47ff9
 SHA256: c62083e9952d7beb2166baf649871d7cc88f4b78dd2293bd5e8001cf80b14289
 SHA512: ebaeba4169bc48761018423504d7187a33bc4727d80079cb48908ed91e5c4aad2170ad84b0c55cc0530993a4b574b962a43d8f1d196779371710f682f0755ead
+
+Package: nodejs-lts
+Architecture: x86_64
+Installed-Size: 52732
+Maintainer: Yaksh Bariya <yakshbari4@gmail.com>
+Version: 18.14.1
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, zlib
+Conflicts: nodejs, nodejs-current
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: dists/stable/main/binary-x86_64/nodejs-lts_18.14.1_x86_64.deb
+Size: 8998260
+MD5Sum: 25d3d8f0b3804d09bbc141be86ddde50
+SHA1: 5e1228665e7b52aa4a1cc864b9f38c2fbaeedf37
+SHA256: d8bb8eaec0379a573dcce73eaf9298d92f8fc115824b1bd87bc32ed980640b04
+SHA512: e172cf97f40afaea2544c0ef1d7978fb5f584d8e7921f31e20013f323583b8d5cc6e0ebd79c36c9b3dbd90fbbb979ac262ca780b5f78f53d3552b6d0f2608fc9
 
 Package: openssl-static
 Architecture: x86_64
