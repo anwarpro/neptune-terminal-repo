@@ -102,6 +102,21 @@ SHA1: 0c9f5cd217d8525fbeaea208472dc3145abc38fe
 SHA256: 2dcbd99b722937ecb9280934902cf03f9f992564531b13374cafab5058f571fa
 SHA512: 9abcce7cb449b784f031e982170357f9a0e730a8026dc9902b47b568c5ea16a23e329ca120c229d149443a434a2fac7762afc2b5d8649b80796f9a19180811b5
 
+Package: git-svn
+Architecture: all
+Installed-Size: 320
+Maintainer: @termux
+Version: 2.36.1
+Homepage: https://git-scm.com/
+Depends: subversion-perl, git (= 2.36.1)
+Description: Convert between Git and Subversion repositories
+Filename: dists/stable/main/binary-all/git-svn_2.36.1_all.deb
+Size: 75324
+MD5Sum: cec19c6adb0dfd6141c2005735637d48
+SHA1: 19d328e8ba4806d83cd6f97712e278784a192492
+SHA256: 9d58c1b260633052d337e61c64a76f08187c96a6293224fbac22e84f09a0e43d
+SHA512: fa8a8e97340fe8448ac56ccab1e3253dad1b6bf1fd69bf44ab37b418f39f00d1f0f56ce1ba971b53b5154d4678d35aa391cc99fa4ef333e08108b3526e8f67fb
+
 Package: termux-am
 Architecture: all
 Installed-Size: 72

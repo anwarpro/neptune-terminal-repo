@@ -1,3 +1,67 @@
+Package: apr-static
+Architecture: x86_64
+Installed-Size: 392
+Maintainer: @termux
+Version: 1.7.0-7
+Homepage: https://apr.apache.org/
+Depends: apr (= 1.7.0-7)
+Description: Static libraries for apr
+Filename: dists/stable/main/binary-x86_64/apr-static_1.7.0-7_x86_64.deb
+Size: 84184
+MD5Sum: 79dd35caac80734f59c6eff56ac23d37
+SHA1: f19f41694a825cab62d35fc5ce404d97c34268d1
+SHA256: 7161fed7421549a3ea691a648cc07c63f7ff940167c566f8ed0904c848ad39b1
+SHA512: 4d7741068ddb4ae3ee710a6c07a864591b95382d46eeedce4c09aed2c7069e1cfcf6a19eafc11e48d65142104cece799c1fd6ee36ba441012bba3f6c0b4ba4ea
+
+Package: apr-util-static
+Architecture: x86_64
+Installed-Size: 304
+Maintainer: @termux
+Version: 1.6.1-5
+Homepage: https://apr.apache.org/
+Depends: apr-util (= 1.6.1-5)
+Description: Static libraries for apr-util
+Filename: dists/stable/main/binary-x86_64/apr-util-static_1.6.1-5_x86_64.deb
+Size: 67316
+MD5Sum: 9c6d5674e03a4395229b61b1576b885c
+SHA1: 465122527f160dccddd0ca68e8df398f1287aa4a
+SHA256: 71f3a2f2f545d8441000904ccfaee96c8a8c84eb80177d32b09af50dd20533ea
+SHA512: 871b412aba4969bcb6527d6db68c292334fdf31df86e4075b7dec3b04a99fc214539766dedbb8fb6dc5185ad4108e3eeb4159bdd82a9c8481941dba8babc4351
+
+Package: apr-util
+Architecture: x86_64
+Installed-Size: 596
+Maintainer: @termux
+Version: 1.6.1-5
+Homepage: https://apr.apache.org/
+Breaks: apr-util-dev
+Depends: apr, libcrypt, libexpat, libiconv, libuuid
+Replaces: apr-util-dev
+Description: Apache Portable Runtime Utility Library
+Filename: dists/stable/main/binary-x86_64/apr-util_1.6.1-5_x86_64.deb
+Size: 114308
+MD5Sum: 1656425f82623f8cb25d596263a458c4
+SHA1: 1b2140b8af77a82cae39d79aeb17f9aa6e1ce359
+SHA256: 7144a92b3d1f3ee852acb2fbe24642beca78343cf5778da6b15a75a8155cd613
+SHA512: 9c7ca3b42e2b4723e63f4936faa8c19abc47c2a6dc6e7d02e36f19f5e34634f1e9680fade9af5f77940de0d955c241665b9e2a297cd1eff665d842a4b2b4931a
+
+Package: apr
+Architecture: x86_64
+Installed-Size: 1240
+Maintainer: @termux
+Version: 1.7.0-7
+Homepage: https://apr.apache.org/
+Breaks: apr-dev
+Depends: libuuid
+Replaces: apr-dev
+Description: Apache Portable Runtime Library
+Filename: dists/stable/main/binary-x86_64/apr_1.7.0-7_x86_64.deb
+Size: 238232
+MD5Sum: b548b445392a81648c32cb7004c3d8e9
+SHA1: bf67309b51cada05dd93cde7f45232ca4f8a7a4b
+SHA256: 1cfc48daa34ca29eb81c3ab8c0ad666625f492054d34db5efb613343162e12b4
+SHA512: 0aaa5893c1e4b347826799b49aaea9b08e332524d4fb0abb9b1de7d453482ff5e5d8a736ed3ca66e6c22fd658a2c628f1e47a468745d26f387e83d9b577c7d17
+
 Package: apt-ftparchive
 Architecture: x86_64
 Installed-Size: 340
@@ -48,6 +112,22 @@ MD5Sum: b0492703f8bc6ed87cac5fb50fd9ac87
 SHA1: fdeb58e50524def5325f05eef322324dcfc91544
 SHA256: 4cea791716fcfb546e6fed15171373028ccc7a7941eebeb65d730333e4fcc21c
 SHA512: 4abdeb88f649bb309cb50d7f68c9c264c66ef2aad1c175867020a106ab5d10e565cffe1752b4f5c2f667fd4748f2eb63d7e04a4628c104c228784629f2665d21
+
+Package: c-ares
+Architecture: x86_64
+Installed-Size: 496
+Maintainer: @termux
+Version: 1.18.1
+Homepage: https://c-ares.haxx.se
+Breaks: c-ares-dev
+Replaces: c-ares-dev
+Description: Library for asynchronous DNS requests (including name resolves)
+Filename: dists/stable/main/binary-x86_64/c-ares_1.18.1_x86_64.deb
+Size: 123828
+MD5Sum: 51d6b195659bc5e03cec4c7c77795e81
+SHA1: 12a33c37c73854e232f4c8426a41be907f0f7089
+SHA256: c29c084b8d2f2fff1102fec649516b5131cb362e2ca932dc2f75e01d7b569ccc
+SHA512: 1acbfc4b8601e04c4bb92a38eb97528792263dfb9ff3bee9b26e85e1d2b6a8c894c655663841763c65f599b2be7d976ae850dac43fb2f86fb704348a6cb3c31f
 
 Package: clang
 Architecture: x86_64
@@ -354,6 +434,51 @@ SHA1: 53d416e1bd4ae063cf3f522c9e5d23f4e208410d
 SHA256: 58bd973e94015bf1537d93d1db437dd06aa2ab6eaa71e96e286504e587646cf4
 SHA512: 475097c272c7a94da3534db9d0d67c177bff362b721e98755e4f9680e4a5b112d7b915dcdcd45332fc4d2e52d5c4c4a5c2ba3799b490ff0e8116efb782b708b5
 
+Package: git-gitk
+Architecture: x86_64
+Installed-Size: 896
+Maintainer: @termux
+Version: 2.36.1
+Homepage: https://git-scm.com/
+Depends: tk, git (= 2.36.1)
+Description: Git repository browser
+Filename: dists/stable/main/binary-x86_64/git-gitk_2.36.1_x86_64.deb
+Size: 136452
+MD5Sum: 9f73a571b592dce42a255d1b0428d19f
+SHA1: cf859f0ea56d9839f63087139c780088b6ef59b4
+SHA256: 804c493a7c9a357d3e3d99f78d18ba9741317a5e3f64434c707a0ad69722b6ff
+SHA512: a3451383a2ed55e49f467a90f79aa12beeaddf001459e2b74926f4d15cf2657251ba016da435cefd0c922b51dda1fd4cc0917e107c52d4ea0faf06785858ca82
+
+Package: git-gui
+Architecture: x86_64
+Installed-Size: 1560
+Maintainer: @termux
+Version: 2.36.1
+Homepage: https://git-scm.com/
+Depends: tk, git (= 2.36.1)
+Description: A graphical interface to Git
+Filename: dists/stable/main/binary-x86_64/git-gui_2.36.1_x86_64.deb
+Size: 216528
+MD5Sum: fe029b4d215b855a3b023a0765f11e4b
+SHA1: 7c8c630f9bcd280b2ed114addb490df28cda50f8
+SHA256: 9450b2c468a4258ed0d69b6e3c3a0845375cd46c472efb84f5844bfb860c8100
+SHA512: 4a2563d345e09f573a5d76facfa910a4605f0e8db86c19781bae9df5d7de27c10175d283132ca8fb648b93cf1646983ad696ce7e6efd2ba555236db463dbaafa
+
+Package: git
+Architecture: x86_64
+Installed-Size: 15884
+Maintainer: @termux
+Version: 2.36.1
+Homepage: https://git-scm.com/
+Depends: libcurl, libiconv, less, openssl, pcre2, zlib
+Description: Fast, scalable, distributed revision control system
+Filename: dists/stable/main/binary-x86_64/git_2.36.1_x86_64.deb
+Size: 3433532
+MD5Sum: 7483898100a0cbedac6a55f4e675fe75
+SHA1: 7d025e07fe3a5ba3a32c308b0acc35d93b729965
+SHA256: 9265710d95544a7e8bef8295b96c710d8f8c2b4d4b4bc0c2f54e2fb990ea8632
+SHA512: 74d4052eb074319b72f3580848383485338a45089e16d40a41e0047ad62f72f687cd4780ba6a7b3a923345a66918e5d00b3a331053d38108b6fa351c934eabfe
+
 Package: gnupg
 Architecture: x86_64
 Installed-Size: 5452
@@ -447,6 +572,21 @@ MD5Sum: b26b7f48bd70c86b71c7433a9a982d07
 SHA1: 2859be610c2b872bb6c807942098b4bee3915cc9
 SHA256: 3be93e89a9f28ca745c60f6c7115d8f55cf2f08b1684a8448c6c013ae6330473
 SHA512: 5c5d6ad497e7ed324f2a916d0dbee1f0bc846219b72ea78717f10cf0945e01b2ba2cc878c5819d5c81a31babb74d56dd529ab3cf3a76c9265828ee4e4221d40e
+
+Package: icu-devtools
+Architecture: x86_64
+Installed-Size: 1004
+Maintainer: @termux
+Version: 71.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 71.1)
+Description: Development utilities for International Components for Unicode
+Filename: dists/stable/main/binary-x86_64/icu-devtools_71.1_x86_64.deb
+Size: 221784
+MD5Sum: b8619533884479086c4424446d67a77a
+SHA1: 3834d15322808c6c21a6091b33cfadcf6159c530
+SHA256: abcbe116cb5496329e6f3a4d2f3f033883d1d2fd84e662b2ec1229e0c342cfc4
+SHA512: 3db30040a043a3f75cf5915718b3dc57640089bc2101f51126b7e128f4b5eb9601fa569dbf9825c43a66ae104ed789c3ea96336b47df323daaf482a8356afc18
 
 Package: less
 Architecture: x86_64
@@ -920,6 +1060,23 @@ SHA1: 1e520ff1b45b6033202fd384b21e1b90b0aa271f
 SHA256: 8ed2f3aeebd2e3be9a325ad7aa1d24dba2c81441de263477a8bb8378ee9d6961
 SHA512: 0df391472712363f4b46556eeef0dd99fc3d725c8d0f7fee95af02de19b14bdfa8d6099ab7416d54978cca87fd9557d2787ea9df7da411d7c50effa830294bb3
 
+Package: libgit2
+Architecture: x86_64
+Installed-Size: 2268
+Maintainer: @termux
+Version: 1.4.3
+Homepage: https://libgit2.github.com/
+Breaks: libgit2-dev
+Depends: libssh2, openssl, pcre, zlib
+Replaces: libgit2-dev
+Description: C library implementing Git core methods
+Filename: dists/stable/main/binary-x86_64/libgit2_1.4.3_x86_64.deb
+Size: 614988
+MD5Sum: 41fde7c8706851b35154a392b159b4b0
+SHA1: 0625c658d3b11ce73355abb1a2f41f4a1cf3570d
+SHA256: 6a4a1d912c3c558cd0e54e3a89b030705cc3731fae3fbc91ee033c732c1d9582
+SHA512: 94f859dcc597fe1594c2e861bf5f3d0368ca1c28cbf14d38d09f1b28ec4e261660d69c12961e23bc9c2270cbfb10c6aa5c421522a17aca28d62a0fa687329006
+
 Package: libgmp-static
 Architecture: x86_64
 Installed-Size: 1212
@@ -1045,6 +1202,38 @@ MD5Sum: e025ddce9a72cbb35d1dd91a875f6d90
 SHA1: 7e1a34be6fe80dad5a4f9d1028737067474b2218
 SHA256: 458cd48bf4a5aaec11acec584e2ab7af3cfc4cd698d4b924fe261c829de4fc6e
 SHA512: b9bad3468bdaa18aaeff64b36c0bfb5311610feee2d3d428798b9a4bbc1c336aac2428930833c2b07e8aae9cb9a042228b69db1afb0722f9a7d579b164335e44
+
+Package: libicu-static
+Architecture: x86_64
+Installed-Size: 41512
+Maintainer: @termux
+Version: 71.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 71.1)
+Description: Static libraries for libicu
+Filename: dists/stable/main/binary-x86_64/libicu-static_71.1_x86_64.deb
+Size: 9282560
+MD5Sum: 54e3a456e9101d1da89f338b130afe0d
+SHA1: 6a90222377d951946976ebcc049e536a889f7232
+SHA256: 17c6ee2c5d67ea35dfa1ecaa41f029a2fbb2f0298b91c458c4cf878eabf53868
+SHA512: d74725d8e71d2592d22b1c0fa89535c34efae2d855afc14eaf5b4c89f11a39a7b813430010e60d59b696d95877a009e75bae1b8b373730138976e384f6c874b2
+
+Package: libicu
+Architecture: x86_64
+Installed-Size: 40084
+Maintainer: @termux
+Version: 71.1
+Homepage: http://site.icu-project.org/home
+Breaks: libicu-dev
+Depends: libc++
+Replaces: libicu-dev
+Description: International Components for Unicode library
+Filename: dists/stable/main/binary-x86_64/libicu_71.1_x86_64.deb
+Size: 9581076
+MD5Sum: 8a960ecc78d4bd085d4bfdf1964a1a08
+SHA1: 82c970f8d5906d855943b77f09c383b73912144d
+SHA256: 57603bf43bf45b4cf69c444925bb6c348a0b976c0dd8e781937d8a4696405604
+SHA512: 6e5f6726a8569158b9a36893496b55979e0db60f5ad583b8d91c032c1637b83f88e89c71897f486c4c0c2391aa94a11556d25b1321d874c0fa4d7e533260a10e
 
 Package: libidn2-static
 Architecture: x86_64
@@ -2089,6 +2278,78 @@ SHA1: 4d6911111a5b96144d735e1b92b32804b3026b94
 SHA256: a4fc87087b7166e595b50cc5a8d8e1d9ebd8fbb123a244bebbbf216c2e6d2f6a
 SHA512: 077042c5392acc835ca59c7373dca70555712c867a043d9b3456fe4798b640f35c0ec091c44b0c51a892d6dc2c80c4dc107d8d6dafc671c450b14455cddfa50f
 
+Package: nodejs-lts
+Architecture: x86_64
+Installed-Size: 57620
+Maintainer: Yaksh Bariya <yakshbari4@gmail.com>
+Version: 16.15.0
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl-1.1, c-ares, libicu, zlib
+Conflicts: nodejs, nodejs-current
+Replaces: nodejs-current, nodejs-dev
+Provides: nodejs
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: dists/stable/main/binary-x86_64/nodejs-lts_16.15.0_x86_64.deb
+Size: 10205104
+MD5Sum: e1b3fb5782686d42109542c7d5e07f8e
+SHA1: e7553433dc8394680dc6f13c2e78f8ebc29224c0
+SHA256: 7a52f638752f2bd89a9e77bbe55d2c55d3aee06369937f347d0acf65550089f3
+SHA512: d7077485fa68bfbac974b06b7ed740c0aeafbd42f17bf60c23994fbab20783edea4e2b53c6e4a3c0024cf237e33eb012dfbb62ecc56fe97dec4489d07e336831
+
+Package: nodejs
+Architecture: x86_64
+Installed-Size: 59792
+Maintainer: Yaksh Bariya <yakshbari4@gmail.com>
+Version: 18.2.0-1
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, zlib
+Conflicts: nodejs-lts, nodejs-current
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: dists/stable/main/binary-x86_64/nodejs_18.2.0-1_x86_64.deb
+Size: 10564516
+MD5Sum: c00c9ea010951242623cb9ed6c3ce0d2
+SHA1: 364d3a48cdb4def5bb429dc9d457dd459f64b19b
+SHA256: 0fb9c1c0364a7d7d7b5318f3456a475197ff66402053625547749e2d6a001a7a
+SHA512: fc00a2ffdf11a1e881301758ebf37628ac4af3444835a4801b25d94ce49bcdb3921e83c62b4ae7f0a89533c2663ee92e60b9b4c6769c6929759b46b3b99af155
+
+Package: openssl-1.1-static
+Architecture: x86_64
+Installed-Size: 5852
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Depends: openssl-1.1 (= 1.1.1o)
+Description: Static libraries for openssl-1.1
+Filename: dists/stable/main/binary-x86_64/openssl-1.1-static_1.1.1o_x86_64.deb
+Size: 1310576
+MD5Sum: da33d8d29117d12d5d6d744b48fb5c73
+SHA1: 2f9d6c3530fd3a9eca4bfad0da759b74629b2f27
+SHA256: cc95099b4ccd722d93a41255e629e1bf1e21cfec4a1a390ef05dcd658b5f2df5
+SHA512: 9eaf83f0b6bffe9b0cb9c6858f77e4f9653a3444d6f92416a08190dd733a73117cc363dbdec6e82ee21050323712a9f361eda06a58828a5f3005de4c78905a22
+
+Package: openssl-1.1
+Architecture: x86_64
+Installed-Size: 4860
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Breaks: openssl (<< 1.1.1m)
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Replaces: openssl (<< 1.1.1m)
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Filename: dists/stable/main/binary-x86_64/openssl-1.1_1.1.1o_x86_64.deb
+Size: 1359984
+MD5Sum: ee9aec14628ecac9baec2648fe4c78a9
+SHA1: 167b96ada8be8f85996f41f910f7841569dc92b1
+SHA256: f05368bc300100edd8b1f4dc91645a7f1f37a4c143329fecfb6be5cef897403e
+SHA512: 087a629a61c2ce344de6a93d0752f13d2f59ed711ce513853427b7c93a0279f41b5eee1e9366f7dd026bf76ea5bc442523cedfe0e9cfbfe74f495e84e6a68a28
+
 Package: openssl-static
 Architecture: x86_64
 Installed-Size: 9232
@@ -2118,6 +2379,21 @@ MD5Sum: 859c25c7539aef7b6062a3374dbcf077
 SHA1: 7ec3d7fc4bc32641ca9aceb3724288c8dd2e93b2
 SHA256: d7efb8490a464715d2fe16a8f34333d2ea88920938f84309910df2b64d744550
 SHA512: 7938281bf8b126ec69856aa005842f0c2cba14b7b54518260fea2d16263dd6b88355544b710467afd5e79858c219f267eaf9df776b03172abd78b288337fc118
+
+Package: openssl1.1-tool
+Architecture: x86_64
+Installed-Size: 700
+Maintainer: @termux
+Version: 1.1.1o
+Homepage: https://www.openssl.org/
+Depends: openssl-1.1 (= 1.1.1o)
+Description: The openssl command line cryptographic tool
+Filename: dists/stable/main/binary-x86_64/openssl1.1-tool_1.1.1o_x86_64.deb
+Size: 218020
+MD5Sum: a3698b2df5fa4dc0c36dd3902a9e87f0
+SHA1: 1b2082b2872c52f8424c08404854ca21dd3139c5
+SHA256: 08a22ae4199554427e9b4a3e33d4a41e4a1245ede34615e48546154f569fb217
+SHA512: 7e634a2c9bc8cbe8c44b25e47776df2f957b03504a9241d43333ff259e850775382983cf176d7c18f4dc4542d4b3c4dcf98ce78f9c50a9702a5146135da04b45
 
 Package: openssl
 Architecture: x86_64
@@ -2451,6 +2727,38 @@ SHA1: d8a14f47382bf02391b1894339ec5ec5b339f698
 SHA256: bc48714ef3b06310bd25037303b4d396a89a3ab789eeb77102577b3b311d8d44
 SHA512: 7b75f0f52654643649c85c86bc6135087f24d68e3b7b3de04e627346ff08efa422041a09263846a94200ba03113f05be5e2c5489d7786485a4776649c4cb4a51
 
+Package: serf-static
+Architecture: x86_64
+Installed-Size: 224
+Maintainer: @termux
+Version: 1.3.9-9
+Homepage: https://serf.apache.org/
+Depends: serf (= 1.3.9-9)
+Description: Static libraries for serf
+Filename: dists/stable/main/binary-x86_64/serf-static_1.3.9-9_x86_64.deb
+Size: 42432
+MD5Sum: 6a54f38acea94795a396da355d8b09c3
+SHA1: 3db0914120c1a755082b74df47d7cd04aafc0857
+SHA256: 21325fa59cf610c88a1b3efb72eb9418e77c24af910905d1c57ba1b0cd276e26
+SHA512: 125cff012523859718550969a80e92843e63bbd2e8b8752f5c79dd3d15e4a2b4fab8d804b7024189984794f2cfa182d7c32dcba67997dfaf2ed97609c95d8734
+
+Package: serf
+Architecture: x86_64
+Installed-Size: 244
+Maintainer: @termux
+Version: 1.3.9-9
+Homepage: https://serf.apache.org/
+Breaks: serf-dev
+Depends: apr, apr-util, openssl, libuuid, libexpat, zlib
+Replaces: serf-dev
+Description: High performance C-based HTTP client library
+Filename: dists/stable/main/binary-x86_64/serf_1.3.9-9_x86_64.deb
+Size: 53172
+MD5Sum: 33655648c6facfa82d6d3c1574d97338
+SHA1: c5aa8b40f5682747465b18dfb5c9534e7f563eca
+SHA256: accb87e2e90499a096d482d6d44a619edf77ffe279200c9d6e093b04bf3b99e6
+SHA512: 662d231566c7bd351ae252812e606304142e103ee9ea2a3ee304e7559c7968debb534774b5a0dd98107bd006f0c6ed582b098d53b6e2d41db85f294e0a89e407
+
 Package: sqlite
 Architecture: x86_64
 Installed-Size: 1324
@@ -2465,6 +2773,68 @@ MD5Sum: 4172cf8df3efa3fc50449bb01c8b3f3f
 SHA1: 7c266939cdcb1a55c73a8925426f067cb642ed2a
 SHA256: 7b2755ff9044c88113a5fb99f2dbc9e2357484791293e829e639f0961bef70ef
 SHA512: 7154c3f25c751ec60028ca055299ac51ccd473127ab8cf05f18290358c7ce8e27c6619cf0747dc5ccc4165ffaea61aef2d8f06d0a8ccac317204622c06d044c5
+
+Package: subversion-perl-static
+Architecture: x86_64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.14.2
+Homepage: https://subversion.apache.org
+Depends: subversion-perl, subversion (= 1.14.2)
+Description: Static libraries for subversion-perl
+Filename: dists/stable/main/binary-x86_64/subversion-perl-static_1.14.2_x86_64.deb
+Size: 15056
+MD5Sum: 978b894715d8e72690187fbb53f439cd
+SHA1: 13e943ba6db122cfc0799e42a273bf0e1b0bf15c
+SHA256: 6d2ccbb648e5760589109bcaf06c7de9cb7996bb1e4f5a212309cd260c02fd59
+SHA512: 19270e3b788f35225968daa168363deaf6ea7af3e395e5ea1b4c9434de1aac5a5ffd03072835ba90cfc86d49d64f4dabc1c678292f12d0e8bfd758ec0a24f2ec
+
+Package: subversion-perl
+Architecture: x86_64
+Installed-Size: 4844
+Maintainer: @termux
+Version: 1.14.2
+Homepage: https://subversion.apache.org
+Depends: perl, subversion (= 1.14.2)
+Description: Perl interface to Subversion
+Filename: dists/stable/main/binary-x86_64/subversion-perl_1.14.2_x86_64.deb
+Size: 909972
+MD5Sum: 2e6f9a3a67927d7792f4a6feb1e9a52a
+SHA1: ed69e996170401a65d2c20505829688e5b843f33
+SHA256: 6700bf6bb537907ab9d509a3e6a54352e5dbc117e1e298497d09e4f571db9f7a
+SHA512: 104e507e2cae7065bc73e15b71949f68540bc77e5b9463435685e56a4b06fe46b1367333dee1b8375df84cb46997d7b98285e5a8dc95a9fdf0a9ea1658ca65d1
+
+Package: subversion-static
+Architecture: x86_64
+Installed-Size: 5648
+Maintainer: @termux
+Version: 1.14.2
+Homepage: https://subversion.apache.org
+Depends: subversion (= 1.14.2)
+Description: Static libraries for subversion
+Filename: dists/stable/main/binary-x86_64/subversion-static_1.14.2_x86_64.deb
+Size: 1167736
+MD5Sum: 690ef5cca52b30a5611fc4713c8e1e8b
+SHA1: c84863f3a6fc7410c9d9ef7a15a1f8c7322170ca
+SHA256: 90606548c1fe0ef1a6ce2708dbd68f400055cfdfedd710c369dffc14fca90c76
+SHA512: 33b72764cf56afd1c2ce43095a72da21998fa0bdb80697db1708795391d04c3caddd075e7cd1bab15d727d8d8bf57419dfdc4fc40eef459de3fe8f52998598e7
+
+Package: subversion
+Architecture: x86_64
+Installed-Size: 6416
+Maintainer: @termux
+Version: 1.14.2
+Homepage: https://subversion.apache.org
+Breaks: subversion-dev
+Depends: apr, apr-util, serf, libexpat, libsqlite, liblz4, utf8proc, zlib
+Replaces: subversion-dev
+Description: Centralized version control system characterized by its simplicity
+Filename: dists/stable/main/binary-x86_64/subversion_1.14.2_x86_64.deb
+Size: 1531196
+MD5Sum: f6280b9986f093c473b3f0ec6528ff62
+SHA1: 4322adf82584eb9e058b327b5b95e6a2d904d5f9
+SHA256: 91b2c47b4e49082024614cf77928d39b98c5d534956e0c54523d18d4da9e6cd6
+SHA512: 9a8c571ef4e68a9706fc35bd0e5143a70fcaa1b0c9af6efc68a858040d4b9f5341a4185abef4dde3a927de388c87c127eb7cc8026cfa60cc3831e3b358a50a69
 
 Package: tar
 Architecture: x86_64
@@ -2587,6 +2957,37 @@ MD5Sum: cf585cea811f8e79204ad6613dd8c057
 SHA1: 596733c4c4201f01553fddfdd624baa0525e1a8c
 SHA256: 0fb7e6fbfe9f3bf47cd840983a2eed3dc9949bc0ef728f4163660d2d10238744
 SHA512: 3ae869dd043e6e0c7be04a135ef1b881d9244495bce168dc01081882a315acaf82265998b46ce2e631c8abd40c6d8827906bd590c773e54fa4fbea8da85acd59
+
+Package: utf8proc-static
+Architecture: x86_64
+Installed-Size: 364
+Maintainer: @termux
+Version: 2.7.0
+Homepage: https://github.com/JuliaLang/utf8proc
+Depends: utf8proc (= 2.7.0)
+Description: Static libraries for utf8proc
+Filename: dists/stable/main/binary-x86_64/utf8proc-static_2.7.0_x86_64.deb
+Size: 49204
+MD5Sum: 44e093101e5f0f1117bb36e0a005a016
+SHA1: d2e19cad770dd574dcf1e0bc72b64c773dfa5524
+SHA256: e2583533842fc1034c2b1a217dc60bbd4d89a964b59d2345a553ca3798b8c832
+SHA512: 64bc7ce607d2c285472df3e929776ba76fd97b4b78ff12fd49cf1dd2be6f313d68900470d8b5fb4b60c5ffe268ae85186a341d8cd689e217f2c0019964c1fdc2
+
+Package: utf8proc
+Architecture: x86_64
+Installed-Size: 428
+Maintainer: @termux
+Version: 2.7.0
+Homepage: https://github.com/JuliaLang/utf8proc
+Breaks: utf8proc-dev
+Replaces: utf8proc-dev
+Description: Library for processing UTF-8 Unicode data
+Filename: dists/stable/main/binary-x86_64/utf8proc_2.7.0_x86_64.deb
+Size: 58240
+MD5Sum: 451f2f2f52c0091a37cc23e919dd10f9
+SHA1: 72068c107eb98debbadb162eb4ff213162c6dba9
+SHA256: e4ef23dd55287bdbafd6aebdb242ec6fbffbc4a47dc163f2e658b1ae47f0044c
+SHA512: ba36483493c7a6d21f7ca209738bff377fcf62efacacd73dfb64d4033dd060444cf0148f5013e88e1194c8146a00b8bf48acfbe0c478588543af14b0de1c2572
 
 Package: util-linux-static
 Architecture: x86_64
