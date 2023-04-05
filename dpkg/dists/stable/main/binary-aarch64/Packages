@@ -71,11 +71,11 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.5.0)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-aarch64/apt-ftparchive_2.5.0_aarch64.deb
-Size: 85232
-MD5Sum: 881a4b34f6225dfdd243fe435bb120f7
-SHA1: 88aa1bf745065d5d5642bec0e17fff1366dc40d2
-SHA256: 0dfff1a1a259515152ce99210323d72e640b8efe6f9a159786023a44313f53c7
-SHA512: 83b4b6b65a4ba134cfedc0bb14f01acf40799d77bc4f5ca36cb26465f123d2d609781f0670b26a4a78a9e9ff586b0d58306429c5ff319aeed5f3c717b71a8893
+Size: 84652
+MD5Sum: 8cde457ac8853da45ded270367e8baf9
+SHA1: b34728cb45e5ef0eb4725fb3e74f777759b2a9f4
+SHA256: c5a8d762a614049803d33616607587d4e0fa1905c90cf0bf42eaf64e22a336e5
+SHA512: 20fb01a7b51ec5e033e89c177faa976d5dcd6c4091878950954f0d1207118c19d4565994fdcc462cd2757499ac141a7ed92e0c0688cb3989a0aa9e258de88001
 
 Package: apt
 Architecture: aarch64
@@ -91,11 +91,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg, x11-repo
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-aarch64/apt_2.5.0_aarch64.deb
-Size: 887440
-MD5Sum: 70556044d5d73b7b7b6fa11974d2b46b
-SHA1: 15c9e251c118b804b9bd6024f9f9aa709c59eca5
-SHA256: 5f37f707c96cf348e51f28ecd866fc289b7c039f1669398ea8320ab7edc776d7
-SHA512: 05b632297eec1612ee66e9cb54beaa0f76e8d58ad8ffaef36fe07cddfa56e0e221a9fdaddc6cec442971c093d96586afb671f0fb916f522ead4c123345a19438
+Size: 885744
+MD5Sum: 29402a3dc3d6ab5b9b055715a6627374
+SHA1: b352a490bd0358a06f4261552b93d086077e19dd
+SHA256: be080a7e060d4a1866ecdf836c5a41d0968fea45e960b2512c5af0cd53fc7c71
+SHA512: 52c340741ed100a28873615e05f5f0a064d1f6ff86d32b8c941de7fbb17f89fc93a0ee0c4429c35aedde02de87915dd7b8799c6263785eeedd75f318c832c933
 
 Package: bzip2
 Architecture: aarch64
@@ -268,11 +268,11 @@ Essential: yes
 Replaces: dpkg-dev
 Description: Debian package management system
 Filename: dists/stable/main/binary-aarch64/dpkg_1.21.7_aarch64.deb
-Size: 291420
-MD5Sum: 5e2bb5dc314425178062fba0c626394b
-SHA1: d62413e7d6dcf6b165357bd5dd32cace0d44fe4f
-SHA256: 2496b08bff920fac2da6a3f275af73b5893246cef3d3b84e700da939cca30868
-SHA512: f4f7cac306ec11712f03fd3a13811d02edd7acdce1b2b68dbac24613da81babf678af3fe78ec61affd050206a3ccf8bdaec1fc6004b643e8c1a8f64c307da9f1
+Size: 291000
+MD5Sum: db7bbf6b3f6320db49ca48ef9d76df93
+SHA1: e7368e10305754e9dfd81c26bd2e77321a6cb533
+SHA256: 07c3981dab4b56077844d9d969ec8286d653c2783b7590cb34cf570b125f7b37
+SHA512: 6940d141ea233a1f41496998c0adb4747d89884193741beb547f39e8b36824226a3bbbed4af46a91534bfc0ff41ee47be7fcd4ce16ea321221f480b12d126bb0
 
 Package: findutils
 Architecture: aarch64

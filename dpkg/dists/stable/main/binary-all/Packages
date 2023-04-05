@@ -8,10 +8,10 @@ Depends: tor, apt (= 2.5.0)
 Description: APT transport for anonymous package downloads via Tor
 Filename: dists/stable/main/binary-all/apt-transport-tor_2.5.0_all.deb
 Size: 884
-MD5Sum: 13e33ffa59a45cc452f5f4e014e4fa9b
-SHA1: f8b686b9e83c813ece638127bbf1148b64676183
-SHA256: eaeaef7580fc524cf1bf7965a78afadc614587d8782caae2fb4967cd9665c6b7
-SHA512: b9109392c67d25da42c7491fa820052b253be2a6133aa8e0018258a243d679e76bc5c2673e53d581f605cd28eca00435896e2ddb6ca641ba535ccb0372e11b4d
+MD5Sum: 9eb8091844c24f73ce17f69faf583c86
+SHA1: 8fd118745d4ed48bd5d37a833d991dc259bdac3d
+SHA256: 091aa6f0bff4a6497f5f85cfecc2050c0fdd12e8808b6950171f8d1f3cc561a3
+SHA512: d8738533abb3dc01eda04755d4b38cb7f206f886a0d78dbc8f0995525a6a83ca0b3c1aed7df62067dcf89bb1c542fd4ff3005f2ae3579e9f4bfeacbe604106d9
 
 Package: ca-certificates-java
 Architecture: all
@@ -81,11 +81,11 @@ Homepage: https://packages.debian.org/dpkg
 Depends: perl, clang, make, dpkg (= 1.21.7)
 Description: Perl modules for dpkg
 Filename: dists/stable/main/binary-all/dpkg-perl_1.21.7_all.deb
-Size: 116692
-MD5Sum: 865397d698f7ed93747078e82ebdf8e5
-SHA1: 0aee72e6ae9a59e49788e218206a78f19cfb1f6b
-SHA256: 266fa780bd815bb9ebde698798dc086f2897cfbd38af08c664b1b5092ec9bf62
-SHA512: f7ac6e14a3f41c73be3845e963d1e260afb957f706b0881f7560ef0da6f7ec76be2ec1b0533d1719e72c708d97326ea9403bec4655c7e644f42d2840455b67cb
+Size: 116668
+MD5Sum: 8eacfccbc65d3128fe41fa91d21fb9b9
+SHA1: 4b4042dd0995143ac65310ff034b87fdb89e27e8
+SHA256: 10a1bc2b1489eccede81b1e5f40e3f857edfdb50b9a0ca6e04d06f02168a867f
+SHA512: fc767e05cc5527e88e4bde083d0e06eb221241dd2087fedfee62fe59a5aa4661267f0f5123b1cca85e20d12095e418b4c2437a27857729c846b71da8f3d24b74
 
 Package: dpkg-scanpackages
 Architecture: all
@@ -97,10 +97,10 @@ Depends: dpkg-perl, dpkg (= 1.21.7)
 Description: Creates Packages index files
 Filename: dists/stable/main/binary-all/dpkg-scanpackages_1.21.7_all.deb
 Size: 6912
-MD5Sum: 73b0524bd0267dc491982403b46ea45a
-SHA1: 0c9f5cd217d8525fbeaea208472dc3145abc38fe
-SHA256: 2dcbd99b722937ecb9280934902cf03f9f992564531b13374cafab5058f571fa
-SHA512: 9abcce7cb449b784f031e982170357f9a0e730a8026dc9902b47b568c5ea16a23e329ca120c229d149443a434a2fac7762afc2b5d8649b80796f9a19180811b5
+MD5Sum: 25fa0d1c33b07d716701c8ab8fdd7585
+SHA1: 0e81853910bb22b4321286ac66ffc3ef656e5d08
+SHA256: b3b5131e8f5cea5c664d865228c1bae19845fbee29628c2d20b5c26a2ff314f9
+SHA512: 6569c8cbf5ed85c625e887653c01757140136ccd04729c84f47246c1abe82c2064c36e26a9f2ed824c28a6e5b02ac44d2d1109d4b4fca5f47ede5e7e5c042983
 
 Package: git-svn
 Architecture: all
@@ -164,7 +164,7 @@ SHA512: d16bd5ac8b61a4457ac99503fcf8e1ea1387278bb9e71102617dbf68b5bb1da535ad1f56
 
 Package: termux-tools
 Architecture: all
-Installed-Size: 236
+Installed-Size: 232
 Maintainer: @termux
 Version: 0.181
 Homepage: https://termux.org/
@@ -176,11 +176,11 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Description: Basic system tools for Termux
 Filename: dists/stable/main/binary-all/termux-tools_0.181_all.deb
-Size: 24308
-MD5Sum: 794e6a3e458607ada56481c3b91ee5ce
-SHA1: 2170d049f041b2268e7edf5efefeaf92d16988ae
-SHA256: 8302fdb6a2384204f0f03cbd51fa4bad2e8d888e0d94533d1ffebd964f88e55c
-SHA512: b8a58fd29679a107423e856b00f7a19b6d39e7879955a329bb1045337eff1fe5dce4ef3e4a7e0312db7595c7713814b6cb87bfbed27083673d533b54a6360968
+Size: 24300
+MD5Sum: be66a113155334befe78962b2508d8ff
+SHA1: 5ecb2c49e7ca4afb2a4a65fa85534a7d5676ea78
+SHA256: 4170737c682594daf4721b9a79c37caafb2e413e7724a2c798d987871702a19c
+SHA512: cdea7f3dfb268a687d92487e64879a93c9a694b77b2c4d080ed9c16feedde969fe28cd62fa185be49f29d43179c6b329a3247c0882d1225934b28bd38e3638fe
 
 Package: ttf-dejavu
 Architecture: all

@@ -71,11 +71,11 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.5.0)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-i686/apt-ftparchive_2.5.0_i686.deb
-Size: 104340
-MD5Sum: 4f102909c844a4c39a4dba083b96dee4
-SHA1: f8ce2adcbbe6cb17cfe66123bce783ee49e17a3f
-SHA256: c98bb4cd581193b9ac8e0c4079945cea476682e102e7401bd559eacc5da4a1aa
-SHA512: 7ffd1e1af17e0f483baf8fe30b975c5e00ff5017b596cd32c0520b6dc5de368b42d3f858121b35b4a6372097a00b6df1cc71e2daec9fe939859ccb83bea792fa
+Size: 104500
+MD5Sum: 93cf8004c329449c0869486461a5ae4e
+SHA1: b156fc272bba7b3767eb74707350b67a47307131
+SHA256: ff3c65d60cbf6adf20237e05bbfc8b6df2d15819229b8bcf7db7d2b8e19337b2
+SHA512: 649f081312139df97243ecbc75a300dc092ca6b17b05c269d2bb034a5c46130d8e367e8c820352043623bfa0f016c259b9e1cd7a0058cb80078551bf098fd583
 
 Package: apt
 Architecture: i686
@@ -91,11 +91,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg, x11-repo
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-i686/apt_2.5.0_i686.deb
-Size: 1048548
-MD5Sum: 911594ac9564e7b4ce4e5a6424ab9c27
-SHA1: 00f7032c251a01764b9d10aa5b81489a2f8781d1
-SHA256: e3c193b28ec5c987e31cd8f1e96322444b0c728ff2ce95dec7a1aa4c7ad6c4d5
-SHA512: fb471cf4e7250fa3af057c5ed356c0a043d18cddb478c92213d75f436b5679ee148509e5189ac1ebc71bafc60c4ded8f1466ee5ce793cb92e17e4e5130c49c55
+Size: 1047596
+MD5Sum: 839d5cdf9a79504d16615075f3779fa3
+SHA1: 0ab31f0aaf5adcad6d8f4f25746d5fcc4354383d
+SHA256: d354ba0fc00fb7f7c29514cb5d4f34aa21fb52973106905144583fa52bfc1be9
+SHA512: 433c45fe2552513bf9994598a4b2f4b2931de953a53abc2781d6b97b441cba3afdea48cb31f52f3004939c8932b58d7c457a4b04e9f92386f036c26a43a15c55
 
 Package: bzip2
 Architecture: i686
@@ -268,11 +268,11 @@ Essential: yes
 Replaces: dpkg-dev
 Description: Debian package management system
 Filename: dists/stable/main/binary-i686/dpkg_1.21.7_i686.deb
-Size: 278508
-MD5Sum: 90e8cc5cfce2a757da0be4ededab84a8
-SHA1: ec63f7bde41769dfaa94d39718dcb53e68a603d4
-SHA256: 2bada192af42617549ef8fede959f5d2044bb3ce673238db563f35cd9ea361a0
-SHA512: 180768bc783f5e176fa6e61a77ab06dd0b7a09d6429229159e34fe698641c5f472734f5a0340c55577f3c6dc1056d318e38326542beb8402f643d86db703139f
+Size: 278320
+MD5Sum: b32e41ef9430cdd7a3241ad157443b3e
+SHA1: e6a7480b28048f61b426f9d00a903e0b4dbbaacb
+SHA256: 189e3b22c3598495a95a9d0f6838e1666eb757538b7a10c869b2d9bac7731ff9
+SHA512: 1a37a648dc56947fa4489caa9b8db2b71b7ece07d2d2cfb47f3d8344ca20996e100b942f3f006462fd60df68fe2034299ee4487634e2e5e0cfa4325cb7949d40
 
 Package: findutils
 Architecture: i686

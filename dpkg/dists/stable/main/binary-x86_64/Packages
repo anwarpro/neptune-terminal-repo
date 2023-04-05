@@ -71,11 +71,11 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.5.0)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-x86_64/apt-ftparchive_2.5.0_x86_64.deb
-Size: 100456
-MD5Sum: 448b77a6ffffc101c3ee7d8d3441eacb
-SHA1: 7703e11a8157de7ff226ed4c3cbe3de9dfe9ad9b
-SHA256: e10356e3a1fdc276708801d7b8559b8f99d3ecce504eb163f34ae9719c2664d6
-SHA512: 382e9019fc9519baf8d4b26b8b7e43c32e06f763a3f1235c2f44fb08b97205e437d38d3f254cc442672843167c512de1951fb0dd5b084ad9d2f22c8249881af6
+Size: 100288
+MD5Sum: 5537bc9f02994eb7ec12b0f6cdfabd95
+SHA1: 7534de623d482605e7ce9ff39817928a94dbd11a
+SHA256: 019d5ab26dc98b548fc7a1e3ab3eb0f1663d1eb701ee4ab017a0935dd2b11503
+SHA512: b9454044d4b1987535affb5a094db33774a7ae35e67de1035550f2a47c3723350ba53540c6d418f37ffc6eac09d1745c70371542d754cffc286a3549bf6dc1c4
 
 Package: apt
 Architecture: x86_64
@@ -91,11 +91,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg, x11-repo
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-x86_64/apt_2.5.0_x86_64.deb
-Size: 1041244
-MD5Sum: d411cd5676f12257d4443cc1f545a5cd
-SHA1: facb6dc9ed6e1c0a3aa5657f42168aa4bba4a0c1
-SHA256: 3b9b5a64dc4a43da599925d2e70ac478d103b8922a65631b43240677781d045f
-SHA512: ce0890d29f2af69696af599618aaf63cb67274ee0912ddf60a1ec56ae5d977f396e54121d338f6493469f5991db4cb3441579e96124149994d29703c2e1480ae
+Size: 1041540
+MD5Sum: 70c13b792e31358f2fbd0255620ccfb0
+SHA1: 055edda89979f0cc4d7c1fe0477a403b42b77c1f
+SHA256: 20384561eef4b9a23e87848340789698643a7253fe30c5a603834819310fcde2
+SHA512: f2254bb49e3dbbeb615be0f70e8520a3cb16b647ae33a4b2249e10f8d35bfaaaa9752bf8091964ed5f5dfa30dcaaa089ee977524df2418e84ae390e2e79e9c06
 
 Package: bzip2
 Architecture: x86_64
@@ -268,11 +268,11 @@ Essential: yes
 Replaces: dpkg-dev
 Description: Debian package management system
 Filename: dists/stable/main/binary-x86_64/dpkg_1.21.7_x86_64.deb
-Size: 309272
-MD5Sum: 2b2b5e781e1e3a88320e9cb8bd612f3a
-SHA1: b8fe87914a84a286e5aafd217a4d42f3883dcdb7
-SHA256: f10586cbc7b5fd79d7fe44d1e48a38455463d7536bcb94d396aaa653488d13da
-SHA512: 08b0709b4d1fc004e6079fd764d2b306e8634792d1260733ea27e3ad670303cc7339b0ac7c5c29a8776529bf460d957d29a9df6e2e70fe56d6d4c0fb156d781e
+Size: 309332
+MD5Sum: 2becf701863859cb566ab688c9bad157
+SHA1: e60b637fce691a4a98a1a67dffa063d723534f7e
+SHA256: cdf9902f63436bd9627226b0ec1285df3b301b6dd10634cc491e04f24e1a1a3a
+SHA512: d7c482b59b5a7d2589df437ea4dd12f2bbd0be3bc435e533500f6438b634b1ffb0c499e44b016b7b5e56985ef244cb71e27892cf6afbeed73eda4f16c5d17469
 
 Package: findutils
 Architecture: x86_64

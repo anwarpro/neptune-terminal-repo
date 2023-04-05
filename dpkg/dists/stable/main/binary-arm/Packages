@@ -71,11 +71,11 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.5.0)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-arm/apt-ftparchive_2.5.0_arm.deb
-Size: 78464
-MD5Sum: b41c693e091217db18b3af6abbf9ecdc
-SHA1: ff1e2241afbfc56090cfcec7ed77446d68af8e29
-SHA256: f79a6472d13f59ff6f9980dac010635754103af6b57a9217113581c81a55c841
-SHA512: 0198979eae81b7e88062c15fd57c8b5a65db2969d9aa3e3a18ead05e933649aff3e0ed4a1d1e5097ef29f712b4e4f5828ba5885e43cf1413420b1f36cb7aed1b
+Size: 78448
+MD5Sum: f68975d0d1d1ba96aa2f63ed761773ba
+SHA1: a417ccc8ae2acf620cad29dd0672457926c86f70
+SHA256: fb06824676782003f4ce6cb5e6e402d093ec0e4e99ffdec4a3eeb2ecb7206b20
+SHA512: 4fdc3b290755ad459ec410ee969a820115d292e0ee065d970c36e0ce33624fff3a8fff4fef3851bd1cb1d6bb2932c46dfc2307b0f4076b3e283fe232b7cf3cb2
 
 Package: apt
 Architecture: arm
@@ -91,11 +91,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg, x11-repo
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-arm/apt_2.5.0_arm.deb
-Size: 871200
-MD5Sum: 2c8f0cd8e957d762e68743718818f615
-SHA1: b7134f871d86d944c43329766331025020854adf
-SHA256: f0f4bac52f98e3c7bd85d1ccbd7632e5bbf37f010870efb9a23c964eebecff33
-SHA512: b4d9f835008c4b640ddce329e2eddf86a17adf6c81ad224c854a6ac2981a9a252719923e9990dbb2e7f90276fee88e327bbf4849d2fa68f35d4cc81aca575fdb
+Size: 871720
+MD5Sum: 1b27c6af2f1104270ad41479ed298e28
+SHA1: 865cf31c49a3b9539cddce18f6b1454e0a844a0d
+SHA256: 1af11203c14f4b4779cfc7a1f2c5825875e50398622fee164350dbb396bac96c
+SHA512: 3c4d44fe65ee9e74bda6d569e1c0b667f4b2f88a702ac835ac59204ca746079660a1647a7b165a0d8eb8a09d42b0bf804726b584a8e31105b9a241ca815bef51
 
 Package: bzip2
 Architecture: arm
@@ -268,11 +268,11 @@ Essential: yes
 Replaces: dpkg-dev
 Description: Debian package management system
 Filename: dists/stable/main/binary-arm/dpkg_1.21.7_arm.deb
-Size: 263036
-MD5Sum: 51bc9f8235c994e8729e088e516e753f
-SHA1: abde02ccf352213113022155148d6f48295f4195
-SHA256: 8286258d8f752e39e9164868273a2cb9d26096eb22c3a7579aea7a70537f1afd
-SHA512: 74ee2e234c4966372caa92173793b4668f8151bf2f56494faa7816f82928bda171dc23a9b52a55c593de0831ac70be1832ab82d237018a10aefc7177cf83094b
+Size: 263108
+MD5Sum: d7fb487460035642326e4179550b7d09
+SHA1: fe96537f28b46f58a9b8cac4c9ee6d60b8a6ad1c
+SHA256: 787723cc387d44c42f67f56741ced74680e8892f51e8a5acd5805ff6072a5d1c
+SHA512: ddcb88ace1aea98f3a39eb0fc84831eb3ff7fc82538b467d2df8fef1bb829fb0531f52bd146afe216fe975a593e0d570905e7947679d663cb13d858ea91dffa3
 
 Package: findutils
 Architecture: arm
