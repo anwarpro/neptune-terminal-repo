@@ -71,11 +71,11 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.5.0)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-arm/apt-ftparchive_2.5.0_arm.deb
-Size: 78480
-MD5Sum: ecd310ee2abdab7a01f0953676e840b5
-SHA1: 6a49608cef744bc41d6309c75e8b756fd5a585d8
-SHA256: f65a1cd1ca97bc184b4a3ff1aaddeee687d36b0a3e4ea9dc3151a406ab6409f2
-SHA512: b567415632330d36aea14fc75580512a5858f063e2c9636de78e4b6c3adeb59af6616d05ce60208213e6daab6d258df4f7681f40ccad55d7a0f1cf42deee79fd
+Size: 78464
+MD5Sum: b41c693e091217db18b3af6abbf9ecdc
+SHA1: ff1e2241afbfc56090cfcec7ed77446d68af8e29
+SHA256: f79a6472d13f59ff6f9980dac010635754103af6b57a9217113581c81a55c841
+SHA512: 0198979eae81b7e88062c15fd57c8b5a65db2969d9aa3e3a18ead05e933649aff3e0ed4a1d1e5097ef29f712b4e4f5828ba5885e43cf1413420b1f36cb7aed1b
 
 Package: apt
 Architecture: arm
@@ -91,11 +91,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg, x11-repo
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-arm/apt_2.5.0_arm.deb
-Size: 871256
-MD5Sum: df648cee45f8350c13834f707afff5f3
-SHA1: 025e970f88dc12ba9712f7a4eeb2667a4f50220e
-SHA256: 836c62b61b919396148294d9afb826031790f60f510abdb50f61e02518dc0888
-SHA512: d3787b72f9d4fad20b61134a8713adeaac279c1f7ea22d091c7a4c38c95d9c88f1c1130043dc40b67d1df6e314b84738f2321f47153387a62bc5a29e5785084c
+Size: 871200
+MD5Sum: 2c8f0cd8e957d762e68743718818f615
+SHA1: b7134f871d86d944c43329766331025020854adf
+SHA256: f0f4bac52f98e3c7bd85d1ccbd7632e5bbf37f010870efb9a23c964eebecff33
+SHA512: b4d9f835008c4b640ddce329e2eddf86a17adf6c81ad224c854a6ac2981a9a252719923e9990dbb2e7f90276fee88e327bbf4849d2fa68f35d4cc81aca575fdb
 
 Package: bzip2
 Architecture: arm
