@@ -165,6 +165,21 @@ SHA1: e2686014d081f989e4b3b692260b247eec34ba2e
 SHA256: 8be1cbb7cb06d7f45e4b9e4cced2d02715bd697ef08d3a99d5d7d1121ccea285
 SHA512: 8314d134bc22134bf7c9d33d0f0c25d8bc9bc99c0ca23ecaea416956bdf821a74240f6e82fe2546a1ffdbae06bdb200907c0c45d5ba555fe066da4fee08cf9da
 
+Package: code-server
+Architecture: x86_64
+Installed-Size: 322120
+Maintainer: @termux-user-repository
+Version: 4.11.0
+Homepage: https://github.com/coder/code-server
+Depends: libsecret, nodejs-16, ripgrep
+Description: Run VS Code on any machine anywhere and access it in the browser
+Filename: dists/stable/main/binary-x86_64/code-server_4.11.0_x86_64.deb
+Size: 40450120
+MD5Sum: 74163559b5960ba6b88656009d2426aa
+SHA1: 11898129a11b2ead9daaaebbf965c8f1a8b6d67b
+SHA256: 786055897978a5375c2090d7d472c83b43392b5ddab31dceade038925164179b
+SHA512: c3ae0fb2f94b9913753ec316b9184c3a97fc3c34b0a899304f500f0b4f27b3c3845d0559c0050d97a5a7e096073420f40d9ad3b82f4d4d283263c0880ebd96cc
+
 Package: command-not-found
 Architecture: x86_64
 Installed-Size: 400

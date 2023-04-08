@@ -165,6 +165,21 @@ SHA1: fe2fdc667147ef1a4d721a69e0a7b162b4bfa28f
 SHA256: 64886639edd8c164a4ba5aa7379c0fc0c57d13166c918e6ba46fbc0d3d8bc0f5
 SHA512: d4f856526a45a91fd628fcf4140b6881e43d1b61e40795609bdb9b8c988fcf29b4edc00cedccb1be3fa7cb2127bd7f685cd84c025a620dc7152ef2287b4fe6f8
 
+Package: code-server
+Architecture: aarch64
+Installed-Size: 322216
+Maintainer: @termux-user-repository
+Version: 4.11.0
+Homepage: https://github.com/coder/code-server
+Depends: libsecret, nodejs-16, ripgrep
+Description: Run VS Code on any machine anywhere and access it in the browser
+Filename: dists/stable/main/binary-aarch64/code-server_4.11.0_aarch64.deb
+Size: 40449340
+MD5Sum: 5e29782689c5b449656b720892c23355
+SHA1: d53291c11f670bb5426631bd10bc56143ed40d67
+SHA256: cb0718acd6f0ae329679d481a8a5f668520ba858fdd66d6683fd524168379f37
+SHA512: 3d68cd2e80c798619e2f6e0ce8c2d623ce35b3f63c8dc1c09dff57ef031ff715be1e7151e96b70dd9eea3e8848f749cd83319e3787032b50f2618569b8bbf734
+
 Package: command-not-found
 Architecture: aarch64
 Installed-Size: 372
@@ -555,6 +570,38 @@ SHA1: ad3667a0bf5935e5c6acad21631a35c7aaf63324
 SHA256: 935bb572270ac8bdd78e1b87a1a3414e6574c9e95fd04422dedd499f4cc9f926
 SHA512: 199649ea9e73bfa1080088ea76282cd7d5b96ae825c6f3ec96d74f4a74bcd843508dbe9b46cd26a3225748b7b2d70c7cf49f79d538af252d89cc02f6c053a0e5
 
+Package: glib-bin
+Architecture: aarch64
+Installed-Size: 444
+Maintainer: @termux
+Version: 2.72.1-1
+Homepage: https://developer.gnome.org/glib/
+Depends: python, glib (= 2.72.1-1)
+Description: Programs for the GLib library
+Filename: dists/stable/main/binary-aarch64/glib-bin_2.72.1-1_aarch64.deb
+Size: 89376
+MD5Sum: 1c4e9af4fa32bcc5738f7ef2c673c1be
+SHA1: 69df5c1a7f48d96a54d8cefca7b560fd32f2c71a
+SHA256: 8d66e219b65c2c66cb9607aa23685a4dd35fc2912ce55fb31b68181637635a74
+SHA512: 94c401bff749e2c268513a975eb5d785aab7540a54ca92a59b3ee608d1673ccbe21c12dc03b53449c329910dc735bb1b99781b60808362350a67d022a90e9c68
+
+Package: glib
+Architecture: aarch64
+Installed-Size: 6668
+Maintainer: @termux
+Version: 2.72.1-1
+Homepage: https://developer.gnome.org/glib/
+Breaks: glib-dev
+Depends: libffi, libiconv, pcre, libandroid-support, zlib
+Replaces: glib-dev
+Description: Library providing core building blocks for libraries and applications written in C
+Filename: dists/stable/main/binary-aarch64/glib_2.72.1-1_aarch64.deb
+Size: 1250732
+MD5Sum: 40dfd88829b8c34a8473bbe1a8731276
+SHA1: f07bbadf090da3a2fd38f0e2a81be710334edfac
+SHA256: 4fd7e5c30a282d68735af0ceae6536c29571f602164a206327754b454b20d3ba
+SHA512: f0a4640cbc4b7faf20b69c603b0c1f61639671d61e61fb44e594519080ddf107079b0fec7735175bd207ab59806d0bf651f4f9c4ff2f70d3c8030ebf89c3e5a5
+
 Package: gnupg
 Architecture: aarch64
 Installed-Size: 5236
@@ -587,6 +634,20 @@ MD5Sum: 34ca19041d312eb60faabf0a7187010d
 SHA1: efdadc83c034dad84b3f55dc0fd5127f63025a06
 SHA256: 5791371b1c11453305025188249f7398741538588c059bb8c5688d3ef14abadf
 SHA512: 3e8328f1b19dace13ccbf1242694379245e8d6f3502e7e591e610a5159814cde709622882f04370fb2d7105f95776d7a8134fd5e9f083237bb8a5b61a3e54955
+
+Package: gobject-introspection
+Architecture: aarch64
+Installed-Size: 1684
+Maintainer: @termux
+Version: 1.72.0
+Homepage: https://gi.readthedocs.io/
+Description: Uniform machine readable API
+Filename: dists/stable/main/binary-aarch64/gobject-introspection_1.72.0_aarch64.deb
+Size: 248756
+MD5Sum: 62ec540475693a72cae4b8c2a118f73f
+SHA1: b65ad719172a0a0e0e1bb53ddf94fde68be40d73
+SHA256: 17eb51cf4de7d803ce7045284066b97cfedcccdce7ff20368e591e7dd656b961
+SHA512: 71a1765f6abd24ba0196061cdc717249649e7743a28ad37cae44184fe599b4625d8ed4deddb03c5cef33e4a0451d369a5437e51ec0be2a3dc5578bcad82e9dd2
 
 Package: gpgv
 Architecture: aarch64
@@ -1674,6 +1735,21 @@ MD5Sum: 174c70ee8d5eff5cb1cf363721a0b239
 SHA1: c5972999b4dcf3cfe889557e418c93e2c5140b8e
 SHA256: 81e6b371b979e26cd1aeac789e2e8ff35e016259f3e38d2efa1b182854b6e8f9
 SHA512: bb511b0e2ca3d1c0137103030768be4ee8e1d76d486290d35068fa2d6e6eb63b693a2ef491a6139260f1b017b038f9f334b862bacf030c01a977544366867e7c
+
+Package: libsecret
+Architecture: aarch64
+Installed-Size: 596
+Maintainer: @suhan-paradkar
+Version: 0.20.4-1
+Homepage: https://gitlab.gnome.org/GNOME/libsecret
+Depends: gobject-introspection, libgcrypt
+Description: A GObject-based library for accessing the Secret Service API
+Filename: dists/stable/main/binary-aarch64/libsecret_0.20.4-1_aarch64.deb
+Size: 109452
+MD5Sum: 478006a677b5ce91ef7faae94b5156f4
+SHA1: 374267a84feb6631399697fd2c7c6b598b13a54d
+SHA256: 0a28dbe432824a8a9f04488dd7feff4ca77c8de4795f1d5b8811c0bab0953e5d
+SHA512: b2df30e179bc932a19db497998ba5c17b9ec2525a696de95ffed132b216b2819a1e9fc50c6c8d46e6b224fdc1b983de4ebb95d98d5365a21bc50e47d3e77ece5
 
 Package: libsqlite-static
 Architecture: aarch64
@@ -2873,6 +2949,21 @@ MD5Sum: cd70ec5ec5ae796447e495d2cc6dcb26
 SHA1: 57aa047737ef814e721ac400272acff38c258b0a
 SHA256: bb69b8b98c18baed0f0c0c76c6a405611c5cd928777a9e951383b1eea7bec5b1
 SHA512: a87a80662754e00a0990137e82541391799c8902ddac7a5ca994329f4b776c3cf6149e3306da582ba0cf5325b6d0f8a059f56762864b7a804b37a79d6c925579
+
+Package: ripgrep
+Architecture: aarch64
+Installed-Size: 3928
+Maintainer: @termux
+Version: 13.0.0-3
+Homepage: https://github.com/BurntSushi/ripgrep
+Depends: pcre2
+Description: Search tool like grep and The Silver Searcher
+Filename: dists/stable/main/binary-aarch64/ripgrep_13.0.0-3_aarch64.deb
+Size: 1042092
+MD5Sum: 5a69dd6d38106ee42bb2423c0a8371df
+SHA1: 670cf40b5ad4656f17223a02186853db75e6704a
+SHA256: 24fa2a11dac24832a4bd1aecdf1028607130fbebf5d86f024392ed7a40f681cf
+SHA512: 25ec083bb3a7e06be3bb71ca1d45ca379ee2c0a5b327e9ecafe8ffb34f201e4ed24da25e1e9557723dad53cd5f2eb554bc8d0f22e839fd738c89f937bd09a881
 
 Package: scdaemon
 Architecture: aarch64
