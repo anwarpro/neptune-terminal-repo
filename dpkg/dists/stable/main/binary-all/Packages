@@ -22,11 +22,11 @@ Homepage: https://curl.se/docs/caextract.html
 Depends: ca-certificates (= 1:2022.03.29)
 Description: Common CA certificates (java keystore format)
 Filename: dists/stable/main/binary-all/ca-certificates-java_1:2022.03.29_all.deb
-Size: 820
-MD5Sum: d97520c03d9ea0d225b351b5b58f00e2
-SHA1: 0bb0d7fd321bdf25ae43dae6871c8a7a42fa02b9
-SHA256: 494a4ab1e0dfd8a69d993460432778d51a93260b461574dde6793bf9302abcf9
-SHA512: 0968887a966bc51ca9320ad34aea463ba5c720cf3f4a29c158b58e6eb9f96ccced94a2696101c864b45d77068475ee37b79e3c7ff63fca71dc5e50358b6d4d77
+Size: 812
+MD5Sum: 7188f222a6fee01a1bad6d3025536879
+SHA1: 635284b288ca02de251ba5cf4bbada6cd69d81b2
+SHA256: 3f2adb86bf790f1ca2346ce48a79ac0616ce8cbe49951f9be88521038196d145
+SHA512: b83bffffa5dde6c00a1c512d0f46db06c2318c70022aef4c0852d45fbfeb58b853d0d9a8f15b4c027164207308d845292a0bc4017fd85db9ba49acc7f1b579d2
 
 Package: ca-certificates
 Architecture: all
@@ -36,11 +36,11 @@ Version: 1:2022.03.29
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 Filename: dists/stable/main/binary-all/ca-certificates_1:2022.03.29_all.deb
-Size: 219500
-MD5Sum: 246672989562a22dd6e9389509934459
-SHA1: ccdcc2c4c9b9e97853058ad54f95b9c1afb9dbf8
-SHA256: 36991a2f88f34799e9e17744685b3f51b6a4b2fb632d0907a114c12493e2f807
-SHA512: 6743417571de569472c41274aecdd45094b93dce5fd18649b1e42895bc954dc217479c8df9512d3d8d6b6a8f9a22ff68d28197cbb2a8c144cac53e63bcafd7f2
+Size: 219472
+MD5Sum: 0a61a57b2614dc379d68938dd830d224
+SHA1: 3dfdae954d8f9c7b76cfc9c38a57cd71e8e13e7d
+SHA256: 0615e38ae7ff19556c7ae53a368b2ff969c9ded0d8e226a2bc55fbc4dea42183
+SHA512: 7ae1acba2bf108c2b85503c05661fe74971dafa2a7930a863abd39e258912fed75f8f83439460a456e5ea64c5737ba197142e9882cf0f53464c17109600a48a9
 
 Package: docbook-xml
 Architecture: all
@@ -190,11 +190,11 @@ Version: 2.37-8
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 Filename: dists/stable/main/binary-all/ttf-dejavu_2.37-8_all.deb
-Size: 2510196
-MD5Sum: 31f6468ce0a49d23da5d9b998dd7f347
-SHA1: 4ef22bfdec7e7dd274f634843d73d354ec95e9fd
-SHA256: cb5d4a7d685ccee19635d33809f58959b9066a82c4330fbd5530cf838b89e6ba
-SHA512: a719858408617f1e12e5f6b53b39125c64b6dc379c343788af7c678f21d5c87e7444775d912b87b8121e6965ee8fc287034d97ab0a9601df7d5cbcef102ff1c4
+Size: 2510740
+MD5Sum: 96b42ce3018a00926a2978d826d8038e
+SHA1: 3f1af4b75c8835e1641fa1460014418fc8962b6a
+SHA256: bd512f58dba9a50c401e3a59db7da3ada75c96ced7484db3782cb37aa5bfa193
+SHA512: 09d730263b4152914ae466d9d9bd2f1703659b8e20ba63769aafba92fa19d9313cb835bab46498cedd85d7a4eae855c1c9fcc6a1d91e65d878c63b96775ee49c
 
 Package: xcb-proto
 Architecture: all
@@ -206,11 +206,11 @@ Conflicts: xcbproto
 Replaces: xcbproto
 Description: XML-XCB protocol descriptions
 Filename: dists/stable/main/binary-all/xcb-proto_1.15_all.deb
-Size: 86988
-MD5Sum: 84653f72624775a0fbfe8fcc19909770
-SHA1: 10db823c4184c04f3c99dea50bbab6b3e9e425d2
-SHA256: 2b6e9c43881b752a2546044fad5ffe19a0d58b89d9f3eaac9f8ac5bb42caf1ee
-SHA512: 2ce20feeb1bf0b2d4d5b13f515a9e73ae6cd57fc530cd36a08ac58e5e95b64a8e6d9a32244be4afc6a47b79d194c7832b5f88f8e210d54b4c8f26702f8c5b9de
+Size: 87020
+MD5Sum: dc7a0a6bc63c1d8bd69462ebcaf6f6e1
+SHA1: a1881f81b19158ae88817277e6ce7d59adc31aff
+SHA256: 40bb89529e085158e5437f7ab66f77f800a46fdd371c2248a5dcc5fb9c6c9add
+SHA512: 060528a42cab2a56c0d82225e7c5861b2cf1da8d75f688d2e8729cde31123f95f41951ff6739a55d800af55532b725c8a105bb193c9089610f8ee34496d1dcd6
 
 Package: xorg-util-macros
 Architecture: all
@@ -220,11 +220,11 @@ Version: 1.19.3
 Homepage: https://xorg.freedesktop.org/
 Description: X.Org Autotools macros
 Filename: dists/stable/main/binary-all/xorg-util-macros_1.19.3_all.deb
-Size: 21892
-MD5Sum: 94b48cef6b32432cce104250440fe584
-SHA1: 6f0c9b5a525a1ec1844117fac1db2f14eb686c89
-SHA256: 6d80859d5dc595424f578c8b7982181a2bca57fce14b464abd4a1f4f3e26d9e3
-SHA512: 258c5511341fee74318903ea9b9922c8dfc834aae05541e3505641417d7e70ffc2f0531c8a60e437ef650cb856fc7640d7391d6ff3559eb683b513d897b1fb72
+Size: 21888
+MD5Sum: 79b6e09e10dfec3f7f98c79eb04f65c2
+SHA1: 32a4b1068102066484634a52cb6bbef4366b9039
+SHA256: b4ca51c63c98ea2680d9613cf9aa69d8a170d2f2d87fdac554e462cf8821a412
+SHA512: d47c6d2c5430662a5c189f9581b5224f29894ae323bcd8dfdfa3ee635efce4d3e73458fc6fd11e5894d610490e94c9be25807b54f058e1ec8b676226c7778ad2
 
 Package: xorgproto
 Architecture: all
@@ -237,11 +237,11 @@ Conflicts: x11-proto
 Replaces: x11-proto
 Description: X.Org X11 Protocol headers
 Filename: dists/stable/main/binary-all/xorgproto_2020.1-1_all.deb
-Size: 176532
-MD5Sum: 688631113193c0bf0c6e994793c67d0b
-SHA1: bc2865dd4bf778ead41f4230049cf7da03884167
-SHA256: 0078e9bd5e5275fd76a91f99b23bc41b0ed2cb2062c6d44aec5d26b907cf25bc
-SHA512: 63a5b050748bcff8bd374c2fa0cee8f1bebb551668bb90ec928dab20e9c7eb1c7e1e077d7121584d63bf1af8fd5297610610d82b1171820929fd7b170e57b6e1
+Size: 176460
+MD5Sum: d465e8a49d83f765e58f0857c27616ad
+SHA1: 2edd8a5e985d0e8f62b585af2d9c5a7a16e2cd4e
+SHA256: 737f6ab96429ad5a500fd481d7852ea9414835365ef538408c39a870bf0c1ee4
+SHA512: d2479ea73bba415d8bc1a264a6726b4ddfee51086a8df9609adbeca8bf1262f6332fe547c34e77caf689f2123da2adf67d3d9966c6597529cff79b425d40e1f6
 
 Package: xtrans
 Architecture: all
@@ -251,9 +251,9 @@ Version: 1.4.0-8
 Homepage: https://xorg.freedesktop.org/
 Description: X transport library
 Filename: dists/stable/main/binary-all/xtrans_1.4.0-8_all.deb
-Size: 43060
-MD5Sum: dd5eae29e690af53ce3157b3cf1402b0
-SHA1: c232dc020aeb10496f6ffa58c176d909f64c4a9a
-SHA256: a119d07d366297dbe7f6bd52d3352359ea80c8e91f485b5facd80956e74f5545
-SHA512: abf943af38900abcf04e4dac18fad7bcf0b2fc62ff61d03730a065311963eca0d274650535033f9aea88c742e69dbc4dbd96f958380e3ce1a4d864be5918602b
+Size: 43076
+MD5Sum: 6b8622a4fb1db01986ac4f369db11f99
+SHA1: 5d95ca1cbdc99b307a56248c1cc9ffdc466a087f
+SHA256: b15029a3cf5d6f298e15e1a42f8c431635855f905fb8b89bb32be601edfccfc6
+SHA512: cb006603ff1af964a719c580c0e1b0463dd9f61bb907f36d5abcd144aa636c2d388e802c8f834a13fc6590f8f873bbbe7320a78ca65cbbba9791566ee935e249
 
