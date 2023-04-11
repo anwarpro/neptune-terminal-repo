@@ -126,11 +126,11 @@ Essential: yes
 Depends: libbz2 (= 1.0.8-6)
 Description: Tools for working with bzip2 compression
 Filename: dists/stable/main/binary-x86_64/bzip2_1.0.8-6_x86_64.deb
-Size: 27260
-MD5Sum: c75fbd0497eaf2c01421aa85465a74a1
-SHA1: 4c91ea66858f6456def83abc995567913e2d12f0
-SHA256: 26a813066b332ae8b6aa1971c4ee7540a6003afe5ae29c0bd45f7c39c5df6726
-SHA512: fcd47789e621cae68157be85a38ddbe079f9670225061d81766e1d4642ef6600ada24dd736400a00c2a2c802346226868e003fe50b4a828e82e4f8977ae0b7e4
+Size: 27248
+MD5Sum: 0faf7ae3c8d60e6581530d76c2e78146
+SHA1: a84a7118717408d898d3b7d7ef21bbd4cf8554d7
+SHA256: 88815782e0e25853f2b9573ab2ddc57e5ac24d09456c9a4df2b9844eb729c6fb
+SHA512: 714980b6a36d30c601196df22d01b98c68c597408d2a35f5550c53e86f97c2690d01f3fd46a79e6700edc47d2e00ae38a70a8d4dec830363169fb558e16c322e
 
 Package: c-ares
 Architecture: x86_64
@@ -390,11 +390,11 @@ Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Depends: fontconfig (= 2.14.0)
 Description: Static libraries for fontconfig
 Filename: dists/stable/main/binary-x86_64/fontconfig-static_2.14.0_x86_64.deb
-Size: 122316
-MD5Sum: 44b521f5b176f513bffad766980b8b0d
-SHA1: 1a8ec9bc8f5689a52b195ff24d38f059f6eb6648
-SHA256: ea21523abe9d581d1e462a24d40d3e9c5fb0dc9ca2716966c8bd35e0563dc828
-SHA512: 09ddb36a0336aba03da2a76c4fdec7d94d61207aca0562f7947edb2a602179f7b0a70b7db28ffbbf17c531481b4fb2f245b82dae93e5852e9cf7905a5da69be1
+Size: 122312
+MD5Sum: 462a4c90be214d840e2569b076ae5c64
+SHA1: f9fcee924cc94f3e66f2f87eae5a8381a54621ad
+SHA256: 7d9ed1df4b15dcf4817a4a2508d49d5f06d52242c1c49bc9e64394507d4a444a
+SHA512: 2231215d673dbeb587e6c5ebb87e24f134a05afacfbc3f2eafd1fb2592e98f2e56c06e7d60203f38a6934f0184dce80c4d9566b2e97a694453db530fd3b972b4
 
 Package: fontconfig-utils
 Architecture: x86_64
@@ -405,11 +405,11 @@ Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Depends: libpng, fontconfig (= 2.14.0)
 Description: Fontconfig binaries
 Filename: dists/stable/main/binary-x86_64/fontconfig-utils_2.14.0_x86_64.deb
-Size: 15764
-MD5Sum: 97bc006b188e8e34d6fbaedb74284f0a
-SHA1: dfadf2a54c917cdfe436bf85c16de2060ef532c0
-SHA256: d70cb3a6e6da26f888ef994303ba02a98d89b997490f6d3e9ee8b3180267e69a
-SHA512: ad8fa1f8bc3e5a129fdba7a02d18121aba74c230686d36aee0a7f3410523a2068c81383be40c698c79ca644f34fbf908935cf29522fe81bc49fd092b94c1ad47
+Size: 15756
+MD5Sum: 55158cec2f84ff2ada090498fecba53a
+SHA1: e29bf2a7b65cb015f8a2a8eb5e264920968f1ff6
+SHA256: 3d429601019ca61ea61e8d2f1c6da94c064b052745ff854630c496200d6cbb9e
+SHA512: 85af39784a9d3b2eede76aa7f255eb3ac5ad0a7972123fbc4dc828636515ec148b2f5fd806e611943c6a6c6ea56157df05f1fc10df5893ee996797324b72eb01
 
 Package: fontconfig
 Architecture: x86_64
@@ -422,11 +422,11 @@ Depends: freetype, libxml2, libpng, libuuid, ttf-dejavu, zlib
 Replaces: fontconfig-dev
 Description: Library for configuring and customizing font access
 Filename: dists/stable/main/binary-x86_64/fontconfig_2.14.0_x86_64.deb
-Size: 129660
-MD5Sum: b363aba0003f38af117345956cb5a617
-SHA1: 500e8aa82a1bdea1bec58484dd36484c2242f708
-SHA256: 614e30c8570ba25d19376ac35ff0dc7bdf3cfa8311584382d3285f7daba6d02f
-SHA512: 3d22fdf02da8feb3892fff1f1ed579e70c8b2a7c538ebc219e63f8818a07354db7e1f2adaa304636ce3a7355552946a25688232d8a450d02e11d2b556d141f64
+Size: 129396
+MD5Sum: 581f6f413cfa1b54855bdfd787deaeef
+SHA1: 008856ea24f758b4688bcdb60505bda40e229ee2
+SHA256: 6c6a210b447b1c03e36decfc1147ea574bf784156a9864bdd23d4aa4fa31a4f3
+SHA512: 7b2dcbc420ae6d3802a676055cfa27ee9aa5a2f853af8fe89ff3ad8aa663adf8de03e170e0cc015d81ea4bed1ecd1cde5959aa5b0e1acc621e47cd668368c44e
 
 Package: freetype-static
 Architecture: x86_64
@@ -437,11 +437,11 @@ Homepage: https://www.freetype.org
 Depends: freetype (= 2.12.1)
 Description: Static libraries for freetype
 Filename: dists/stable/main/binary-x86_64/freetype-static_2.12.1_x86_64.deb
-Size: 312324
-MD5Sum: 9224ad7fbd9a405930d6cd7c9d1b09a5
-SHA1: a28f8c2db9fe4c447da1e16aeea7a962f4fe2497
-SHA256: 90fbb33679fed1a67959f4300961c7da29bc63a36b93cc254d3a43b75d84e2f9
-SHA512: 481484976acff0c312c750066e8ec93b6f848df35f5bbc65433eb31600818fc468c5fb51efa3ffdc1ef88b22eadda59403c6eb6f05ba16808e859a583e52816f
+Size: 312064
+MD5Sum: 3945f7353529c9ba80e91bc736224619
+SHA1: d94d36919abb6e430b8346be1c9b4885a48fe5a5
+SHA256: 3ecd6ea7a8b33447651e64dbb9f0bc4a2f928a6a8b0edc4c9f92f1e8c52a0302
+SHA512: 66a154a7b08dac6593d526e1588dad04373c011edd51471afb92b49197552f3b77b8c545625ce32794318afa10778ca251f71a379f08b29570b60269cac105e3
 
 Package: freetype
 Architecture: x86_64
@@ -454,11 +454,11 @@ Depends: libbz2, libpng, zlib
 Replaces: freetype-dev
 Description: Software font engine capable of producing high-quality output
 Filename: dists/stable/main/binary-x86_64/freetype_2.12.1_x86_64.deb
-Size: 427508
-MD5Sum: 732ce976ae8a10432467e7f812491f2b
-SHA1: 07cec0766b55295f5c7218ee45c9ffca9ae6a474
-SHA256: 47ffd04e1744ec6a3a9544fe0e59cc4d5f38cdec86f41a58b54148abd64b8866
-SHA512: 0c227b9e3fa439ab956daa62af9b1d3ab4cac5a4cec93b9313fd5c6411049a0bd0d458033d794d7f098a80bca89a5a25f11835214496f22ac75711e67fdbe6eb
+Size: 427584
+MD5Sum: 8539caab74ccdca3908d1118f9d0c421
+SHA1: f31fcdbf96719bc8e4c46a9e378d6442ed9c024a
+SHA256: f3a1abc590847080da021c7445353375a2336a0da87b6ab8bcfbf91e3a38d4a2
+SHA512: f99c290aa85a44b18aaf50ffb009cedd9daa34fe32d0bbe86ba3ea7c4888c2c0efc6c30e4d694d4b5f10560abe682c817cbf03e7d05a7a8fcb3331be65281f37
 
 Package: gawk-static
 Architecture: x86_64
@@ -502,11 +502,11 @@ Homepage: https://www.gnu.org.ua/software/gdbm/
 Depends: gdbm (= 1.22)
 Description: Static libraries for gdbm
 Filename: dists/stable/main/binary-x86_64/gdbm-static_1.22_x86_64.deb
-Size: 31860
-MD5Sum: 55c4493e255f6f0635a7ffc3875b7ae3
-SHA1: 3dbf04ab7fec3edca3e7d70ab2586a529725965c
-SHA256: 451f8f12dbda4a738f3025ee42ec9ad5ce29fa76bb9d2a092ce38ec245459039
-SHA512: f0767f275f877e3db8f2ddac8149b09832d544dae5dfeb1246c212257ca89400fd0759a192e0a20976002a6f0acf2f71d6e8d50d215ce61afad436dd9bdccc58
+Size: 31840
+MD5Sum: c4f4fe2298e88eb38c8b39b59b2ffbbb
+SHA1: 2f8a5f14d463b6342a1354ccbf71216fe21005fc
+SHA256: 3391ba7af5a87b46f7d751314bba865ef305206709eebac012fd51de297da81c
+SHA512: 44efec7b67f3eb87db3f9220c9bf1c69e22ea7e08cf44fcf959337e6f337298733625af79a4e36043dae2968a7e70afd32c70b672e65722cc354018bca98de68
 
 Package: gdbm
 Architecture: x86_64
@@ -519,11 +519,11 @@ Depends: readline
 Replaces: gdbm-dev
 Description: Library of database functions that use extensible hashing
 Filename: dists/stable/main/binary-x86_64/gdbm_1.22_x86_64.deb
-Size: 144580
-MD5Sum: f451c873659551c846b948d3296001c2
-SHA1: 21a12e8cc09d5931812c52f47604e81fd4eba163
-SHA256: cb4c3e549566677ee17bb47ae6f4f5d5c191667601870818c1a39ea3502669ec
-SHA512: 1996d6760cb2acfdd302e00a7ab35bd8658d3db07b6064622c9e5ada2a3c84ecc82fdbf30182c1a9ff248552fceef77734f64171bb720da537f3a993d0493161
+Size: 144400
+MD5Sum: b773220acd227953aba49d84c03cc49e
+SHA1: 3a0f590a525dba68343e88e4797643271a400c0c
+SHA256: 79b700b99438ffdf6348ad3054fa732b08ba3f5ce4e41b2405180cb971a7e992
+SHA512: 53dd11adaa0d14a74be798f2bc869aafd990b255a8e2ecd23e92752209bfe9ebfa17bd6107c7d7ab0748e1704d1d69058a890201293eed730dccf2590ae2dd8c
 
 Package: git-gitk
 Architecture: x86_64
@@ -704,11 +704,11 @@ Homepage: https://www.gnu.org/software/libiconv/
 Depends: libiconv (= 1.16-3)
 Description: Utility converting between different character encodings
 Filename: dists/stable/main/binary-x86_64/iconv_1.16-3_x86_64.deb
-Size: 9300
-MD5Sum: 62d3c527a2d478221a914047f69c7e1b
-SHA1: 8c3dd2d6ad759c1f1d62497c50a39f41b0682579
-SHA256: df15f7fa6db85989281794d99334080266319085ae2feb4070b9408ae52b2ab1
-SHA512: 5721a710c46be0f0f5b86817d06130a6b2c7e66b2a1f0f6364f6ba0b2d7ed9f3875f1cef8419ace80833f71db85bb8499b1f476c00d3829c4c77473612416108
+Size: 9284
+MD5Sum: 6826f6a69a2657c5608dff107da3d64a
+SHA1: 22009830153d02ec2143a1642d91b5272b387499
+SHA256: edb1743be67a93423508e83cca0d03ae95c32aacdfeedebada15510788aa6dcc
+SHA512: 62c931d81281082892c1a4cfe09a636279c158f1a27d79f24a57337babdf95b04ae46d0a25c945c4523452295653b81cecedd0b2ba079e36f99a8494e68534e3
 
 Package: icu-devtools
 Architecture: x86_64
@@ -798,10 +798,10 @@ Depends: libandroid-posix-semaphore (= 0.1-3)
 Description: Static libraries for libandroid-posix-semaphore
 Filename: dists/stable/main/binary-x86_64/libandroid-posix-semaphore-static_0.1-3_x86_64.deb
 Size: 2676
-MD5Sum: 6729b04fe8ee299cace957d936079586
-SHA1: f5325760998604912437b1e7ec95dd407bb29a93
-SHA256: d4d5a5d698816d3fd36b31dd28d9bfaae6b179cee70faf57d71d6f061a482ae4
-SHA512: 3c94fa5ec60bcf3f75a35809a1ef3a0b955ce08c3e7db077fa0a0f194a4c5795a07cf726e50d4ffdaefbac29e136c6c93f1603820a47f890af38f575ecbab045
+MD5Sum: f9115b83c1ec752509dc0e4f9b5094f1
+SHA1: a445f07124f4b80a9ac7eb44052b2940668fa54c
+SHA256: a6ff5fc129116d6c3827728d880f4b168d062734c694c4d8eab1b5d42085ade9
+SHA512: fdbacac4a08c121ada3fbc5dd5af24769c44788b37c7a68cceb1b330bb79c7deb2404ea37d3cf09d052faf3e0ad6536620dc6b2f2ad03e3314b57aa6fa12e064
 
 Package: libandroid-posix-semaphore
 Architecture: x86_64
@@ -812,10 +812,10 @@ Homepage: https://man7.org/linux/man-pages/man7/sem_overview.7.html
 Description: Shared library for the posix semaphore system function
 Filename: dists/stable/main/binary-x86_64/libandroid-posix-semaphore_0.1-3_x86_64.deb
 Size: 4132
-MD5Sum: 41676b65da56bd224c725939a46cb62d
-SHA1: 50d086eabdf7aff2651e1d6bf0b6b106048a1acb
-SHA256: dac2023c48fb1c76e0556744114a49f643a213155de27aaabb5abedf730decba
-SHA512: 28e503183950eae3d55858a8ab381c74194e2a2ee936a7ce5bd3424b63617601936a79b7d9d75b511fcbe7fc49a995bc9ee4f276e355758837cced35beaefa2c
+MD5Sum: 67839db636d921c2ceef278698141ebf
+SHA1: 6fce9a7d85d51b61049348e5c8b621ef4c70cd8a
+SHA256: 4890316406a0d6e533a046ce8d97e9f5a3cb313fb2219b6acfa4e05edf27ee1c
+SHA512: 2469bbf4cf5eea623c7c525166f16cbb3828dbbdd6c53dc46455cb3d03dd3ba6b28048cce8257019d3da43676b5e67fe3efdc7c577a5ebe59f656c06806c592a
 
 Package: libandroid-shmem-static
 Architecture: x86_64
@@ -826,11 +826,11 @@ Homepage: https://github.com/termux/libandroid-shmem
 Depends: libandroid-shmem (= 0.4)
 Description: Static libraries for libandroid-shmem
 Filename: dists/stable/main/binary-x86_64/libandroid-shmem-static_0.4_x86_64.deb
-Size: 5792
-MD5Sum: 4caa7202a170dc492209df5801afff1e
-SHA1: 57861b69f99d15f22306d5a46a83dd0d92ee7ef0
-SHA256: fcbe62b361e3e34d1a1176485b6789015974de54b7cc806b25e868caac6e2dce
-SHA512: 1f15f4bc998ae1fb44be3b5a1d6bb81369d5108d5ac782b8f88d0cdeac521b06162dcb7691fcc0e4c6898b5bc390459233446b2cf184cf205b159f29df9d0073
+Size: 5796
+MD5Sum: d3bf1a07b5f4d36fe39324749850396c
+SHA1: d77be59c029f9beaff9ec8f9260b1f107de41917
+SHA256: 38f184fbeec5e281357f35e74e9819fe2d1d5b462b807c52988ca90da804fc2c
+SHA512: 904236e9cbc5db58e7d296e56b1aaf723f050e6dceeea8c534fda43ad4b81194edefcad8ff200d1393e67944d3b95e73d3f1c04ed51cfd41aaf20f303210e001
 
 Package: libandroid-shmem
 Architecture: x86_64
@@ -842,11 +842,11 @@ Breaks: libandroid-shmem-dev
 Replaces: libandroid-shmem-dev
 Description: System V shared memory emulation on Android using ashmem
 Filename: dists/stable/main/binary-x86_64/libandroid-shmem_0.4_x86_64.deb
-Size: 7344
-MD5Sum: a3ac9b25e0ddb3889feb9be2319ebe1d
-SHA1: 0fec0e387ff146de49899291645709e14b72c750
-SHA256: fc3446884c4f19e5dbb5b89a5f755f45037dd5934968cfad58a82d0586e6ed44
-SHA512: 2cfdefaad9caa025345b6cdf04fcc5703ea92292b5b14521babfa240bf01de95814e54a968ce5d0cda2bbb8c077415f8fb6560ea6ceff6cf0ff7bb4298f937ff
+Size: 7336
+MD5Sum: e95392b62bb9a3f31b5cd2c9e346ecee
+SHA1: 7854d4d017b437c07c8bb60c19851eeb94beb693
+SHA256: 6253b3d5f74d1913ba3ebea9d708cef774ffb1c517003498a284b2f888396336
+SHA512: 3928099055902aca0521e5a1f92f13623dbccf697e102f66d26df61953d6327ac847d2a1403be8f73a154fb3e808476a2c1cc8fd677f1ee12e2d210958736a77
 
 Package: libandroid-support-static
 Architecture: x86_64
@@ -857,11 +857,11 @@ Homepage: https://github.com/termux/libandroid-support
 Depends: libandroid-support (= 28-2)
 Description: Static libraries for libandroid-support
 Filename: dists/stable/main/binary-x86_64/libandroid-support-static_28-2_x86_64.deb
-Size: 8592
-MD5Sum: d3a71f63577070b5c6f25c2fbcb87073
-SHA1: f6d499ad66f077bae8707d29db94604a06b3942f
-SHA256: e329357726fe1d9178aac80bafd0d43c8c7b946579cd7c2807847a56f790893e
-SHA512: fc5be95285b1a43f168ea4eece623727ae3de7b154938ad6b382965fbc2b8dd0cb5d423485f0b61e5953fe247cc369b157a84dc2b622c628ff0b43d8b95184ec
+Size: 8600
+MD5Sum: 76d3d8e7e18a75563cfcca4c33fe8283
+SHA1: 25fe5f55b159f83796a241fee9e9de41a3f92cb7
+SHA256: 162c9b8d35159d28814f4c2e7bd1652cb6647276a1d26a2e60b9cf7ef38541df
+SHA512: d183d9828ac8cdec2def7131e1119ed11732aafd892be9da31e1530175713ddc8db72713fa335891e81a4d1bee54ced66b349fb21dc46e051b9356e0e8d44440
 
 Package: libandroid-support
 Architecture: x86_64
@@ -873,11 +873,11 @@ Pre-Depends: dpkg (>= 1.19.4-3)
 Essential: yes
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 Filename: dists/stable/main/binary-x86_64/libandroid-support_28-2_x86_64.deb
-Size: 11064
-MD5Sum: 613395f95542680ac491ecb8442ce84f
-SHA1: 3e7af0732574bf29ef2a251b2d7c7db3bff41f78
-SHA256: f768c7da2a588b4ac41212bd21216365698ae4414cad48dc0c809bda18d5a14c
-SHA512: a3c927b211b37854197969f157d22c955f487b5b8eeb284782d58592cd0f9d164cabcb3a9e797565a45d2291fb846a4a7d4a1afc40163b7490a0a4ff176d2001
+Size: 11052
+MD5Sum: edc77ef2707c15b0a7c661aa1a893280
+SHA1: 0adfbecefd3254d84032fbf9619cce240c8d2be8
+SHA256: f79ef1df71e1f1fba73867f3e268a7e5031915bb7391c4e062fa9c824483f245
+SHA512: 2c5299ef440e1747a231272969f9c87708b1bc060d93452833744604ad80e0450b281c2f986c90e31841d069522d40b8986a410f0b51414b9facbb892d83bc24
 
 Package: libassuan-static
 Architecture: x86_64
@@ -922,11 +922,11 @@ Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
 Filename: dists/stable/main/binary-x86_64/libbz2_1.0.8-6_x86_64.deb
-Size: 26644
-MD5Sum: 7fc894eb3bff5c6ff7244cf62bd11b03
-SHA1: f4b7d403a5aa841256812e595f9696edc9ba4f7c
-SHA256: 57e0505c968ee9883b2503273c5a83914d051a6e05f85b569f3a285fabd08359
-SHA512: 0c7e9d3795e7568357614366be7b521293a9ab254646a26b4bc74c0fd9a3379bb8d29f67b0e83e541ea90d786ec650c44ef5307a4f595822caad12e6ca3b6705
+Size: 26632
+MD5Sum: 0f8ad3c1904a8cee0de5c83a3d1bb67a
+SHA1: 2bc4030a61d0959c58c2b3bb6cf97f326f86c72d
+SHA256: 2cb2911dc04b284cdcacd21eb215223fe5eb44fe64a1b34e2bd9fda75ee1adcb
+SHA512: e4735a8ca98134fdc88dd066e8a84e5c173fa8341089157f8c74f4f00572caa5bc8647ff43eac02fa1e6da0c2263fbb0279b9eaf38960398acf5c77ea016952e
 
 Package: libc++
 Architecture: x86_64
@@ -999,11 +999,11 @@ Depends: openssl
 Replaces: libcrypt-dev
 Description: A crypt(3) implementation
 Filename: dists/stable/main/binary-x86_64/libcrypt_0.2-5_x86_64.deb
-Size: 9044
-MD5Sum: 71e662b73c67ae4f6fb6382ae7c3285b
-SHA1: db49bdb1d3f94f24e9bd0072b479cb3fcbd0da99
-SHA256: 3ce6166445aa23c88805794268e043e8b796de5d8d27de7152a9ac694d54d323
-SHA512: 5c8a7f6b0018b590f92be1f3ff3d345e12c73a6346825a5fd2e681b73341a0066b37213914264644e9c4fb84d7e52d5deef85ee61ebad3a6414bb828ea2f6cce
+Size: 9064
+MD5Sum: c5304f48a5e40d09836c16203b0a88ac
+SHA1: df1f1fb5ded82c5838e3cc7a7a02ab721d0e1b95
+SHA256: 210271d916061e9a3afcb652122f1dfba1b017c6b8ae5b21d42187b1c6e02f51
+SHA512: e2d44d27688dc35260738b4a75652964bf81f210a390dc66c866948d97610f89b1284e1bba958ae8583dc3b5f2abe7aca1859ff5c1cfc5cc8d18f20029922169
 
 Package: libcurl-static
 Architecture: x86_64
@@ -1128,11 +1128,11 @@ Homepage: https://libexpat.github.io/
 Depends: libexpat (= 2.4.8)
 Description: Static libraries for libexpat
 Filename: dists/stable/main/binary-x86_64/libexpat-static_2.4.8_x86_64.deb
-Size: 59536
-MD5Sum: 5e8a78b4bcae852a49fab5501a42b490
-SHA1: 3376e98451b9e91b420899b77c676a207dffc07d
-SHA256: c17f908cdd655563de31241aebdd748ace8e912b63cdc72c91b243da32c8aeab
-SHA512: 90427ebe0cc9c0799609b2fbf83064f5fa2be628bb7f986721236cfe54ad5c698abd8966fd481a4d46670294dffa3df96ee29e1aeb19e6e2b10ee35bb9362553
+Size: 59608
+MD5Sum: 798a1179cc5f7cde02901d167f8d6f50
+SHA1: cb32211fb5c4f51c06455660b6bd52821f45fe4e
+SHA256: f17b64d3a9f51ca101fcce88cd246d5e2bc5fca855cafd1586731e1619cc604b
+SHA512: 7b86efd3cc2c01daa9c843dcf5ecc4ba9316266e25d06b9c99c9c1ddf2e95785a47fb6098ae0b2c39dd3d661f173666e443f6c67771f3e14b3287998716ab5fb
 
 Package: libexpat
 Architecture: x86_64
@@ -1144,11 +1144,11 @@ Breaks: libexpat-dev
 Replaces: libexpat-dev
 Description: XML parsing C library
 Filename: dists/stable/main/binary-x86_64/libexpat_2.4.8_x86_64.deb
-Size: 87296
-MD5Sum: 37b4d41a823dbabd2953d5283ffeb912
-SHA1: 371d667e1e72776639fc1a0c759625a89cc69b12
-SHA256: 3d5b67e12e8700c659cf507b2b4a6787d9c7020b288c690281ecd21031b59c04
-SHA512: 0d0addde4c5d141f90087085ca22d32f7c705fa61c54cdbb9ee027c3422cd58c9b27eb8a67668f964d6c79757da1847904637c085e8b9159460a1049f859947f
+Size: 87184
+MD5Sum: 0e870b32ec0e53c95fffa93ea43ee622
+SHA1: 5a46302286af0209a7aeec9a1083b3748a9aa541
+SHA256: 841c40d6de9fb24bd21721a48a0cd266b7b7f13505e6e8d41319a5c264ee1b78
+SHA512: 678ccfb18093ae66c50730927b49d8f80cd15809321db4c73b79eac843f03cbe74469bf99d59eab890021e84e7bede942ee1077220f8c1441752d01c86c8169a
 
 Package: libffi-static
 Architecture: x86_64
@@ -1159,11 +1159,11 @@ Homepage: https://sourceware.org/libffi/
 Depends: libffi (= 3.4.2)
 Description: Static libraries for libffi
 Filename: dists/stable/main/binary-x86_64/libffi-static_3.4.2_x86_64.deb
-Size: 17952
-MD5Sum: 864dc647321a38c1cad84969341534fb
-SHA1: e4b066102e95ecbc0c86dcdae0f2716b24de4787
-SHA256: 6b7077d17c2af6d2b4ef9f03580cfda7f551ea9f6a0be883c680ae2fa109dbe5
-SHA512: dce9273f9764a6fbb9b33fd6d24dd1258bf17f126fac0d26f841a209b30158e18b00718309d9d45c0c486b7bc6f954d7df8c679a16cd6ce2367e53d1eb34968a
+Size: 17960
+MD5Sum: e7f110ada5734a85107864769d5d3100
+SHA1: 8c98068c07df75c24d298a0c3f6661c5fd579e47
+SHA256: b156ae8e0b728cc53253fa5cb31a46941b40d9c71d6cd52fc2b0c026e8b4deca
+SHA512: 425e25b583c6fb142d379aba1a75434ddcb6a05bffe9d0282c5becfd66275fa8b6c28d3c642ccb04d39c0e2f1b192f34f19f936040ee19befe174556aa340e42
 
 Package: libffi
 Architecture: x86_64
@@ -1175,11 +1175,11 @@ Breaks: libffi-dev
 Replaces: libffi-dev
 Description: Library providing a portable, high level programming interface to various calling conventions
 Filename: dists/stable/main/binary-x86_64/libffi_3.4.2_x86_64.deb
-Size: 32976
-MD5Sum: 868dd102b0a8ecd12a48215cd3407da5
-SHA1: ea2b7eb53dea620f21598b83c83d67be40278c51
-SHA256: 2fea6eda054702e48775164431135fa72ff665c9bb80a1cca9801d6eda5c6045
-SHA512: 053129a37c21da6d78ca5e3282cf56fbf159d2c5b2c9894a50f0bbbc6f3ff4a916cb397f9a5f2b1616b3ac93b9c7ea89eb73f7137dfa8c161fafd22004fb60fa
+Size: 32984
+MD5Sum: ce48a77e6d3f5e02c15550f17bd160eb
+SHA1: 919c57d00f6e1ee35a4c7900b2aa28fc754cc4e2
+SHA256: f97af24dc69e90d2801546fe87849d203ea1381d432db450d6e154fee7f61cc4
+SHA512: 75b3319fc3227af06922c162b5bb5fc185005b80e619686c552833a976be460fbc8552b427a120ac500771babba30aeeeb6a13847cf44eb1a1aea22f5686d54e
 
 Package: libgcrypt-static
 Architecture: x86_64
@@ -1334,11 +1334,11 @@ Homepage: https://www.gnu.org/software/libiconv/
 Depends: libiconv (= 1.16-3)
 Description: Static libraries for libiconv
 Filename: dists/stable/main/binary-x86_64/libiconv-static_1.16-3_x86_64.deb
-Size: 545536
-MD5Sum: ea1ea20f6fcc06d4d4291475c6ffb5c0
-SHA1: d05830d22a83320177359d34af17234ff66e264f
-SHA256: 24567f993ab872c3dbf832de62fabbc3148ab938f609e4cd318f77f34d895312
-SHA512: 7b58c1551346fa519f1974366ecf9068908fd85b7481a3e9959703fd16a2e09ede23197337b96865cc0a5e8f83afd3f492ca73403ff2ff854fd1294b6a1f0cd0
+Size: 543184
+MD5Sum: 6fd7a48a36ac437e937e264fd994d07d
+SHA1: fbc293ba225677935e899f79e568d8e2d12f67f1
+SHA256: 6e0f99edb85b51c67c1306b707264de6b1c0fa0425209c07aec17738cfd5fa7f
+SHA512: 2d2a5e0e926a43ed647d3b1469d3b919a43dadfc36e81b31c080c319e5f478ee0ffaf673996db94d683fb04bece20bf2d9e8f6d1c7a7c53e992a1d7d33cb503c
 
 Package: libiconv
 Architecture: x86_64
@@ -1350,11 +1350,11 @@ Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Description: An implementation of iconv()
 Filename: dists/stable/main/binary-x86_64/libiconv_1.16-3_x86_64.deb
-Size: 552076
-MD5Sum: e9be695c6ea2e98636f0da7038c13391
-SHA1: 69c62d83a883c0075f5b997e0e3d750a2f707a5a
-SHA256: cbf2375d6d48fbcfef07b84f20fbe26ac6b3267d4878af972ad896826afed12c
-SHA512: 857a63e0dbf360971607e71e3eeb69a3a6eebca800d5bf9a2690042744794cac9f3a227adbf921e7e28f61684b8db0fc3ccb4e59cd43cc3db4b38ad5d876c92f
+Size: 551388
+MD5Sum: c28430ec5f29ff844494a554d951fcbd
+SHA1: b404b13549c4cdd7cfb1e2478d708179fd457cdb
+SHA256: 81509c175ba42b98609ba5dda1cb47914668dd8ab024460d7ff4b358c34a2ffc
+SHA512: db9689f92aabb93be0503c749d126a888a5f369ea8ca0d6376fd00fd4908a47707d915727dc0c56bde8c5f37a191fb4e83085a1f8a03c2c329f8c2c793a9c91c
 
 Package: libicu-static
 Architecture: x86_64
@@ -1525,11 +1525,11 @@ Homepage: https://tukaani.org/xz/
 Depends: liblzma (= 5.2.5-1)
 Description: Static libraries for liblzma
 Filename: dists/stable/main/binary-x86_64/liblzma-static_5.2.5-1_x86_64.deb
-Size: 77664
-MD5Sum: 19ea5ce37cf5ad1fa444c3f5c0ebdc08
-SHA1: 0efe83d0592cfa04ef0e66c960ce9aaa95f37b1e
-SHA256: 0d9b0728d760c77711576954e1b66cecbfb6fa83f0a3820f05310a78d541c04e
-SHA512: 24a31f8893c375c9d4347b0e2e9e1a38d43ee19912681e58cc8d1f1c3cf4c1d763747612593581d375a0361784adb6dea97d891c514949c65db3141e1abc1362
+Size: 77700
+MD5Sum: bca74362282327599b112a4d47b9f166
+SHA1: d58305e7f60ed807c4afa8d04d4ba49ab03357bf
+SHA256: 4bd56992facb3f9d488fea065a1e0cd692cfbf2fe034380a78b3e8a87ee3b844
+SHA512: fb3bfd7c4d4bf106b8b426729381c97be266c7f30f3efc505b096cc72c9db92d39e3d64b4ea975a1e05a39afb9575680b398a45d6db48d03c3d7e994690d9707
 
 Package: liblzma
 Architecture: x86_64
@@ -1542,11 +1542,11 @@ Essential: yes
 Replaces: liblzma-dev
 Description: XZ-format compression library
 Filename: dists/stable/main/binary-x86_64/liblzma_5.2.5-1_x86_64.deb
-Size: 142788
-MD5Sum: a98c53cfd1d04a5b42229ee2dca7da05
-SHA1: cd2c83c1a24494a84dde1114efda79c3f30c1758
-SHA256: ade883d789e366d2dfc022d84f627dab0e7697a1ff971ff566270fdba038dabe
-SHA512: bfbc38ad834a75a21e205e93219088e944e28462bdfa106875bb127bf3ff6ac9cef424cb6161c6857e292271b677a5bbf56a6ace0a0b014b355f9049873ceec5
+Size: 142924
+MD5Sum: ebe75fd914cecdd1e8469383b8b5b5dc
+SHA1: cdb16825c0da6ccbce80152e04b9a7cbd05b0dba
+SHA256: efd2dfcaedb54de8af697fcc9dbe2cab45d4624547ac914cd972f212db4e047e
+SHA512: 4debc3ddca7f2b19e1a55c7c3c405ab58fa63982808a523c2eb0b08ef046e8e3ecf10075624e4ced1430efab9616075e78861f76c1e73607d59aa82ac12c13f6
 
 Package: libmpfr-static
 Architecture: x86_64
@@ -1684,10 +1684,10 @@ Depends: pcre (= 8.45-1)
 Description: Posix-compatible runtime libraries for libpcre
 Filename: dists/stable/main/binary-x86_64/libpcreposix_8.45-1_x86_64.deb
 Size: 3452
-MD5Sum: c47af49efe640f4420134591aa62a6a9
-SHA1: dd0ed11067f99370fa14e34eb3d80e9c9041b732
-SHA256: 77401a1f75dc8b9e4db23222404da22e36006127022ac00e7e824be03142c48b
-SHA512: afae9efa391623f92ad751354ac130643762c934c3b14d2657b933829d32b666a8d0d30cb9487cd5a409d1ad8a4c29636c37ed8351190c8735aa44bcf788fdee
+MD5Sum: ff58039f36575572856768e80eb8c9f6
+SHA1: 369f0c7b876259983d20f7ff8626b7dff6e77bf3
+SHA256: 829c3a2391b75c72eae74e2af5cbce75baa7986134482c1025b5b9c6c44aa1be
+SHA512: 5c52f2000a53a3a00f3c9914bdc0f68bfcd92c8f281d00f384ec40a330ea6a6f62fa63384737573fefb34adca4cadfcff33a89cd98a4eaa3a48881075fb1c4e1
 
 Package: libpng-static
 Architecture: x86_64
@@ -1698,11 +1698,11 @@ Homepage: http://www.libpng.org/pub/png/libpng.html
 Depends: libpng (= 1.6.37-3)
 Description: Static libraries for libpng
 Filename: dists/stable/main/binary-x86_64/libpng-static_1.6.37-3_x86_64.deb
-Size: 88828
-MD5Sum: 2d6360ce804c568aaad811f9c54c53f5
-SHA1: c7c4104e0e0d4b15d2d9ff001d76c2b0ff7d8dfa
-SHA256: 5e2ad4a932f289da32931e61e936fd00fa4e174478b0cb401ff1282932059152
-SHA512: 19eb1b203eb0037af16c7165b401bf0e7ea793386100eca4ecf3228b2cdc2e97cfeabf137c32b4bc7910fc0fe0b034882432ceb08b39d90509f4fac2e4b55ccd
+Size: 88800
+MD5Sum: a4e14e7e79315fb7d0a1f684f2a2ad3b
+SHA1: a40b0128ac5f6342224d7b9eced1c943459b618f
+SHA256: dc43568c03b5b7090aa9e16179df7af941ddab8c29c0d04f3f071629d20a3710
+SHA512: 5f48e8d544af03f46af7602c698c232707db3a9cef520298c3aba88ac907e0b825ebf87d9bb77bd2d8d7277bb5043a9e1043fce8afd19ee9e8e22af5e85d776a
 
 Package: libpng
 Architecture: x86_64
@@ -1715,11 +1715,11 @@ Depends: zlib
 Replaces: libpng-dev
 Description: Official PNG reference library
 Filename: dists/stable/main/binary-x86_64/libpng_1.6.37-3_x86_64.deb
-Size: 201556
-MD5Sum: f409dd6326a9ff3fa90180c986a7fe44
-SHA1: 08472d92c35a39fd0ed9551b7a274a950b7a58b6
-SHA256: 9d325d943bfa7a965309d7a0ca4bb598ebb96de254a20d7dbb7ff23f9e81db3d
-SHA512: a5a49394dafb179a0bd5df963b2b72cdc858506c65026389bb03343bf7d81b1380eeb0634d97328dca1bbc7ac0c1c15390e671d7dc1a86f42ded3133f22c12a4
+Size: 201480
+MD5Sum: cfc3eb2aef4de87bd0901911d4b63694
+SHA1: 6d0f21ad74231f94fe562107c6d60e1fe30302fe
+SHA256: 4ae0d8562c86d989bee619f1a4a5ab58690ccba140bb340c90ba4c1f59173c9e
+SHA512: 9a21477a11a3e586cb84754a696b3a9b8ba80db0d104b98a97357858bae95f8350d7270521beaa5d4b878363291b749b404ddbc9cb45535516daf366cb697b95
 
 Package: libpolly
 Architecture: x86_64
@@ -1760,11 +1760,11 @@ Homepage: https://www.sqlite.org
 Depends: libsqlite (= 3.38.5)
 Description: Static libraries for libsqlite
 Filename: dists/stable/main/binary-x86_64/libsqlite-static_3.38.5_x86_64.deb
-Size: 509688
-MD5Sum: 05018044687a98e24f223f213a0f3e07
-SHA1: 9aea106e39cd056f0f8ccfc0964f4cc0d470b8c8
-SHA256: 1fcaf5df07f3a7545d34d050d88af9b005a1d23968155e962297d769dc9bcf1c
-SHA512: a461ce191c7472044217c0f6b06dd2f5592733d8d766f9cd7ac7fec86152cd42e50cb89164d25db079eb39f9a9ad217ac55a8d14ec77f2637aab8ab142beb98d
+Size: 509996
+MD5Sum: bb2a0001ab637dc76c7a802550e7e744
+SHA1: f4062fd1aa1aed8b7dc46b17103e2b32fc4c3fc0
+SHA256: 296071bd3e69faf24fe98758148d96a62886a76717dbc0bc1751a66eedee2259
+SHA512: 2edddfb6d64b00e21e7a2c89200ca49eb0a99e2282292a698f4e0570705450a8441348e65cd4af1d4491e751a9de112974e6c529aaab5564956433760a35c928
 
 Package: libsqlite
 Architecture: x86_64
@@ -1777,11 +1777,11 @@ Depends: zlib
 Replaces: libsqlite-dev
 Description: Library implementing a self-contained and transactional SQL database engine
 Filename: dists/stable/main/binary-x86_64/libsqlite_3.38.5_x86_64.deb
-Size: 614316
-MD5Sum: af312965c0c5695d0801d893be131286
-SHA1: b695691f5722a750af71bcaed48966d501dbe138
-SHA256: 794e2ddfba2ec8020d646f9f4a92de720b1a85decf3006f0aa5d0ffe67fa01ec
-SHA512: c62fd685485b3114c9c7adcc6198604282b774a8a2c25ab06601ad24819c511d7cd8ca1f1f37c3c678aea51a037e322ed310270d7c3ad1606e44879d70023597
+Size: 614028
+MD5Sum: a406db4eba1b11823468902fa8cf84ce
+SHA1: fd02ef5b858e6c9029fb14154fd0b530dc240a91
+SHA256: f8e3542f057d3d3f0d1f312cab8e331f5e643bbf5068c81f86629d2a34ef5b95
+SHA512: fa91f2bcb7ebb0e9c80c1038c2e9364fa27095a51f0c66442d38b8ec3cb824f600fb8b1f8cb4e67a539d2ac53eadf590ca788365a2eec8a646bf4b7650c0824d
 
 Package: libssh2-static
 Architecture: x86_64
@@ -1917,10 +1917,10 @@ Depends: libuuid (= 1.0.3-5)
 Description: Static libraries for libuuid
 Filename: dists/stable/main/binary-x86_64/libuuid-static_1.0.3-5_x86_64.deb
 Size: 5804
-MD5Sum: f2e8f80387cfa22cbf570e199b033337
-SHA1: 44a9c4b6cad27598e43595f2ff34fc4f310b70dc
-SHA256: 163df9e713e1b725a3d8cdbf8b599271e7072b41d34f148a5f8a5995eed94921
-SHA512: 4309888ae2f79d8aa35cbc8bcf00f4e7a58d72666abb59331203b2d846e71b70714f0b662c04f12ce4b364d47734f7ab3199df126327398cde1a9644b0dec5e3
+MD5Sum: 836c734325d140a6888855b9f7711a1a
+SHA1: ab8c30a31c7ead5fda008591c91a5eb116286689
+SHA256: 6dd266d99a5804113d1705bebc198c49eb904e7dd8ce20d8de99329210099880
+SHA512: 0a9e788773322617a9c45c84b0099ab13425d6c2773c7182cab396f2673798141a34859018f93ef921f9dcc0e5d2002a8a7beb8da8e41181d97f2d633a5e4f12
 
 Package: libuuid
 Architecture: x86_64
@@ -1932,11 +1932,11 @@ Breaks: libuuid-dev
 Replaces: libuuid-dev
 Description: Portable uuid C library
 Filename: dists/stable/main/binary-x86_64/libuuid_1.0.3-5_x86_64.deb
-Size: 7012
-MD5Sum: de7fa88a163a84becaae379e71687e9c
-SHA1: 9ee34d6876af810aef37a9c0c8db33216771a6f3
-SHA256: ad0099d11e8285ad92974827ef4c862847614779f0788e3688e5b61c556d334f
-SHA512: a8b4cfd0b089cea92b575e12b55d47cb69390e5f8c0371ec17cbb4e80b6f7dda10527ed418acb92d1f19481612e749e3196885cc3d775fc8c05aa16025718777
+Size: 7020
+MD5Sum: 9493a271fb9abfd1a56cd19f3310f8c4
+SHA1: 945778d5745b8a1cd010d8af81cf70de8789748c
+SHA256: cd3a2aa13f3207b8114f4f6651248589ef052534d58e40e4d34c96dfb98434dc
+SHA512: 8ee8da5f5e043657c43d0c99d97dbe2807bd010232f8b281cd9af8c06c8b41db9433b2da235981b6826bc728f10e9c89724d18ed9277f2c27ca7e793c26a5a15
 
 Package: libx11-static
 Architecture: x86_64
@@ -1947,11 +1947,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libx11 (= 1.7.2-1)
 Description: Static libraries for libx11
 Filename: dists/stable/main/binary-x86_64/libx11-static_1.7.2-1_x86_64.deb
-Size: 576652
-MD5Sum: b96e8ae42d283ec123fbe8827b740325
-SHA1: d4dcd512368b02351416db887544f4c4cf04a8b1
-SHA256: 5784d10528caab0ebde14475cf88d227893f172e6e7458025625323ed05c71eb
-SHA512: dcf158a9c2bd2e1a8d462d52e47a37f6fb24a695983ddaf8ebc8c0e3f68bc76047ac07518016ad33626cb75ea9ad0b8ff6a717b1c58a010d278af545e31cee2c
+Size: 576280
+MD5Sum: 5b6a5da341e663e73e7bc0bb63ab6d90
+SHA1: 5c5133732e91b979b57edde16eb60cda5617707b
+SHA256: 5896384f67fe7ec2efde8b2b86a15e232eddee56efad257a571ef2f8a15dfb9e
+SHA512: b33cff1a696668f22d0be4c070eece6fd15953f7b5fdad5d620640bc7f60539093d9f15f032807dfcceb0cd68d568db2ba5f24527326dd4cc505d42c63a6b19c
 
 Package: libx11
 Architecture: x86_64
@@ -1963,11 +1963,11 @@ Depends: libandroid-shmem, libandroid-support, libxcb
 Recommends: xorg-xauth
 Description: X11 client-side library
 Filename: dists/stable/main/binary-x86_64/libx11_1.7.2-1_x86_64.deb
-Size: 1825400
-MD5Sum: 792b1d26a1e25c9e6a42f0796aad79be
-SHA1: 4523498c5e7ece180a76e00220e73af24ff86c2c
-SHA256: 7fe731345c1223b14b54ad1ad3cfea923ac84be1d40ba6570f00e6946003bcf5
-SHA512: c285358d87d02a2654d5be166ff3d57a399d33339095a3538435e36495f7c6562dc3ee914384ff088746f09bd95baad18b2a2ee86e35fe42fe37c893335f3c3f
+Size: 1825896
+MD5Sum: 35b152440d29ab59d2973ede0634f5e6
+SHA1: 673a2cbbcdb8a630909c04447396e0b27ab82464
+SHA256: 2788fd5d6e502b85991cba4f692869cd06043305afe98ec1ce62ccd6f1cc6532
+SHA512: 2b4931a8367b3b8f565361f5bf4c413f1aeb3f6a93b67984ee70fdb54090778f64e79a586f8bb6f7e822568bff64718e74efc21ab8c506e22d80eed447cf1a12
 
 Package: libxau-static
 Architecture: x86_64
@@ -1979,10 +1979,10 @@ Depends: libxau (= 1.0.9-9)
 Description: Static libraries for libxau
 Filename: dists/stable/main/binary-x86_64/libxau-static_1.0.9-9_x86_64.deb
 Size: 5140
-MD5Sum: 75480467ee622eaf3d9a686f10acc2f2
-SHA1: 0b39c17bba1fe12e02b7b155061692fbdffd1e10
-SHA256: 12425f6a0e6fcbb640565f704d77b5f9dacd35c8579b012c5607af9d47bb877d
-SHA512: fa79078d66623b6ffcedcbaea78036edbbfbbbcb94f20c4f33ab9f9ec818306b669e3c1ae5b18c16c3fd5774f0b0594dd26ee9a10f71736e62c5813e87b1b525
+MD5Sum: ad423e3930782665cd5bd613436c91c5
+SHA1: 2217d0b7bb57b4bcb0a8a2513b003e8d8962ed31
+SHA256: c8bc42ae3ea6be210a714fc6f53a358cdd82b9d0f1fbcaf573e20b0cab21c840
+SHA512: 9d527f6b6a9363613059f6d07cb38f3715b05ebd7296a61db10010d5ca26e979eb4291ad692fb8903f5aa9fafa314877ec880f82165da2c46e561de3846eb7ab
 
 Package: libxau
 Architecture: x86_64
@@ -1992,11 +1992,11 @@ Version: 1.0.9-9
 Homepage: https://xorg.freedesktop.org/
 Description: X11 authorisation library
 Filename: dists/stable/main/binary-x86_64/libxau_1.0.9-9_x86_64.deb
-Size: 8876
-MD5Sum: d7d868e769051cadcc89eec3ebbb0e6a
-SHA1: 4910ce1e1eecde50e8430464fa0e51d2c17d0195
-SHA256: f9a4c990fe55ba49c70c7e257aedcd0aacdf94ae5cf5672ae57d59371f32bb3f
-SHA512: 4a542a61147caee75cf0cfa5de93ba9898e0133ca65786b9d3edb5b48f71bcde1cafdb903c6dfc5e7f5580583b804f4d847f6510516a21ef8142d5c6c41a0fac
+Size: 8864
+MD5Sum: 44101156b2ecf17cc9f37614782b8241
+SHA1: 289c6da7f2f6eae3b87c5a8aa1d85aa51998eb76
+SHA256: ab275b3e41345d03b504b4707a901c0038efa290487dc417737135959159ab34
+SHA512: aab08115e9d63600f482da26908814d62b6153a964ccfc13cfe2f2e62f1100dcaf4849176be6d847ebf3ee6ebdfc1beed4b0aa5a826b0439392013857d95052c
 
 Package: libxcb-static
 Architecture: x86_64
@@ -2007,11 +2007,11 @@ Homepage: https://xcb.freedesktop.org/
 Depends: libxcb (= 1.15)
 Description: Static libraries for libxcb
 Filename: dists/stable/main/binary-x86_64/libxcb-static_1.15_x86_64.deb
-Size: 137812
-MD5Sum: 7581805e281a9d4ecc1e6d064be455b6
-SHA1: 35dffc146374b37bd27a762d34506495d0f53903
-SHA256: b8c34eaaa39d7ceaecb7ce2de2b89a28a2890719e9f3bca24005177c185d6e6f
-SHA512: 1b6805d9b521600d2a602c69f5cc911b0b47664a6d786822b0ba65e6810346c318c94e27923da2d8fcabed7cdf40fab36285a71efe30783e5a77752a475c00b9
+Size: 137892
+MD5Sum: 4cab80cc4d1ce9dacafaf38854816ba1
+SHA1: 584f8eeb277c73d368098b24b4e63a7ef4c45132
+SHA256: 609fc8cbd828ff605f894585c3e68b0a88a5d2ba8d08e71d6ef8686ed3dde4c8
+SHA512: ce76eda4951b1223f596b637610af898b311cb8649d77203c7c59073bffd110a6f7f7e834859edf476e27e9fa98feb60a205a78355416886a56df654ca9d5305
 
 Package: libxcb
 Architecture: x86_64
@@ -2023,11 +2023,11 @@ Depends: libxau, libxdmcp
 Recommends: xorg-xauth
 Description: X11 client-side library
 Filename: dists/stable/main/binary-x86_64/libxcb_1.15_x86_64.deb
-Size: 921868
-MD5Sum: 012b1086efbad47de238f8b383082584
-SHA1: 942a023483354caf2fb428c10157e18a93d12c86
-SHA256: e913ef6899bcf28a4cf872ede5587ea18263cbccf1be8ff93f6a0faed31ffec6
-SHA512: c138fc19be9e069707af4a374631c6687929db1f301a9f7d7c92f0e686ebf8624a4d221c3dc3bb9cf0eaf88a6abd9f485e1d9cd6db60f7fb9d578729b21b4987
+Size: 921168
+MD5Sum: 8d0f099161a016b3677a1f50b92abc04
+SHA1: 7b944981f7ed37598b77f3d075fe71eb8fe3edc7
+SHA256: 0f9f60cec0bd833e7477eebeaacbd07a78af28a329dd724157d4a84334482822
+SHA512: 3e2e10680b611b84555d0f65381ac13e4e6068fb6a2d86fbaa9060ced9005696af80c3338eb9ed1017e87e2b119fd2364e5f5a8b2eb94a0e7883dfab671118c2
 
 Package: libxdmcp-static
 Architecture: x86_64
@@ -2038,11 +2038,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libxdmcp (= 1.1.3-10)
 Description: Static libraries for libxdmcp
 Filename: dists/stable/main/binary-x86_64/libxdmcp-static_1.1.3-10_x86_64.deb
-Size: 7728
-MD5Sum: 48e94f772741dce5052ca45da74143c8
-SHA1: da2bd953007a841b7c8da17cf0e0c524557ffee3
-SHA256: e6fc429386fe2ceb9d77f259d23e4d2a2fbfa7e0e21c167b51e9c5f30952997c
-SHA512: f35ed40341c95b972e7eb1735fa12967e1e34bc4ad2053dfe1095de10617f14b4d70c8157326623e569d94565003b6e40c7d455d5e8b55b93583a1885c4d76f9
+Size: 7752
+MD5Sum: 2d81e29e76c22a9a013cbc6eb1b580a5
+SHA1: ba0afa92a94989dbaef05b6c390583c48c3b8449
+SHA256: 1521a2bc41b5df9bd0e996679bae7bda713e5b62e89922fde154066fea649e00
+SHA512: 3f5ec320bef44228fa0309496bf98a39d2bc2db9a4575f06354cb458b01e1f2128552a76ce83c88b30f42e3debea93495eef4be91251b42542f8d124ec69b575
 
 Package: libxdmcp
 Architecture: x86_64
@@ -2052,11 +2052,11 @@ Version: 1.1.3-10
 Homepage: https://xorg.freedesktop.org/
 Description: X11 Display Manager Control Protocol library
 Filename: dists/stable/main/binary-x86_64/libxdmcp_1.1.3-10_x86_64.deb
-Size: 24400
-MD5Sum: 1869b322b1b9f9913915b818c448ac0b
-SHA1: bb50de1e5417e701f00af5758a43d990818e4486
-SHA256: 4c22368c47399f4b98a1a0e38cea1508a6b26df8f4986c4ade601174f2c7f7d8
-SHA512: beb388507e2f674e678677661746b23c97b5d21a4cc7b9c2dbf1e976fdba01f916750612aba03ef6c028b9f2e5eedd19e3091db700acb1f4f262546cd267fdde
+Size: 24416
+MD5Sum: 373858ae69d3231f003e72613265f2c3
+SHA1: 8ab549893d0eb58033039552ff174d606a9e42e0
+SHA256: 5238537bee04a943693a92ad409f38356ebf7c1c021a1c614800ec86251b012a
+SHA512: b30c8af4738753c79dd69d8647a383489c923e6918f4f66a1461ca37cb6f8ad8c9664c539f0b7839798ea5d1c916a67f5f2bc22445f76b829a9e5b525555306d
 
 Package: libxext-static
 Architecture: x86_64
@@ -2067,11 +2067,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libxext (= 1.3.4-11)
 Description: Static libraries for libxext
 Filename: dists/stable/main/binary-x86_64/libxext-static_1.3.4-11_x86_64.deb
-Size: 23944
-MD5Sum: e62956ad9d505a782e125737679b32d2
-SHA1: 1942920d4440586793cd2fe5ae8957673f6185e1
-SHA256: e138f9f8ad1cb9f70b13dfd15b6d11d986bec1f90af23cb9acbf0b0239d1c4a9
-SHA512: 88eae9a7c63ae81451e15102cb7048a5ca9a4b40d579becb0ebcb7e9af4371117d16f538533a04d31ade36ce4a1146383191b685896ac85232d735d53b32d2a6
+Size: 23964
+MD5Sum: 29d828391627e7260ea5ba217669d3ec
+SHA1: 7b50ee7d03080683e5d41e8eb8dc347cd1fca0a9
+SHA256: 7cab4e1b61699339b6144c44246150ff4b1e87e899ce9ba02631dba65cd22628
+SHA512: 4e4b3b8d3c71ac488632180d0e14ae99f8a35aaacbf2790bcfdbdb52fca75c77c28cade8d72680ee477437150a66c66880d044ee09dd412c313921884f2cb4a9
 
 Package: libxext
 Architecture: x86_64
@@ -2082,11 +2082,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libx11, libxau, libxcb, libxdmcp
 Description: X11 miscellaneous extensions library
 Filename: dists/stable/main/binary-x86_64/libxext_1.3.4-11_x86_64.deb
-Size: 98368
-MD5Sum: 454b339a299fc6382479c59bbda7fd95
-SHA1: 0d58d52df976c82d00953b8b0f34a36d91b606e0
-SHA256: 7b0e4fd067ecbe31e23a7460cd0b4e196c61f89c575befe1fc4f358058b0ac37
-SHA512: 1ec9646b2e7bd965d8d484d61de35b0f37b11c0363bc09b43ff2a35db740f084773de935be2970ab9b2d7e06c76cbaccd2024390b8cc7dc408ce0e07fc8a857e
+Size: 98408
+MD5Sum: bc39be34784f2afe61de2efe30c3a41e
+SHA1: 14aba9c44c79f658efdbf95eecd1f8f28a86a72b
+SHA256: 178cfc309efb056dbd72b6f1dd94d1c0b459a189f901f99225dfa620061e51c1
+SHA512: 8f5bf186886c8277a1ab092558ec5ad177d98d6cad5baf863b0dd6354401f251aa7e7a4e8551c97a62b24754d164d04ad99cb330527e62a1368e26752a98995c
 
 Package: libxft-static
 Architecture: x86_64
@@ -2097,11 +2097,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libxft (= 2.3.3-13)
 Description: Static libraries for libxft
 Filename: dists/stable/main/binary-x86_64/libxft-static_2.3.3-13_x86_64.deb
-Size: 33524
-MD5Sum: 36ba2b6de57a62102fc7ad5bb1b54c17
-SHA1: f3a896363b18f755c90bc0e962efeb837d7b1145
-SHA256: 6909209f5684c647f45a3710824896ba7a3a883a17b684b273990d7cd99e68a2
-SHA512: cb6c987136337c4dc34d28a736277f14d0603da47350d2b73f79749022a83131cd03bd5d2311743eaf0ef4781570cc80f2685b26b4f62b5c2e366e3b8b80c4b1
+Size: 33468
+MD5Sum: d1a5abe48afb61145ba6e4dce71f5ab7
+SHA1: 79b3a871e0a385a0d13c72559d437164e8d9fdde
+SHA256: 8fcd6f5528eac5e79ada71f62e1904f9289fbff32d667d6e8041d24667890fa3
+SHA512: 1490a1d9fc55923b8bf4db0ad2336977fc246a41bbc77f44769fb8b4826763cdc32d74dc78e7b6e80773d8135f87dabb74b5d6e7b5dcb4c7acc0c64b2bb6001e
 
 Package: libxft
 Architecture: x86_64
@@ -2112,11 +2112,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: fontconfig, freetype, libbz2, liblzma, libpng, libuuid, libx11, libxau, libxcb, libxdmcp, libxml2, libxrender
 Description: FreeType-based font drawing library for X
 Filename: dists/stable/main/binary-x86_64/libxft_2.3.3-13_x86_64.deb
-Size: 40376
-MD5Sum: 993e8cfcf43cf0cd2773033b8c64c5fd
-SHA1: 869f01fc6fc55c3d878efa5efff8ebc5347663b5
-SHA256: db4cbeb6bf030f0fa796ca2172053c09f3ede9a274b3cf086f2e3f1540d33c15
-SHA512: bbcfc053113e5da1ec83e6cb1c80915f3ba1b3700129c17cc73b998bed3c5a5c478a46a485d669faeea3a5e9bc9416d283b47f25c4ba484b120b4d430bce387d
+Size: 40496
+MD5Sum: ff5d2a468e87a57d63f7533f8d512177
+SHA1: dc03d717bce56b83bf132f20f3e020e420f65c72
+SHA256: 96929acb392660b3a18f140125b169372e0995d002fc1891a07eb443ad06aa51
+SHA512: 427b7625ed28a77fb4031e802f1cb2fc4594a95b45b99b4b3126c9b56d19202d28b75852df07f1ef01a4cfa38a9c905c814848ecaf8054e54a05052a7e9e7c91
 
 Package: libxml2-static
 Architecture: x86_64
@@ -2127,11 +2127,11 @@ Homepage: http://www.xmlsoft.org
 Depends: libxml2 (= 2.9.14)
 Description: Static libraries for libxml2
 Filename: dists/stable/main/binary-x86_64/libxml2-static_2.9.14_x86_64.deb
-Size: 505284
-MD5Sum: 032b60f0fd8f96fa395dbff2ad2432cc
-SHA1: bf6695614306e54e919dbec0404222d397a89d52
-SHA256: 324f37caa35a4f438485431f1089fb9770b08c0200066c810246c2033becedf3
-SHA512: 24e02d2496750ba29d396fee5747acbe0975410c406da90a3c35145e8a1090c9c6dfafff915db249343cd1da96a9acbf43ce9f9346ac51362026952842fb3a07
+Size: 504676
+MD5Sum: 7a5c63785373943b99dbb6b2dc367720
+SHA1: ea4ab4e26bfb1d38604150d4608198a33823aa4c
+SHA256: 4f6227b17198403ad26827683d03ef4bf64b195744ea3405fdf6e06b65eb3fd9
+SHA512: d8e3c51e504c45843655ffd2fae9aafefd18ceea607d14445598e787d9b659a636f44397e6b889841e90abacaf8a0c8446a3447d6a5c9f459d7fd81e41c19c9c
 
 Package: libxml2-utils
 Architecture: x86_64
@@ -2142,11 +2142,11 @@ Homepage: http://www.xmlsoft.org
 Depends: libxml2 (= 2.9.14)
 Description: XML utilities
 Filename: dists/stable/main/binary-x86_64/libxml2-utils_2.9.14_x86_64.deb
-Size: 32496
-MD5Sum: 6c3f19269d03f47ed8feb6e2f3f088d2
-SHA1: b2797c586fe1bd0edc24afbdb0762b3723dbf737
-SHA256: 1d5ed90c3537f7ecbefd4d39382fce9af4e821da11e8040ce7d58d89eb519482
-SHA512: 8e625441e941bff467cb21e4d6070187e5b58f9212ab0583e2055ae7a65e8760b809ef5b68a94d4e8b2d18f5f4fd2e36ae2d3187c178ac755fbf43ac6428ffd9
+Size: 32524
+MD5Sum: e11ede9d2c3b6f8e2c694d9efed25a9f
+SHA1: e426368c60a31e727d6c7a50516b0e93b2c1e7e3
+SHA256: ad7f6174a9b00227e69ec5d316ee7182ed063313a62af5d1ef7cb0d7ff7bb19d
+SHA512: 61bad50b79a5410d1770ac13219f83b3d6ad07491587104003a7b5f6110dd3414c07c333714e5ad2cf1318ce064811dcc11069851d4a80debbf29a427145f137
 
 Package: libxml2
 Architecture: x86_64
@@ -2159,11 +2159,11 @@ Depends: libiconv, liblzma, zlib
 Replaces: libxml2-dev
 Description: Library for parsing XML documents
 Filename: dists/stable/main/binary-x86_64/libxml2_2.9.14_x86_64.deb
-Size: 884668
-MD5Sum: d16f6a3382d6c1b0e4cb971a542f61e3
-SHA1: a0ec414fb2db6818c3f7f69cee78a6959816d52a
-SHA256: bac6e3bc20401d43db47e50133e8febafef560983ed2add9d46200ee97e1c1b0
-SHA512: 96b8a776efb10c644a75254759478000377a4909d187eb4a1587200e434e0dce385fbe246d70dc56dfd1cddccf368c98a97518ab99ce070ce00468d0255e18ba
+Size: 884688
+MD5Sum: b81a6ec461e2ce92994ba9fc5678576c
+SHA1: af81dabace4b629bf2fdd35433aa2acc6b35e2b7
+SHA256: ae19c890ffba38d011774c789fa1aef986f87ccc9d0ea11ad8be30c21401ec5e
+SHA512: 51a777df5b2c4d703248f2e528d02f3d5f1dcc8ed675e0257eff64a71e8e86ea86be243d0810458f51096da1587e9241c93020c81dce4bdd25730806ea9161f1
 
 Package: libxrender-static
 Architecture: x86_64
@@ -2174,11 +2174,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libxrender (= 0.9.10-14)
 Description: Static libraries for libxrender
 Filename: dists/stable/main/binary-x86_64/libxrender-static_0.9.10-14_x86_64.deb
-Size: 14596
-MD5Sum: 445497e2fdca908ea3588e906559b206
-SHA1: 0c4084d2e7af271fc25f814ee2dc8cf45bf16360
-SHA256: 019fda0a60a4a79d073ad27239e249872d2405135b9a13c39427df4b2eaebc0d
-SHA512: 5c0b67f3eef219b221ec8e685df82a3bc450273ea368cffd4d65a621d72d36b625a68f7beaa03ac38ad6fbc64d320556ea1d497d7e63764634ca25d8e40033e0
+Size: 14612
+MD5Sum: 680ef78062ba318b4c31f383cae6eb8c
+SHA1: 9c0f77023048999448552025d596da837c96178b
+SHA256: 8b9ae7428eac986de24106fbecdb4df16f9b428c48d93130dc1f0990b584676d
+SHA512: dea3b9aac3d7d56a2e7610b874971a16f0dcbe354199b5d1ce1d9cc4f9df12b1d34199fdbee0d54a13ab48a32d0c72de7312ff5c9f2fc922e8c1fd3a0f65e689
 
 Package: libxrender
 Architecture: x86_64
@@ -2189,11 +2189,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libx11
 Description: X Rendering Extension client library
 Filename: dists/stable/main/binary-x86_64/libxrender_0.9.10-14_x86_64.deb
-Size: 21256
-MD5Sum: 5864547693f99a3412de8cd6acf07bd6
-SHA1: 43260267844baba283e858e6a2ac2ed750201794
-SHA256: deb864d784c4a8989e837251189f0851b29fd2a7042f6ae5634265879952d59c
-SHA512: e059f3c41476394060e5f57c931a7e96f4f34a93f1028471857ea075ce775f1d7de107994a20c0144867ec2c432bcdb94a17d9f046b168988869e334a96e5691
+Size: 21264
+MD5Sum: 5791e292a39b1250693f1653cd02a1e8
+SHA1: 7f89d8a4eac2ce379cfb88e4bb097501babbac96
+SHA256: e2f70dc54ceebb2809d24b91f6815dee4624d48b84eaadb3a238533cffd5165d
+SHA512: ef831e8d1b0686655f573ddbb194b840a738387a32dc13ca5e1766f06385368b8d3b5a897cc7dc22dd91ce2338487b49b84633b79e2cd8486f8206812d78e322
 
 Package: libxslt-static
 Architecture: x86_64
@@ -2236,11 +2236,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libxss (= 1.2.3-13)
 Description: Static libraries for libxss
 Filename: dists/stable/main/binary-x86_64/libxss-static_1.2.3-13_x86_64.deb
-Size: 4224
-MD5Sum: 1a3987d7fe6a84aff08e23f079873395
-SHA1: 5d75d69a7e331d4754b39c7cc0e29e040f2f90d0
-SHA256: 0e13dea77cf1c96c76a799da724d7595d96ba76761d7a96996f1786d325d8f6f
-SHA512: da5f1bd0cbc10841de4a29ce65390c01b2c7abd8febae9b3c67784421ba9383add04207603b7ec377bdb419dbf090dfe2a9cf18d0545b474a9d20793ef66262f
+Size: 4220
+MD5Sum: e5b96fbb282169eab6dd8b8816d8caa5
+SHA1: f82170b89bd931a807a239c194fd6cfc0ada7565
+SHA256: 4e9f526093eb1e3b964e8a49b50ecda62d005cc328a0045cf0db5a7079e5ed44
+SHA512: 9195593281c7c7bc2680dfadfd6136789fa36c8142f91a3ca4a13d277830a52da366695893a0c943e7ce6e1b2a5b5d668584d7f2a919aaaf3a8b12c08e91e7ab
 
 Package: libxss
 Architecture: x86_64
@@ -2251,11 +2251,11 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libx11, libxau, libxcb, libxdmcp, libxext
 Description: X11 Screen Saver extension library
 Filename: dists/stable/main/binary-x86_64/libxss_1.2.3-13_x86_64.deb
-Size: 12076
-MD5Sum: fe85c34ad224cc08c631dbfb8a22cb0a
-SHA1: 974e771954a3c517f4ca9d1af02de7d6fff2a3e3
-SHA256: 25e4b97677e1a9fbf8320204768eb7732e22456a13289d44fe6a8d34e8ea3e20
-SHA512: 7a45dbea889e5ce9416cc779d81b8d051c795c83921c2d49b34ede78ee1e7ff13d10847f8f0858093fda6a611118f293faeb60d8c14c4eb0b111214117f6acef
+Size: 12092
+MD5Sum: 2667ad54f1385c2f2e38da1b312e2f63
+SHA1: ce4a5acb259284587abfc2658236dc38ffa8d7a4
+SHA256: f0297248ecea2f6876018056e4edd06259c9251b25584e8d1b77312cdf148b40
+SHA512: 97fd40e4d6524036809679584d6564cc3040acd15768682c6a60125126d7f7a59b48555cba54af5874a26bdebb3b3cd852fe9742ef75b047ef543d3f9fe013af
 
 Package: lld
 Architecture: x86_64
@@ -2407,11 +2407,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.3-1)
 Description: Static libraries for ncurses
 Filename: dists/stable/main/binary-x86_64/ncurses-static_6.3-1_x86_64.deb
-Size: 155100
-MD5Sum: 6490a0ba1994201ed69c4a0528721426
-SHA1: 40ef8c3b4a698364997029cacf434f47c81c6e29
-SHA256: bb107107804ded47dfee2b99a3cb5e0210b210167605d3ff16772faa50b3a179
-SHA512: bb928f226dec0c71503e0843cda1cd6511c25825a64c132251513dc7dddf4190d9f5fd413c85c01e6a99f9b68ab8a1c700bd0afc7648189ecb91c680304f959b
+Size: 155060
+MD5Sum: 141df0fc397f2950f152b8bcfa3b7361
+SHA1: ed98a6f45f33d00f30f501f0cb2fc3e1d6651e97
+SHA256: b311363c75982730be3b2887064ade25032df3681ed1c1a8136bca58e878abae
+SHA512: 18eca056cd244720d79724b8192ddc804e2f2f9ba8e841d3e59a1b8864c60f156ee986bc76d8c406696a4dbc28f9bfbb7c4f255eedbd6193edd1ca9df6d7159f
 
 Package: ncurses-ui-libs-static
 Architecture: x86_64
@@ -2422,11 +2422,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.3-1)
 Description: Static libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-x86_64/ncurses-ui-libs-static_6.3-1_x86_64.deb
-Size: 40004
-MD5Sum: 57deceee1a2f627afc3dd96d1c3a01e0
-SHA1: e584b0849969b965dedfee08b300e8221ea728ff
-SHA256: 2af739c7d271a40eb367412d71c2d2069d55f48da3925a68d71c9a98c159a5e7
-SHA512: 95c2a1e374aa97dc4baca29a77b735b5b100eefbd9aeae2fcbf5159e6c456b9cc8a9612a300a2823b996a88c1bbbf34f268367d5821a0cc8572ccc3d547b9b41
+Size: 40040
+MD5Sum: 58c20bb5ad5e40f603ebeafb89451404
+SHA1: ac7a5fceafff9147b0dee05856a8907c35991eed
+SHA256: 9d8a6dd9c08552d95f12e8c8272e722a0107244ed8b5b34ed14c02f8f8bcc654
+SHA512: d648560066ffc004fe4df46da789a6c321c648d84c3ddbc4b2ae0b31b2b1485ac6e4fc5e50afc17434d408ae33cecce660bc0d97eb53915d16ac43ca9cdded10
 
 Package: ncurses-ui-libs
 Architecture: x86_64
@@ -2437,11 +2437,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.3-1)
 Description: Libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-x86_64/ncurses-ui-libs_6.3-1_x86_64.deb
-Size: 36184
-MD5Sum: 77afe9db081dc925c6ae127f18730c62
-SHA1: 5774112709b7799332197ba6243a44c286a634c1
-SHA256: 3e6a58e1e0ab26d0b3f4e95cd5deafb448d2671331be877d3087b34bee4d220e
-SHA512: 8e5ff1eb906f8562e967b9cd3ee5ac5a1ac47d3d2198f912b7fcc2b8f2f7c4bc2f76a43cf0e8f622cab9c892b31051518adc559c9c165a9e5267ae8cdbcbea95
+Size: 36148
+MD5Sum: 5d75fb768bae4a11309ffb8141d3e80f
+SHA1: 1bfb660162ab70ec27f93fbc613aabf29e7ed2cc
+SHA256: 8c12bfa3fc890d0492fcbc0e407af7d4acf05cfc1623a5da652d1c5772185911
+SHA512: c9d00fa00468070db1d6762bab4f0e2d7f4a500c1eadded74594a15da03d0f78448188ceaa0fe5f1f764441a8817d0f736d84c9e0fd78d754599414d6b7b0d26
 
 Package: ncurses-utils
 Architecture: x86_64
@@ -2452,11 +2452,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.3-1)
 Description: Tools for working with terminals
 Filename: dists/stable/main/binary-x86_64/ncurses-utils_6.3-1_x86_64.deb
-Size: 90300
-MD5Sum: c8c56d14c627197bf87e93b7d5a074bb
-SHA1: 3011a6cec11c745cc4b875b726f59e1681b92f42
-SHA256: a757fb50558683da7d0656937db989a7cf342b366d0fe376c6d2e5e26b47e425
-SHA512: 060e0aca32c17b99152854a809fc1f66e62ad04c350c0656d31bb4782db1577877a1c5786d23ec9e109509b8cb576485103d59695d759025b3c4916a10c15950
+Size: 90308
+MD5Sum: c0146e725cda04ee73ef4543fd8cd891
+SHA1: 0e97b957edcb84a6a7c77277ad49d02efca79df5
+SHA256: 25c5d6850dc23413850095e16ecd369f863470dedcafd07150b5e8c50a4ebb40
+SHA512: f4b56409a454885c8196cc4d819e71d8645382fd11c4d41dc9a9282e3b3e83eb0311c4db45584ebb38b52e7d7eec8682eadbf05e8d4b580eb6a17bc9d1a8f937
 
 Package: ncurses
 Architecture: x86_64
@@ -2468,11 +2468,11 @@ Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Description: Library for text-based user interfaces in a terminal-independent manner
 Filename: dists/stable/main/binary-x86_64/ncurses_6.3-1_x86_64.deb
-Size: 527984
-MD5Sum: 9df939b7c2cb044fcfa36ccdc1429549
-SHA1: e086dbb6c9257fc5310dd1ba4d238725ce86e647
-SHA256: ab73f660ed5b862cb12a576cb493c0e8617c573405aa82c85931115ee06ff3bc
-SHA512: c51a9cc6a90dcd1de2979e3fbbd2f55f6807083229d041fe381ae5bbc1a3b1cc4c835b4a75ac2a6cca7e9fc3a67371779c2c790188abeeae9d127e58ec3126cd
+Size: 528036
+MD5Sum: ca7c94b96a6f72d35053f1ba90877780
+SHA1: 679c9e21d12aec7ba490247cc786e8d24c9bdeb2
+SHA256: 056900398aa237cde60bfd28ee2ad5bb227d6a24c63f00e6c35dfc2b9c40debb
+SHA512: b020deeb2e56ff6d6a8b35f9de9b7c0eeba2073432d3186f2ee228ef4ae330c4c90392cbdd6c940fa2f5deb52a9fd3120c40bc76130cef59dadd8196b58e1c70
 
 Package: ndk-sysroot
 Architecture: x86_64
@@ -2600,11 +2600,11 @@ Homepage: https://www.openssl.org/
 Depends: openssl (= 3.0.3)
 Description: Static libraries for openssl
 Filename: dists/stable/main/binary-x86_64/openssl-static_3.0.3_x86_64.deb
-Size: 1804788
-MD5Sum: b750edd295af23b7613970e8db524358
-SHA1: fe4dad36ee4729ee1bb00cf91dd2c2e90ab03593
-SHA256: 4b7d6169c57982aeaa7cf218de1ce311380328213d61d2696becf316e559a5ca
-SHA512: 6bca512ca1237fb7d02a5f85ecec3267aea7bc61ebc657cf32ca887d39ea8f794709f6aeb075e1c4d45e45e79dbad28edba486612e550cd8d109c25038552755
+Size: 1804928
+MD5Sum: b690b98fda2d31e2c6cd4b47b40fa2d5
+SHA1: 8bab95cd5671471ba80b2824d887e9f1204e665c
+SHA256: 32359c0018cc56244a7903fe776c2ec2e7f981129ca55131bbf08a7bf81ae469
+SHA512: 95fd9eb30e7885db1860b3f6eafe4a15b8c5aff582ae2b38c07771356ac47f2aa259bfe4ab658ac6d78dce28f950622160b6132624891cb2a62b10c98587f117
 
 Package: openssl-tool
 Architecture: x86_64
@@ -2615,11 +2615,11 @@ Homepage: https://www.openssl.org/
 Depends: openssl (= 3.0.3)
 Description: The openssl command line cryptographic tool
 Filename: dists/stable/main/binary-x86_64/openssl-tool_3.0.3_x86_64.deb
-Size: 278040
-MD5Sum: 8e7f4123ea2451b4571f6bc9ee1334a9
-SHA1: 11b2415d40291f282727364297cedb9df7271600
-SHA256: dd2361a8eb64d47d4c97e7d0b654f7e4597a9bf8a2ea0ec9f62ef81a0cd0f83e
-SHA512: 75743da672f95e589c24c9e5d5f6d2d01fc99dfd98cbceffea0b2f5d43adb47ca07468708d8a6b2df2c91d8bb8cdddd97aae407829e1e2123eeb4fd32737d0af
+Size: 278436
+MD5Sum: 1d721f990db7dd849862496dbcc23784
+SHA1: d9d8fba9893aef6c51defd0023135a77b6515298
+SHA256: de4cd5a81088fadd039e4ca05031c6dee4ee49b0bba7f4be99cdb621b639ecca
+SHA512: e2357d91b7a00e37fec55d726abc8436ec6d70a4d22697f75f6dc61b85ef29135797908d264d931a3ca2fcd0d88eb20ac69163ecb344ce010db394a6df9880f1
 
 Package: openssl1.1-tool
 Architecture: x86_64
@@ -2648,11 +2648,11 @@ Conflicts: libcurl (<< 7.61.0-1)
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 Filename: dists/stable/main/binary-x86_64/openssl_3.0.3_x86_64.deb
-Size: 1815180
-MD5Sum: 4f9a77aadc8f522caf3a94b7687bf3e1
-SHA1: 61d4e685030eb62520f4e22b566cc45c115ef91c
-SHA256: cbc6c1da549b39554d79c9487e85fc4eee44b99b35ae50c643c0c31f6b272bdb
-SHA512: febc764b037c7b6f731d68ac7ae6d09065bfdb89e1de20f3ac5005cc10f2121ef1a2534a5f23505fb012e7dbe8bc1b87b1bf4317dd78b8ba5c49d7133aaf7efa
+Size: 1815692
+MD5Sum: 6a63ff542030985eb1595c0885937249
+SHA1: 97913801766e681dfb01b18dba831980290694eb
+SHA256: 61012428842d32393435c1974aa7f0a0be0c686c5a6cf276546b5233f0b6c36d
+SHA512: f9fb7c61053453ae15b47707a8b34c130312c5f763bbb88d4150a23ad58e99616ceaf9531859de384c1ba645d2f888b58155eb06fe9b9eec08617a195227e2c3
 
 Package: patch
 Architecture: x86_64
@@ -2670,18 +2670,18 @@ SHA512: 8beb7578bb52d2dc7d8e27d2e0a8f2d5212e50e8243c70b8be1a5859aeec217f55c19bf2
 
 Package: pcre-static
 Architecture: x86_64
-Installed-Size: 680
+Installed-Size: 684
 Maintainer: @termux
 Version: 8.45-1
 Homepage: https://www.pcre.org
 Depends: pcre (= 8.45-1)
 Description: Static libraries for pcre
 Filename: dists/stable/main/binary-x86_64/pcre-static_8.45-1_x86_64.deb
-Size: 163864
-MD5Sum: 1678e3395b6a657039acbc478157b991
-SHA1: 985216f2367072feeb9dcad0e3e35cd8d0365491
-SHA256: 55f22a9665d1beb327d9980c90f8f2aef1f6405e8c05d5cebbec5b30459c8a90
-SHA512: 3d1a8d9d796355bbb562795646dad044bc326577bdd5f0811fb557d7885726b0a4876e2bda4a2df8c928962dcc1f145c05828db476508fcf4fdfee591ce9edf8
+Size: 163912
+MD5Sum: d3600e4e62119b3229f717d5e07cd2b0
+SHA1: 72d79de750a3600794f83209b6cb8299f20fd041
+SHA256: 382797e4de0f369002767a7e2839d587f178834c65ba20b08dc7450af8daba60
+SHA512: 240aaf5e8c0102796450ee303c3cc7da1eb13cac94c1d8617c71ed6ba4e23809d6253f8748dc2dbd8b67e359706c0aab7e5681f0b69b1f9838c3e74840ef2d03
 
 Package: pcre2-static
 Architecture: x86_64
@@ -2739,11 +2739,11 @@ Breaks: pcre-dev
 Replaces: pcre-dev
 Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
 Filename: dists/stable/main/binary-x86_64/pcre_8.45-1_x86_64.deb
-Size: 681516
-MD5Sum: cf6b69ab441b87f4bf796eb6328ac2bd
-SHA1: 6504158b397dbd315581eaab59b377c37253d922
-SHA256: 475d500eecbed9bc0413ee8e5e740dd6fef9431d578ed27101b154149997863f
-SHA512: 41f0fd967ece36b4a1668719c2fb44778e85cd692295796c535fb8fb3d6266aaad507dc18d513f1b62d3cb12ec220cf89856cb56e7e032e5565b6db862f92e04
+Size: 681496
+MD5Sum: 640dd5a292c2e3503755e6f880fdab15
+SHA1: d2d2baca951bf624ba0d265fdb4a21784f3f0581
+SHA256: 32c6c30f5ddfebeeecc2e27c731b150f099a9e4ad666171cab4a7eef17c14bc4
+SHA512: d70d82e1c99154caca5703b13e48fa931f07939a93f8feea1a9d402708352786a445d2891a997eea264735854f2bddef1978e7552aecc358ba885f23b9af71b3
 
 Package: pcregrep
 Architecture: x86_64
@@ -2754,11 +2754,11 @@ Homepage: https://www.pcre.org
 Depends: pcre (= 8.45-1)
 Description: A grep with Perl-compatible regular expressions
 Filename: dists/stable/main/binary-x86_64/pcregrep_8.45-1_x86_64.deb
-Size: 25736
-MD5Sum: e947e82d115231fc4070a87aa6573867
-SHA1: 81658e21a9b58ba38ec7d0da8f8ff6120ab5638e
-SHA256: 4061fe500c0828354fc8492854ecc0a944b6f222c4dad09cb89e479ffd829512
-SHA512: 9dbefab8d3d85a819e83f2651f8ccdd6dbfedf84307675c37289f901a067573156fd114952bb28d35ddfc691d53b87c54aa1dc6ae4e9d9f6819b8200f54bdc4f
+Size: 25728
+MD5Sum: c0569bbf725fdaf3a790bcd50bfc27d5
+SHA1: 3a5f23bcee097a3cb07e8966cdcd002ff114ffa2
+SHA256: 9a02f589ee1713f8b7945a064eeed5d35890a084bd6895a8780779b95a60d8e3
+SHA512: 66c57cd43ef00f96a06dd38faa6c20f38a583a35302913c4c9826312f5e61b5b5bdd6695d53db9c9f2fecd7dae1fa8b9e0611c44369755cdbc1e0b8705824439
 
 Package: perl
 Architecture: x86_64
@@ -2913,11 +2913,11 @@ Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: readline (= 8.1.1)
 Description: Static libraries for readline
 Filename: dists/stable/main/binary-x86_64/readline-static_8.1.1_x86_64.deb
-Size: 116476
-MD5Sum: aae2959db529f2d09c8172c001068199
-SHA1: f32cfbf5eede5a7f740901c304a4eab0ee945e0e
-SHA256: 3546856da5ce3b2f4e5b5d014d93dc72f5b4123b99a67b178d79096190e7be16
-SHA512: cb87c37ec0cdbdd872c4f70100eee49f0c6018379eb1797252c8e34ce33ad072c4dff9f3226984789682d3c04c496502bae8caa56ee090d3996fce67bde7689f
+Size: 116432
+MD5Sum: 8851db2381430eaaaf972d4d3d37c874
+SHA1: 2f94f6ffc57c9402ee6f433d9fe31d943c6b4f66
+SHA256: 7e9f0d5119b47846b88df20fdaefe766cebe8708c4978d2ec6df77f50d49125b
+SHA512: 5802f3a5895e4f1f5affb7fe5451e0c0e4b463cf31cc94a0a1f63370af8c85926c6d038b1f6317f34143b4ce38faa1f2e463c7c9a046d5fa4277d1d2b0288062
 
 Package: readline
 Architecture: x86_64
@@ -2930,11 +2930,11 @@ Depends: libandroid-support, ncurses
 Replaces: readline-dev
 Description: Library that allow users to edit command lines as they are typed in
 Filename: dists/stable/main/binary-x86_64/readline_8.1.1_x86_64.deb
-Size: 237944
-MD5Sum: e0f8c3b847b3f1eb89a441ff81c6f560
-SHA1: 992650ab26f7fddf1c494f0f9e48d99325c47301
-SHA256: 8f51d5d5fe83f0eff2045659bd76a90bdfc1cd583fce2b3799e6c074ab4dd19a
-SHA512: 5e06268d2fdae4a7237f7a4525ff17237a0dd7abda5280c4b4db00f6bd13487d4a9a66c28e2adfad53919b22380079b2b3d2810d7d791cc6903d00e5b20c2e09
+Size: 237872
+MD5Sum: a96ac08ece6f4c1405857dc939a13c90
+SHA1: 1b3dfd3cd008a08298da3a4432e2326284e9120e
+SHA256: 166136fe3cbeb0f34a71f0ed2ccba1e9e2345454d7e635dc49331ea290a52e80
+SHA512: 7bdadae9388c3668a59d307b453239f39ac59f3e3c321657afaf6315a9da74b5a6e9aae01cd9edba4d4b734e7b945ce0935cfbcc6b3294f8ad7a48ec6bd9e0c3
 
 Package: resolv-conf
 Architecture: x86_64
@@ -3038,11 +3038,11 @@ Homepage: https://www.sqlite.org
 Depends: readline, libsqlite (= 3.38.5)
 Description: Command line shell for SQLite
 Filename: dists/stable/main/binary-x86_64/sqlite_3.38.5_x86_64.deb
-Size: 582044
-MD5Sum: 2228a2f250eab8f6a9e27c263572c35c
-SHA1: 2b1fffd9e05cc4b3aac62f154c82144a21083975
-SHA256: 962a1eafb11c6ce777de332fb15d4bd3603424c87b651ba10b01d101df7f9f56
-SHA512: 64e170ddffa0f07593ae19fca8d7f61bc0741f4fe171dace3733ded06578bbc833cdc36f6ebdc9bd5ece2029ded02c4d786e51e3b0c5426b9fe2202e299181b2
+Size: 581980
+MD5Sum: a7d6c7f9cc9dbd6f40dd764a10e9a16b
+SHA1: c2762f1dda99f23469bda66ca5ba258fca25efdf
+SHA256: 9980a8f4bd85c47432b4a98f3d033131e63668dfc3c61bfb056070e3acb16099
+SHA512: 7dddd34959157340659673d5bd82131ead02593dd63f562af3ab99a6667fc8972909b6c037ade55190d77dcc6b3c4aea6cc6d5119be84185fb168d70a5035bae
 
 Package: subversion-perl-static
 Architecture: x86_64
@@ -3133,11 +3133,11 @@ Depends: zlib
 Replaces: tcl-dev, tcl-static
 Description: Powerful but easy to learn dynamic programming language
 Filename: dists/stable/main/binary-x86_64/tcl_8.6.11-1_x86_64.deb
-Size: 2313764
-MD5Sum: c1c4f4138750d1efae5be981d92a3f47
-SHA1: 5e6346f5f0bacb8ecf9e41f875a54b1269307a1d
-SHA256: 237af621d4200c9f2cfd0986b35f214e89ac04d80e6b7f57842542e336eded02
-SHA512: 6c2db851a93efc44840975ab1bb0fd6a0d5caefcf10da5a8d22faf645db4bab986b0aee5766ff7ec7e279372d0b2e814ea222f0eff5e3c725f029f2d70991ae4
+Size: 2313708
+MD5Sum: e460b52090c2046ef44087c4a5353b78
+SHA1: eea193e881d5293b758bd89615cc9176c64e2f09
+SHA256: 0050f4c5cb02e9720002354beb9bf9abe758f50ec487a9374c168132d39bd9ac
+SHA512: 668d639cfacf1e89961c44e4480b141d9c0ef6e70aff9ff72902ad4af19d3ad23affa171d76bd43eb4a581991578958aaec9074fca6a23cf33985132bc0408d5
 
 Package: termux-am-socket
 Architecture: x86_64
@@ -3177,11 +3177,11 @@ Homepage: http://tcl.sourceforge.net/
 Depends: fontconfig, libx11, libxft, libxss, tcl
 Description: A windowing toolkit for use with tcl
 Filename: dists/stable/main/binary-x86_64/tk_8.6.11.1_x86_64.deb
-Size: 1248236
-MD5Sum: 12e33546a34d0d6c1b3bce91b19e84e7
-SHA1: 6c7eed8c67ca0c37c06943ba053fdde2b40bce93
-SHA256: 5d30a0a51ed383ef1878907972073a4ba7fa2a34024c3cfd78e720465e2921c1
-SHA512: de67d1537f7c8534e8f088ebeca10f4e9c755b92667fe9b92563b26b2f87e9fb80a822867c759dde3b79c8f690ef7c7a391669a711d5a25fe50d19dab47cbf89
+Size: 1247968
+MD5Sum: 293d7801ad16d15c31b8644b1d137dcb
+SHA1: c427c0b159a2be0d45da6addf3d33a2bdd597b95
+SHA256: 7668e0f6c2622c8233cfbd9c9aa997d7929d56e3dfad624e9adb60ed5635b5b5
+SHA512: 7f51b36ee92781c363f6baa47189ea42f91ad996a658912d589a32b21c117eb96ee7ad6bbbe1c2752fd340def3a13430ee93568560fe986a9f0afbe0e99a8d52
 
 Package: tor
 Architecture: x86_64
@@ -3361,11 +3361,11 @@ Essential: yes
 Depends: liblzma (= 5.2.5-1)
 Description: XZ-format compression tools
 Filename: dists/stable/main/binary-x86_64/xz-utils_5.2.5-1_x86_64.deb
-Size: 61320
-MD5Sum: 3dd9e3313745ef4964a91ee87cbc71d8
-SHA1: 118254444a6357d11bd04c311a486fb1260326e6
-SHA256: 183266fe376cb089fac94b3b08f3fa9b4d88ea2834167a02c4d870a62ddc6a38
-SHA512: 7c9a5566f9b34596f39eeb48761480d142113afa4feae663f5af30cee6fa6f5883e192c952be4ddaefef87e95848f1dca9eee1ba152b5a09d86f89fdabbd280e
+Size: 61316
+MD5Sum: 2093746ea570ae0ebb858fd81cf9b12f
+SHA1: ffa4b2b739ee6119406f474fc251ee97de371a73
+SHA256: 5472111f9e9b4421c57d8099bdfcf4396efd91161dc08cf77ebd13e021d1e1a2
+SHA512: 257e1c8f6a63b8bcd6850751723d24f8d9f515377c64d94cf67362a45ae8cec13c5a6e93d9b9762676af3f295e98ef221a2f8ce6708ee4fb7f97726e872b48b3
 
 Package: zlib-static
 Architecture: x86_64
@@ -3376,11 +3376,11 @@ Homepage: https://www.zlib.net/
 Depends: zlib (= 1.2.12)
 Description: Static libraries for zlib
 Filename: dists/stable/main/binary-x86_64/zlib-static_1.2.12_x86_64.deb
-Size: 44508
-MD5Sum: 0fd50225e3b4de3fe4a322e3d26971d1
-SHA1: 0ffa3ffb0b7050116be59944c2ba4e953c87cbef
-SHA256: 4c5a39ab1c8afb3e998ad3e3b9d91d83d0b69b3955db990d029cb62662cfd427
-SHA512: 402296cfa0afa59f873e3b5d25995fdd71f502e64f3e3bdc4885f6a8472af36ab015d255ace62f3463b0573b09b5f2004d1f137ec3762d6c85d10df68ea2158c
+Size: 44492
+MD5Sum: b70ab0a64bcdbb0a5e652e42df1b8b0a
+SHA1: c24efb25c34a252bcdc562e10d9b3ced71dd4b36
+SHA256: 203735dd2917b755895695a6fd9c2620a8548556caf07b3525e4af8c1ddb5a1c
+SHA512: cd997180622dd54562864ab377aab046187739861c70edec261094665d3edbbaedc22bc9e55f2f792ae515bf8a7d32e142dab94fdc6473cca96617b80f99864b
 
 Package: zlib
 Architecture: x86_64
@@ -3392,9 +3392,9 @@ Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 Filename: dists/stable/main/binary-x86_64/zlib_1.2.12_x86_64.deb
-Size: 71580
-MD5Sum: 2db301021050a4c038d029ae60ee3bc2
-SHA1: 77917af93d85666b69bebb252f0d0241443fbd71
-SHA256: 8461335436d59f7433bdaf16c30eed89d1aece94e56b5dcada191ca89fbd216e
-SHA512: 82fb76fea3d2556fe3d0464208fbde71b0846ec13980060db7182afe128b453bdac713bcc7bbf6f1c1698c6892ed9e5a33b3f5a144d6360aac0241e3f6a87293
+Size: 71516
+MD5Sum: 3b96251019655223e5affde17c0ca782
+SHA1: 2b787bf817aca1192675d364d06d5ec4905c4cde
+SHA256: 6332edc2ba97fca0bc3c0b49eec4a0db7d7709f797e9efac9dffeafe155c6c7d
+SHA512: 7b8036263629b103a55a5a0a34951b03cdc0f0ae2e67e53a634a31285de03d0f6b4cbe1925e52c2132fad7924f2736a09d3063bd058f805ee5c97556ff6b31ac
 
